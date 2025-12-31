@@ -107,6 +107,16 @@ function getCountryFromId(id) {
     return tld && tld.length === 2 ? tld.toLowerCase() : null;
 }
 
+function normalizeLogo(url) {
+    if (!url) return '';
+    // If it's already a clean PNG/JPG, leave it (faster loading)
+    if (url.match(/\.(png|jpg|jpeg)$/i)) return url;
+
+    // Otherwise (WebP, no extension, weird formats), proxy it to convert to PNG
+    // Using wsrv.nl (standard stable usage for IPTV)
+    return `https://wsrv.nl/?url=${encodeURIComponent(url)}&output=png`;
+}
+
 // ---- MAIN LOGIC ----
 
 async function main() {
@@ -244,7 +254,8 @@ async function main() {
         }
 
         assignedCategories.forEach(catName => {
-            const newInf = `#EXTINF:-1 tvg-id="${ch.id}" tvg-logo="${ch.logo}" group-title="${catName}",${prettyName}`;
+            const finalLogo = normalizeLogo(ch.logo);
+            const newInf = `#EXTINF:-1 tvg-id="${ch.id}" tvg-logo="${finalLogo}" group-title="${catName}",${prettyName}`;
 
             finalEntries.push({
                 inf: newInf,
