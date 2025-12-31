@@ -1,0 +1,40 @@
+name: Update Playlist
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run every day at midnight UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install Dependencies
+      # We don't have package.json dependencies given current scripts use native modules, 
+      # but if we did/do, this handles it. 
+      # Since we use native https/fs, we just ensure node is there.
+      run: echo "Node set up"
+
+    - name: Generate Playlist
+      run: node scripts/generate_playlist.js
+
+    - name: Validate Streams
+      run: node scripts/validate_streams.js
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        git add playlist.m3u
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update playlist [skip ci]" && git push)
