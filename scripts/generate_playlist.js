@@ -28,8 +28,17 @@ const CATEGORY_SOURCES = [
 ];
 
 // Exclusion & Filtering
-const BLOCKED_REGIONS = ['.ir', '.cn', '.ru', '.in', '.pk', '.tr', '.vn', '.th', '.kr', '.jp', '.br', '.es', '.fr', '.it', '.de', '.pl', '.ua', '.id', '.il', '.et', '.er', '.so'];
-const EXCLUDED_KEYWORDS = ['Radio', 'Audio', 'FM', 'Test']; // Keep strict "Rotana" ban out for now, handle by logic if needed, but user seems to want quality layout first.
+// Added: IR, TR, CY, NG, SE, TM, etc. strictly as requested.
+const BLOCKED_REGIONS = [
+    '.ir', '.cn', '.ru', '.in', '.pk', '.tr', '.vn', '.th', '.kr', '.jp', '.br', '.es', '.fr', '.it', '.de', '.pl', '.ua', '.id', '.il', '.et', '.er', '.so',
+    '.se', '.ng', '.cy', '.tm', '.mr', '.eh', '.dj', '.td', '.ly', '.tn', '.sd', '.dz', '.ma', '.ye', '.lb'
+];
+const EXCLUDED_KEYWORDS = ['Rotana', 'Fann', 'Watar', 'Radio', 'Audio', 'FM', 'Test', 'Kurd', 'Rudaw', 'NRT', 'Zagros', 'Waar', 'Afarin', 'Mixkurdy', 'Payam', 'Speda', 'NUBAR', 'Rojava', 'Ronahi'];
+
+// Force Include Specific Show Keywords (Override exclusions if matches)
+const FORCE_INCLUDE = [
+    'Maraya', 'Tash', 'Comedy', 'Classic', 'Zaman', 'Drama', 'Spacetoon', 'MBC', 'Cartoon', 'WLD'
+];
 
 // ---- HELPERS ----
 
@@ -79,28 +88,13 @@ function parseM3U(content) {
 }
 
 function normalizeChannelName(name) {
-    // 1. Clean up " (1080p)", " [Geo-blocked]", etc.
     let cleanName = name.replace(/\s*\(.*?\)/g, '').replace(/\s*\[.*?\]/g, '').trim();
-
-    // 2. Map to Bilingual if exists
-    // Iterate specific keys to find partial matches or exact matches?
-    // Let's do exact-ish match (case insensitive inclusion)
     for (const [key, replacement] of Object.entries(CHANNEL_NAME_MAP)) {
-        // If the key is found standalone in the name
         const regex = new RegExp(`\\b${key}\\b`, 'i');
         if (regex.test(cleanName)) {
-            // Check if we should replace the whole name or just part
-            // For "MBC 1", replacement is "MBC 1 | ..."
-            // If name is "MBC 1 HD", we might want "MBC 1 | ... HD".
-            // For simplicity, if we match a major network key, let's try to map it intelligently or just swap.
-            // Let's just return the replacement if it's a strong match, otherwise modify.
-
-            // If the key is almost the whole name
             if (cleanName.toLowerCase() === key.toLowerCase()) return replacement;
-
-            // If name contains it, replace the match
             cleanName = cleanName.replace(regex, replacement);
-            break; // One replacement per channel usually enough
+            break;
         }
     }
     return cleanName;
@@ -109,7 +103,7 @@ function normalizeChannelName(name) {
 function getCountryFromId(id) {
     if (!id) return null;
     const parts = id.split('.');
-    const tld = parts[parts.length - 1]; // "sa", "us", etc.
+    const tld = parts[parts.length - 1];
     return tld && tld.length === 2 ? tld.toLowerCase() : null;
 }
 
@@ -134,11 +128,6 @@ async function main() {
     console.log('📥 Fetching Arabic Language List...');
     const langData = await fetchM3U(SRC_ARABIC_LANG);
     let langChannels = parseM3U(langData);
-    // Filter non-blocked regions
-    langChannels = langChannels.filter(c => {
-        const cc = getCountryFromId(c.id);
-        return !BLOCKED_REGIONS.some(r => c.id.includes(r)) && !COUNTRY_MAP[cc]; // Exclude if already in COUNTRY_MAP (avoid duplicates with step 1?) - Actually Step 1 is by country file, Step 2 is by language file. They overlap. We will dedupe later.
-    });
     langChannels.forEach(c => { c._isArab = true; c._country = getCountryFromId(c.id); });
     console.log(`   > Found ${langChannels.length} additional Arabic channels.`);
 
@@ -156,18 +145,30 @@ async function main() {
     }
     console.log(`   > Found ${globalChannels.length} Global Category channels.`);
 
+    // 4. Load Custom Channels
+    const { CUSTOM_CHANNELS } = require('./custom_channels');
+    console.log(`   > Loaded ${CUSTOM_CHANNELS.length} Custom/Manual channels.`);
+
     // --- PROCESSING & MERGING ---
 
-    // Master List of unique entries (by URL) to build our "Database" of available streams
-    const streamMap = new Map(); // URL -> Channel Object candidates
+    // Master List
+    const streamMap = new Map();
 
     const addToMap = (list) => {
         list.forEach(ch => {
+            // Filter by Keywords (Rotana, etc.)
             if (EXCLUDED_KEYWORDS.some(k => ch.name.includes(k) || ch.group.includes(k))) return;
+
+            // Filter by Blocked Regions (IR, TR, etc.)
+            const idLower = (ch.id || '').toLowerCase();
+            if (BLOCKED_REGIONS.some(r => idLower.includes(r))) return;
+
+            // SPECIAL FILTER: Remove "Al Iraqia" (General/Drama/Sports) but KEEP "Al Iraqia News"
+            if (ch.name.includes('Al Iraqia') && !ch.name.includes('News')) return;
+
             if (!streamMap.has(ch.url)) {
                 streamMap.set(ch.url, ch);
             } else {
-                // Merge info if needed? e.g. if one source has better ID
                 const existing = streamMap.get(ch.url);
                 if (!existing._country && ch._country) existing._country = ch._country;
                 if (!existing._catId && ch._catId) existing._catId = ch._catId;
@@ -178,12 +179,15 @@ async function main() {
 
     addToMap(arabChannels);
     addToMap(langChannels);
+    addToMap(CUSTOM_CHANNELS);
 
-    // For Global channels, we only want to add them if they are:
-    // A. From an Arab country (missed by other lists?)
-    // B. From specific trusted Western regions (US, UK, CA) AND are in our Categories of interest
+    // For Global channels
     globalChannels.forEach(ch => {
         if (EXCLUDED_KEYWORDS.some(k => ch.name.includes(k) || ch.group.includes(k))) return;
+
+        // Filter by Blocked Regions
+        const idLower = (ch.id || '').toLowerCase();
+        if (BLOCKED_REGIONS.some(r => idLower.includes(r))) return;
 
         const cc = ch._country;
         const isArab = COUNTRY_MAP[cc];
@@ -202,13 +206,11 @@ async function main() {
     console.log(`📊 Unique Streams Database: ${streamMap.size} streams.`);
 
     // --- GENERATING THE FINAL PLAYLIST ENTRIES ---
-    // Rule: A stream can be outputted MULTIPLE times with DIFFERENT Group Titles.
-
     let finalEntries = [];
 
     streamMap.forEach(ch => {
         const cc = ch._country;
-        const catId = ch._catId; // e.g., 'sports', 'movies'
+        const catId = ch._catId;
         const isArab = ch._isArab || COUNTRY_MAP[cc];
 
         // Refine Name
@@ -223,12 +225,11 @@ async function main() {
         }
 
         // B. Genre Category
-        // If we have an explicit category ID from source
         if (catId && CATEGORY_MAP[catId]) {
             assignedCategories.add(CATEGORY_MAP[catId]);
         }
 
-        // If no explicit catId, try to guess from Group Title or Name
+        // If no explicit catId, try to guess
         if (!catId) {
             const rawGroup = (ch.origGroup || '').toLowerCase();
             const lowerName = prettyName.toLowerCase();
@@ -239,13 +240,10 @@ async function main() {
             else if (rawGroup.includes('kids') || lowerName.includes('cartoon')) assignedCategories.add(CATEGORY_MAP['kids']);
             else if (rawGroup.includes('religion') || rawGroup.includes('islam') || lowerName.includes('quran')) assignedCategories.add(CATEGORY_MAP['religious']);
             else if (lowerName.includes('docu') || rawGroup.includes('docu')) assignedCategories.add(CATEGORY_MAP['documentary']);
-            else if (isArab) assignedCategories.add(CATEGORY_MAP['general']); // Fallback for Arab
+            else if (isArab) assignedCategories.add(CATEGORY_MAP['general']);
         }
 
-        // 2. Create an entry for each assigned category
         assignedCategories.forEach(catName => {
-            // Rebuild EXTINF line
-            // #EXTINF:-1 tvg-id="..." tvg-logo="..." group-title="New Group",Pretty Name
             const newInf = `#EXTINF:-1 tvg-id="${ch.id}" tvg-logo="${ch.logo}" group-title="${catName}",${prettyName}`;
 
             finalEntries.push({
@@ -261,11 +259,6 @@ async function main() {
     console.log(`📝 Generated ${finalEntries.length} playlist entries (including duplicates).`);
 
     // --- SORTING ---
-    // Priority: 
-    // 1. Premium/Sports/Movies/Kids (Genres)
-    // 2. Countries (Arab Core)
-    // 3. Alphabetical within group
-
     const GROUP_ORDER = [
         CATEGORY_MAP['premium'],
         CATEGORY_MAP['sports'],
@@ -277,33 +270,23 @@ async function main() {
         CATEGORY_MAP['news'],
         CATEGORY_MAP['religious'],
         CATEGORY_MAP['general'],
-        // Then Countries...
-        COUNTRY_MAP['sa'], // KSA First
+        COUNTRY_MAP['sa'],
         COUNTRY_MAP['ae'],
         COUNTRY_MAP['eg'],
         COUNTRY_MAP['kw'],
-        // Others...
     ];
 
     finalEntries.sort((a, b) => {
         const idxA = GROUP_ORDER.indexOf(a.group);
         const idxB = GROUP_ORDER.indexOf(b.group);
 
-        // If both are KEY Sort groups
         if (idxA !== -1 && idxB !== -1) return idxA - idxB;
-
-        // If one is key sort, it comes first
         if (idxA !== -1) return -1;
         if (idxB !== -1) return 1;
-
-        // If neither, sort by Group Name string
         if (a.group !== b.group) return a.group.localeCompare(b.group);
-
-        // Internal Sort: Name
         return a.name.localeCompare(b.name);
     });
 
-    // Write File
     const content = '#EXTM3U\n' + finalEntries.map(e => `${e.inf}\n${e.url}`).join('\n');
     fs.writeFileSync(OUTPUT_FILE, content);
     console.log(`✅ Playlist saved to: ${OUTPUT_FILE}`);

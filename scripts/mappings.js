@@ -40,7 +40,13 @@ const COUNTRY_MAP = {
     'ly': '🇱🇾 Libya | ليبيا',
     'dz': '🇩🇿 Algeria | الجزائر',
     'ma': '🇲🇦 Morocco | المغرب',
-    'tn': '🇹🇳 Tunisia | تونس'
+    'tn': '🇹🇳 Tunisia | تونس',
+    'mr': '🇲🇷 Mauritania | موريتانيا',
+    'dj': '🇩🇯 Djibouti | جيبوتي',
+    'so': '🇸🇴 Somalia | الصومال',
+    'km': '🇰🇲 Comoros | جزر القمر',
+    'eh': '🇪🇭 Western Sahara | الصحراء الغربية',
+    'td': '🇹🇩 Chad | تشاد'
 };
 
 // Common Channel Name Replacements (Regex supported if needed, but simple string replacement is safer/faster for now)
