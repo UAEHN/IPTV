@@ -31,9 +31,9 @@ const CATEGORY_SOURCES = [
 // Added: IR, TR, CY, NG, SE, TM, etc. strictly as requested.
 const BLOCKED_REGIONS = [
     '.ir', '.cn', '.ru', '.in', '.pk', '.tr', '.vn', '.th', '.kr', '.jp', '.br', '.es', '.fr', '.it', '.de', '.pl', '.ua', '.id', '.il', '.et', '.er', '.so',
-    '.se', '.ng', '.cy', '.tm', '.mr', '.eh', '.dj', '.td', '.ly', '.tn', '.sd', '.dz', '.ma', '.ye', '.lb'
+    '.se', '.ng', '.cy', '.tm', '.mr', '.eh', '.dj', '.td', '.ly', '.tn', '.sd', '.dz', '.ma', '.ye', '.lb', '.so'
 ];
-const EXCLUDED_KEYWORDS = ['Rotana', 'Fann', 'Watar', 'Radio', 'Audio', 'FM', 'Test', 'Kurd', 'Rudaw', 'NRT', 'Zagros', 'Waar', 'Afarin', 'Mixkurdy', 'Payam', 'Speda', 'NUBAR', 'Rojava', 'Ronahi'];
+const EXCLUDED_KEYWORDS = ['Rotana', 'Fann', 'Watar', 'Radio', 'Audio', 'FM', 'Test', 'Kurd', 'Rudaw', 'NRT', 'Zagros', 'Waar', 'Afarin', 'Mixkurdy', 'Payam', 'Speda', 'NUBAR', 'Rojava', 'Ronahi', 'Somali', 'Somalia', 'MBC Persia', 'Peace TV', 'Al Shallal', 'Nour TV'];
 
 // Force Include Specific Show Keywords (Override exclusions if matches)
 const FORCE_INCLUDE = [
