@@ -23,8 +23,6 @@ https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/in
 https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8
 #EXTINF:-1 tvg-id="SpookyNights.sa@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2Fb0016b19-b35b-4ea6-afb9-5b74a0aac825%3Fheight%3Dauto%26width%3D512%26croppingPoint%3D%26version%3D1%26type%3Dpng&output=png" group-title="🎬 Movies | أفلام",Spooky Nights
 https://shls-live-enc.edgenextcdn.net/out/v1/18cffab0757d448ca6c1a686d330b346/index.m3u8
-#EXTINF:-1 tvg-id="MixHollywood.eg@SD" tvg-logo="https://i.imgur.com/1ENdbZn.png" group-title="🎬 Movies | أفلام",Mix Hollywood
-https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 #EXTINF:-1 tvg-id="MBCBollywood.ae@SD" tvg-logo="https://i.imgur.com/TTAGFHG.png" group-title="🎬 Movies | أفلام",MBC Bollywood | إم بي سي بوليوود
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
 #EXTINF:-1 tvg-id="MBCPlusDrama.sa@SD" tvg-logo="https://i.imgur.com/lxWdjXG.png" group-title="🎬 Movies | أفلام",MBC+ Drama
@@ -39,8 +37,6 @@ https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
 https://5b622f07944df.streamlock.net/aghapykids.tv/aghapykids2/playlist.m3u8
 #EXTINF:-1 tvg-id="MBC3USA.us@SD" tvg-logo="https://i.imgur.com/PVt8OPN.png" group-title="👶 Kids | أطفال",MBC 3 | إم بي سي 3 USA
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8
-#EXTINF:-1 tvg-id="AsharqDiscovery.sa@SD" tvg-logo="https://i.imgur.com/Czxi7yk.png" group-title="🧠 Documentary | وثائقيات",Asharq Discovery
-https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="AsharqDocumentary.sa@SD" tvg-logo="https://i.imgur.com/v6VsFEt.png" group-title="🧠 Documentary | وثائقيات",Asharq Documentary
 https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.ae@HD" tvg-logo="https://i.imgur.com/fNA00VF.png" group-title="🧠 Documentary | وثائقيات",National Geographic Abu Dhabi HD
@@ -209,6 +205,8 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0a
 https://shls-live-enc.edgenextcdn.net/out/v1/08eca926a78a41339b8010c882410307/index.m3u8
 #EXTINF:-1 tvg-id="WatanTV.eg@SD" tvg-logo="https://i.postimg.cc/5y57gQw5/watantv.png" group-title="🌍 General | منوعات",Watan TV
 https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Bahry.kw@HD" tvg-logo="https://bahry.faulio.com/storage/mediagallery/9a/c7/fullhd_6a5a505408b027c0d4a4453c72258f9db0d2cb20.png" group-title="🌍 General | منوعات",Bahry
+https://live.kwikmotion.com/bahry1live/bahry1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Ch4Teen.kw@SD" tvg-logo="https://i.imgur.com/pHpFGeg.png" group-title="🌍 General | منوعات",Ch4Teen
 https://ch14.tv/live/ch4teenclip/playlist.m3u8
 #EXTINF:-1 tvg-id="KTV1.kw@SD" tvg-logo="https://i.imgur.com/kG0d8Ay.png" group-title="🌍 General | منوعات",KTV 1
@@ -225,6 +223,10 @@ https://ffs.gulfsat.com/Marina-TV-HD/index.m3u8
 https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="AlRayyanOldTV.qa@SD" tvg-logo="https://i.imgur.com/4qB5iN0.png" group-title="🌍 General | منوعات",Al Rayyan Al Qadeem
 https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="QatarTelevision.qa@SD" tvg-logo="https://i.imgur.com/N5RB4sp.png" group-title="🌍 General | منوعات",Qatar Television
+https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="QatarTelevision2.qa@SD" tvg-logo="https://i.imgur.com/iWJxDUm.png" group-title="🌍 General | منوعات",Qatar Television 2
+https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BahrainTV.bh@SD" tvg-logo="https://i.postimg.cc/rw57LMpY/bahraintv.png" group-title="🌍 General | منوعات",Bahrain TV
 https://5c7b683162943.streamlock.net/live/ngrp:bahraintvmain_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AlistiqamaTV.om@SD" tvg-logo="https://i.imgur.com/2FPtYZr.png" group-title="🌍 General | منوعات",Alistiqama TV
@@ -255,22 +257,6 @@ http://82.212.74.2:8000/live/7307.m3u8
 http://82.212.74.2:8000/live/7311.m3u8
 #EXTINF:-1 tvg-id="AlAqsaTV.ps@SD" tvg-logo="https://i.imgur.com/Z2rfrQ8.png" group-title="🌍 General | منوعات",Al Aqsa Channel
 http://167.172.161.13/hls/feedspare/6udfi7v8a3eof6nlps6e9ovfrs65c7l7.m3u8
-#EXTINF:-1 tvg-id="AlSaudiya.sa@SD" tvg-logo="https://i.imgur.com/GRQTndk.png" group-title="🇸🇦 Saudi Arabia | السعودية",Al Saudiya
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
-#EXTINF:-1 tvg-id="AlSaudiyaAlaan.sa@SD" tvg-logo="https://i.imgur.com/sEOjApe.png" group-title="🇸🇦 Saudi Arabia | السعودية",Al Saudiya Alaan
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8
-#EXTINF:-1 tvg-id="AlSunnahAlNabawiyahTV.sa@SD" tvg-logo="https://i.imgur.com/S6LcTJv.png" group-title="🇸🇦 Saudi Arabia | السعودية",Al Sunnah | السنة النبوية Al Nabawiyah TV
-https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
-#EXTINF:-1 tvg-id="Anime.sa@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2Fa5893f8d-8488-4c21-ab97-a627f99c7676%3Fheight%3Dauto%26width%3D512%26croppingPoint%3D%26version%3D1%26type%3Dpng&output=png" group-title="🇸🇦 Saudi Arabia | السعودية",Anime
-https://shls-live-enc.edgenextcdn.net/out/v1/e7350ddf46c94dddafe14b099394ff56/index.m3u8
-#EXTINF:-1 tvg-id="AsharqDiscovery.sa@SD" tvg-logo="https://i.imgur.com/Czxi7yk.png" group-title="🇸🇦 Saudi Arabia | السعودية",Asharq Discovery
-https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="AsharqDocumentary.sa@SD" tvg-logo="https://i.imgur.com/v6VsFEt.png" group-title="🇸🇦 Saudi Arabia | السعودية",Asharq Documentary
-https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="AsharqNews.sa@SD" tvg-logo="https://i.imgur.com/bqRC3sl.png" group-title="🇸🇦 Saudi Arabia | السعودية",Asharq News
-https://bcovlive-a.akamaihd.net/0b75ef0a49e24704a4ca023d3a82c2df/ap-south-1/6203311941001/playlist.m3u8
-#EXTINF:-1 tvg-id="AtfalMawahebTV.sa@SD" tvg-logo="https://i.imgur.com/Y2BqP9m.png" group-title="🇸🇦 Saudi Arabia | السعودية",Atfal & Mawaheb TV
-https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8
 #EXTINF:-1 tvg-id="BabAlHara.sa@SD" tvg-logo="https://i.imgur.com/QtlnZbq.png" group-title="🇸🇦 Saudi Arabia | السعودية",Bab Al Hara
 https://shls-live-enc.edgenextcdn.net/out/v1/948c54279b594944adde578c95f1d7d1/index.m3u8
 #EXTINF:-1 tvg-id="BigTimePlus.sa@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F4e042cb6-500b-4e4c-a8ca-21a5a7a7a71b&output=png" group-title="🇸🇦 Saudi Arabia | السعودية",Big Time Plus
@@ -279,24 +265,6 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-big-time-plus/924283f994779a3
 https://shls-live-enc.edgenextcdn.net/out/v1/bba3ef00b71b470fa955d93a9ca8c277/index.m3u8
 #EXTINF:-1 tvg-id="MajidAlMohandis.sa@SD" tvg-logo="https://i.discogs.com/Fk9Bm8gTYJYeVXIJKX-EOGmYQ90sVQPtkIW5ZK4fydo/rs:fit/g:sm/q:90/h:372/w:412/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2OTY4/MzMtMTU2ODk0NjI5/MC01Njk2LmpwZWc.jpeg" group-title="🇸🇦 Saudi Arabia | السعودية",Majid | ماجد Al Mohandis
 https://shls-live-mood-ak.akamaized.net/out/v1/8e2419c6c7494dbba478be025af490ee/index.m3u8
-#EXTINF:-1 tvg-id="MakkahTV.sa@SD" tvg-logo="https://i.postimg.cc/GtN8v94c/makkahtv.png" group-title="🇸🇦 Saudi Arabia | السعودية",Makkah TV
-https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
-#EXTINF:-1 tvg-id="Maraya.sa@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2Fd089a559-4f41-4def-a786-f98fcfbf0464%3Fheight%3Dauto%26width%3D288%26croppingPoint%3D%26version%3D1%26type%3Dpng&output=png" group-title="🇸🇦 Saudi Arabia | السعودية",Maraya
-https://shls-live-enc.edgenextcdn.net/out/v1/a4a39d8e92e34b0780ca602270a59512/index.m3u8
-#EXTINF:-1 tvg-id="MBCLoud.sa@SD" tvg-logo="https://i.postimg.cc/YShSztw0/mbcloud.png" group-title="🇸🇦 Saudi Arabia | السعودية",MBC Loud
-https://d2lfa0y84k5bwn.cloudfront.net/out/v1/86dd4506a70c4d7fb35e2ab50296d9a3/index.m3u8
-#EXTINF:-1 tvg-id="MohammedAbdo.sa@SD" tvg-logo="https://assets.mbcmood.com/channels/1720184012Mohammed%20Abdo%20banner.png" group-title="🇸🇦 Saudi Arabia | السعودية",Mohammed Abdo
-https://d2ow8h651gs7dx.cloudfront.net/out/v1/371fb663da604e659a2fb99bf89d92d4/index.m3u8
-#EXTINF:-1 tvg-id="MoviesAction.sa@SD" tvg-logo="https://i.imgur.com/NIVhISa.png" group-title="🇸🇦 Saudi Arabia | السعودية",Movies Action
-https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8
-#EXTINF:-1 tvg-id="MoviesThriller.sa@SD" tvg-logo="https://i.imgur.com/JWihdcl.png" group-title="🇸🇦 Saudi Arabia | السعودية",Movies Thriller
-https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8
-#EXTINF:-1 tvg-id="RabehSaqer.sa@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2Fb98b0635-c8ed-4a7c-9efa-5856e278f54b%3Ftype%3Dpng&output=png" group-title="🇸🇦 Saudi Arabia | السعودية",Rabeh Saqer
-https://shls-live-enc.edgenextcdn.net/out/v1/ea4275b6dc0840c198c17f6dc6f1ec49/index.m3u8
-#EXTINF:-1 tvg-id="RashidAlMajed.sa@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fassets.mbcmood.com%2Fchannels%2F1720177618Rashid%2520AlMajed.webp&output=png" group-title="🇸🇦 Saudi Arabia | السعودية",Rashid AlMajed
-https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8
-#EXTINF:-1 tvg-id="SaudiThaqafiyaTV.sa@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F55f69983-5b4b-47c7-9c25-06ed5ad860a4%3Fheight%3Dauto%26width%3D512%26croppingPoint%3D%26version%3D1%26type%3Djpeg&output=png" group-title="🇸🇦 Saudi Arabia | السعودية",Saudi Thaqafiya TV
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8
 #EXTINF:-1 tvg-id="SBC.sa@SD" tvg-logo="https://i.postimg.cc/mgYDSXH0/sbc.png" group-title="🇸🇦 Saudi Arabia | السعودية",SBC
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8
 #EXTINF:-1 tvg-id="SpookyNights.sa@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2Fb0016b19-b35b-4ea6-afb9-5b74a0aac825%3Fheight%3Dauto%26width%3D512%26croppingPoint%3D%26version%3D1%26type%3Dpng&output=png" group-title="🇸🇦 Saudi Arabia | السعودية",Spooky Nights
