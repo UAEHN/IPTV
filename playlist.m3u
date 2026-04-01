@@ -59,8 +59,6 @@ https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
 #EXTINF:-1 tvg-id="AlHadath.sa@SD" tvg-logo="https://i.imgur.com/De4SEWE.png" group-title="📰 News | أخبار",Al Hadath | الحدث
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8
-#EXTINF:-1 tvg-id="AsharqNews.sa@SD" tvg-logo="https://i.imgur.com/bqRC3sl.png" group-title="📰 News | أخبار",Asharq News
-https://live-news.asharq.com/asharq.m3u8
 #EXTINF:-1 tvg-id="AlYaumTV.ae@SD" tvg-logo="https://i.imgur.com/rBixF3P.png" group-title="📰 News | أخبار",Al Yaum TV
 https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8
 #EXTINF:-1 tvg-id="AlGhadTV.eg@SD" tvg-logo="https://i.imgur.com/ga6NXb9.png" group-title="📰 News | أخبار",Al Ghad TV
@@ -207,8 +205,6 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0a
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
 #EXTINF:-1 tvg-id="WatanTV.eg@SD" tvg-logo="https://i.imgur.com/pZyKaUH.png" group-title="🌍 General | منوعات",Watan TV
 https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8
-#EXTINF:-1 tvg-id="Bahry.kw@HD" tvg-logo="https://bahry.faulio.com/storage/mediagallery/9a/c7/fullhd_6a5a505408b027c0d4a4453c72258f9db0d2cb20.png" group-title="🌍 General | منوعات",Bahry
-https://live.kwikmotion.com/bahry1live/bahry1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Ch4Teen.kw@SD" tvg-logo="https://i.imgur.com/pHpFGeg.png" group-title="🌍 General | منوعات",Ch4Teen
 https://ch14.tv/live/ch4teenclip/playlist.m3u8
 #EXTINF:-1 tvg-id="KTV1.kw@SD" tvg-logo="https://i.imgur.com/kG0d8Ay.png" group-title="🌍 General | منوعات",KTV 1
@@ -263,6 +259,10 @@ https://live.imamhossaintv.com/live/ih3.m3u8
 https://live.imamhossaintv.com/live/ih4.m3u8
 #EXTINF:-1 tvg-id="IraqFuture.iq@SD" tvg-logo="https://i.imgur.com/Z7woTe5.png" group-title="🌍 General | منوعات",Iraq Future
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_040/Stream/playlist.m3u8
+#EXTINF:-1 tvg-id="MarjaeyatTVArabic.iq@SD" tvg-logo="https://i.imgur.com/LsYYkUI.png" group-title="🌍 General | منوعات",Marjaeyat TV Arabic
+https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8
+#EXTINF:-1 tvg-id="MarjaeyatTVPersian.iq@SD" tvg-logo="https://i.imgur.com/fCj05f0.png" group-title="🌍 General | منوعات",Marjaeyat TV Persian
+https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8
 #EXTINF:-1 tvg-id="MBCIraq.iq@SD" tvg-logo="https://i.imgur.com/D0LxiPE.png" group-title="🌍 General | منوعات",MBC Iraq | إم بي سي العراق
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
 #EXTINF:-1 tvg-id="UTV.iq@SD" tvg-logo="https://i.imgur.com/9qFHjnu.png" group-title="🌍 General | منوعات",UTV
@@ -475,8 +475,6 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 #EXTINF:-1 tvg-id="WatanTV.eg@SD" tvg-logo="https://i.imgur.com/pZyKaUH.png" group-title="🇪🇬 Egypt | مصر",Watan TV
 https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8
-#EXTINF:-1 tvg-id="Bahry.kw@HD" tvg-logo="https://bahry.faulio.com/storage/mediagallery/9a/c7/fullhd_6a5a505408b027c0d4a4453c72258f9db0d2cb20.png" group-title="🇰🇼 Kuwait | الكويت",Bahry
-https://live.kwikmotion.com/bahry1live/bahry1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Ch4Teen.kw@SD" tvg-logo="https://i.imgur.com/pHpFGeg.png" group-title="🇰🇼 Kuwait | الكويت",Ch4Teen
 https://ch14.tv/live/ch4teenclip/playlist.m3u8
 #EXTINF:-1 tvg-id="KTV1.kw@SD" tvg-logo="https://i.imgur.com/kG0d8Ay.png" group-title="🇰🇼 Kuwait | الكويت",KTV 1
