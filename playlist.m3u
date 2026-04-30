@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="GoalZone.sa@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2F18bf9987-49ab-4c51-bb94-c568efa51db7%3Fheight%3Dauto%26width%3D512%26croppingPoint%3D%26version%3D1%26type%3Dpng&output=png" group-title="⚽ Sports | رياضة",Goal Zone
 https://shls-live-enc.edgenextcdn.net/out/v1/18cffab0757d448ca6c1a686d330b346/index.m3u8
-#EXTINF:-1 tvg-id="Thmanyah1.sa@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Thmanyah_Logo.svg/500px-Thmanyah_Logo.svg.png" group-title="⚽ Sports | رياضة",Thmanyah 1
-https://dflive.app.tc/20.m3u8
 #EXTINF:-1 tvg-id="KTVSport.kw@SD" tvg-logo="https://i.imgur.com/R1hGX1d.png" group-title="⚽ Sports | رياضة",KTV Sport
 https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="KTVSportPlus.kw@SD" tvg-logo="https://i.imgur.com/l4oX0gf.png" group-title="⚽ Sports | رياضة",KTV Sport Plus
