@@ -29,8 +29,6 @@ https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
 https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
 #EXTINF:-1 tvg-id="OmanSportsTV.om@SD" tvg-logo="https://i.imgur.com/1omi7p8.png" group-title="⚽ Sports | رياضة",Oman Sports TV
 https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="JordanSport.jo@SD" tvg-logo="https://i.imgur.com/2EmrZPQ.png" group-title="⚽ Sports | رياضة",Jordan Sport
-http://93.184.10.248/JordanSport/index.m3u8
 #EXTINF:-1 tvg-id="Aflam.sa@SD" tvg-logo="https://i.imgur.com/cTLj7Yt.png" group-title="🎬 Movies | أفلام",Aflam
 https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8
 #EXTINF:-1 tvg-id="MoviesAction.sa@SD" tvg-logo="https://i.imgur.com/NIVhISa.png" group-title="🎬 Movies | أفلام",Movies Action
@@ -85,8 +83,6 @@ https://kwtkbta.cdn.mangomolo.com/kb/smil:kb.stream.smil/chunklist.m3u8
 https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8
 #EXTINF:-1 tvg-id="OmanTVMubashir.om@SD" tvg-logo="https://i.imgur.com/UkQTR5b.png" group-title="📰 News | أخبار",Oman Mubashir
 https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="AlIraqiaNews.iq@SD" tvg-logo="https://i.imgur.com/feQTXeZ.jpg" group-title="📰 News | أخبار",Al Iraqia News
-https://imn-live.esite-lab.com/hls/iraqia-news.m3u8
 #EXTINF:-1 tvg-id="AlSharqiyaNews.iq@SD" tvg-logo="https://i.imgur.com/PeAcXB9.png" group-title="📰 News | أخبار",Al-Sharqiya News
 https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlghadeerTV.iq@SD" tvg-logo="https://i.imgur.com/YPj6kXq.png" group-title="📰 News | أخبار",Alghadeer TV
@@ -109,6 +105,8 @@ https://streaming.najah.edu:8443/hls/AlNajah.m3u8
 https://htvint.mada.ps/kolalnas/index.m3u8
 #EXTINF:-1 tvg-id="PalestineToday.ps@SD" tvg-logo="https://i.imgur.com/BS8XXug.png" group-title="📰 News | أخبار",Palestine Today
 https://live.paltodaytv.com/paltv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="AlikhbariaSyria.sy@SD" tvg-logo="" group-title="📰 News | أخبار",Alikhbaria Syria
+http://185.9.2.18/chid_423/index.m3u8
 #EXTINF:-1 tvg-id="HalabTodayTV.sy@SD" tvg-logo="https://pbs.twimg.com/profile_images/1779495135841075200/aPINrLwe_400x400.png" group-title="📰 News | أخبار",Halab Today TV
 https://halabtoday-live.lg.mncdn.com/halabtoday/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="SyriaTV.sy@SD" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="📰 News | أخبار",Syria TV
@@ -169,6 +167,8 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-big-time-plus/924283f994779a3
 https://stream.cisk.tech/drpal/index.m3u8
 #EXTINF:-1 tvg-id="Fairuz.sa@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fshahid.mbc.net%2FmediaObject%2Ff809d51c-e83d-43c9-8236-78731c2216ad%3Ftype%3Dpng&output=png" group-title="🌍 General | منوعات",Fairuz
 https://shd-amg-fast.edgenextcdn.net/tx029/playlist.m3u8
+#EXTINF:-1 tvg-id="LBC.sa" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fs3.eu-central-1.amazonaws.com%2Frotana.website%2Fchannels%2F1688402500.webp&output=png" group-title="🌍 General | منوعات",LBC | إل بي سي
+http://185.9.2.18/chid_327/index.m3u8
 #EXTINF:-1 tvg-id="MajidAlMohandis.sa@SD" tvg-logo="https://i.discogs.com/Fk9Bm8gTYJYeVXIJKX-EOGmYQ90sVQPtkIW5ZK4fydo/rs:fit/g:sm/q:90/h:372/w:412/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2OTY4/MzMtMTU2ODk0NjI5/MC01Njk2LmpwZWc.jpeg" group-title="🌍 General | منوعات",Majid | ماجد Al Mohandis
 https://shd-amg-fast.edgenextcdn.net/tx019/playlist.m3u8
 #EXTINF:-1 tvg-id="MakkahTV.sa@SD" tvg-logo="https://i.ibb.co/r2k71w5N/download.png" group-title="🌍 General | منوعات",Makkah TV
@@ -211,16 +211,12 @@ https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8
 http://185.9.2.18/chid_247/index.m3u8
 #EXTINF:-1 tvg-id="ATVSat.us@SD" tvg-logo="https://i.imgur.com/pwM5txv.png" group-title="🌍 General | منوعات",ATVSat
 https://stream.atvsat.com/atvsatlive/smil:atvsatlive.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CBC.eg@SD" tvg-logo="https://i.imgur.com/8apNaLP.png" group-title="🌍 General | منوعات",CBC
-https://flu.systemnet.tv/CBC/index.m3u8
-#EXTINF:-1 tvg-id="CBCDrama.eg@SD" tvg-logo="https://i.imgur.com/I8YdakH.png" group-title="🌍 General | منوعات",CBC Drama
-https://flu.systemnet.tv/CBCDrama/index.m3u8
-#EXTINF:-1 tvg-id="CBCSofra.eg@SD" tvg-logo="https://i.imgur.com/YAdk2WR.png" group-title="🌍 General | منوعات",CBC Sofra
-https://flu.systemnet.tv/CBCSofra/index.m3u8
 #EXTINF:-1 tvg-id="CopticTV.eg@SD" tvg-logo="https://www.ctvchannel.tv/images/CTV-logo-white.png" group-title="🌍 General | منوعات",Coptic TV
 https://ctv.icopts.app/CTV/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="ElbesharaGTV.us@SD" tvg-logo="https://i.imgur.com/b0Wx7pE.png" group-title="🌍 General | منوعات",Elbeshara GTV
 http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Mazzika.eg@SD" tvg-logo="https://i.imgur.com/P7PUHIx.png" group-title="🌍 General | منوعات",Mazzika
+http://149.100.11.235:8080/Mazzika/index.m3u8
 #EXTINF:-1 tvg-id="MBC1Egypt.eg@HD" tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="🌍 General | منوعات",MBC 1 | إم بي سي 1 Egypt
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8
 #EXTINF:-1 tvg-id="MBCMasr.eg@SD" tvg-logo="https://i.imgur.com/o2elx0u.png" group-title="🌍 General | منوعات",MBC Masr | إم بي سي مصر
@@ -269,6 +265,8 @@ https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8
 http://185.9.2.18/chid_144/index.m3u8
 #EXTINF:-1 tvg-id="AlAimmaTV.iq@SD" tvg-logo="https://alaimma.tv/alaimma-logo.png" group-title="🌍 General | منوعات",Al-Aimma TV
 https://alaimma.tv/live/index.m3u8
+#EXTINF:-1 tvg-id="AlJawadainTV.iq@SD" tvg-logo="https://i.imgur.com/Eo3UYCK.png" group-title="🌍 General | منوعات",Al-Jawadain TV
+https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlNaeemTV.iq@SD" tvg-logo="https://i.imgur.com/JyWjfIB.png" group-title="🌍 General | منوعات",Al-Naeem TV
 http://37.238.136.61/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlabbassiaTV.iq@HD" tvg-logo="https://raw.githubusercontent.com/Alabbassia2026/Alabbassia-TV-Official/main/Logo%20PNG.png" group-title="🌍 General | منوعات",Alabbassia TV
@@ -335,6 +333,8 @@ https://pbc.furrera.ps/palestinehd/index.m3u8
 https://mn-nl.mncdn.com/palabroad/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Raya1.ps@SD" tvg-logo="https://www.rayatv.ps/images/logo_tv.png" group-title="🌍 General | منوعات",Raya 1
 https://htvmada.mada.ps:4443/raya/index.m3u8
+#EXTINF:-1 tvg-id="SerajTV.ps@SD" tvg-logo="https://i.imgur.com/1d25a9Q.png" group-title="🌍 General | منوعات",Seraj TV
+https://43869de4e1a0d641.servers.dvcloud.tv/hls/al_aqsa_channel/6udfi7v8a3eof6nlps6e9ovfrs65c7l7.m3u8
 #EXTINF:-1 tvg-id="AlSouriyaTV.sy@HD" tvg-logo="https://i.imgur.com/8FILgXT.jpeg" group-title="🌍 General | منوعات",Al-Souriya TV
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8
 #EXTINF:-1 tvg-id="Althania.sy@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.althania.tv%2Fthemes%2Fcustom%2Falthania%2Fassets%2Fimages%2Fstv-logo.svg&output=png" group-title="🌍 General | منوعات",Althania
@@ -447,6 +447,8 @@ https://aloula-redirect.vercel.app/9/playlist.m3u8
 https://aloula-redirect.vercel.app/10/playlist.m3u8
 #EXTINF:-1 tvg-id="KSASports3.sa@SD" tvg-logo="https://i.imgur.com/BXfCvez.png" group-title="🇸🇦 Saudi Arabia | السعودية",KSA Sports | السعودية الرياضية 3
 https://aloula-redirect.vercel.app/16/playlist.m3u8
+#EXTINF:-1 tvg-id="LBC.sa" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fs3.eu-central-1.amazonaws.com%2Frotana.website%2Fchannels%2F1688402500.webp&output=png" group-title="🇸🇦 Saudi Arabia | السعودية",LBC | إل بي سي
+http://185.9.2.18/chid_327/index.m3u8
 #EXTINF:-1 tvg-id="MajidAlMohandis.sa@SD" tvg-logo="https://i.discogs.com/Fk9Bm8gTYJYeVXIJKX-EOGmYQ90sVQPtkIW5ZK4fydo/rs:fit/g:sm/q:90/h:372/w:412/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2OTY4/MzMtMTU2ODk0NjI5/MC01Njk2LmpwZWc.jpeg" group-title="🇸🇦 Saudi Arabia | السعودية",Majid | ماجد Al Mohandis
 https://shd-amg-fast.edgenextcdn.net/tx019/playlist.m3u8
 #EXTINF:-1 tvg-id="MakkahTV.sa@SD" tvg-logo="https://i.ibb.co/r2k71w5N/download.png" group-title="🇸🇦 Saudi Arabia | السعودية",Makkah TV
@@ -497,18 +499,14 @@ https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8
 http://185.9.2.18/chid_247/index.m3u8
 #EXTINF:-1 tvg-id="ATVSat.us@SD" tvg-logo="https://i.imgur.com/pwM5txv.png" group-title="🇪🇬 Egypt | مصر",ATVSat
 https://stream.atvsat.com/atvsatlive/smil:atvsatlive.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CBC.eg@SD" tvg-logo="https://i.imgur.com/8apNaLP.png" group-title="🇪🇬 Egypt | مصر",CBC
-https://flu.systemnet.tv/CBC/index.m3u8
-#EXTINF:-1 tvg-id="CBCDrama.eg@SD" tvg-logo="https://i.imgur.com/I8YdakH.png" group-title="🇪🇬 Egypt | مصر",CBC Drama
-https://flu.systemnet.tv/CBCDrama/index.m3u8
-#EXTINF:-1 tvg-id="CBCSofra.eg@SD" tvg-logo="https://i.imgur.com/YAdk2WR.png" group-title="🇪🇬 Egypt | مصر",CBC Sofra
-https://flu.systemnet.tv/CBCSofra/index.m3u8
 #EXTINF:-1 tvg-id="CopticTV.eg@SD" tvg-logo="https://www.ctvchannel.tv/images/CTV-logo-white.png" group-title="🇪🇬 Egypt | مصر",Coptic TV
 https://ctv.icopts.app/CTV/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="ElbesharaGTV.us@SD" tvg-logo="https://i.imgur.com/b0Wx7pE.png" group-title="🇪🇬 Egypt | مصر",Elbeshara GTV
 http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KoogiTV.eg@SD" tvg-logo="https://i.imgur.com/zojMTP9.png" group-title="🇪🇬 Egypt | مصر",Koogi TV
 https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Mazzika.eg@SD" tvg-logo="https://i.imgur.com/P7PUHIx.png" group-title="🇪🇬 Egypt | مصر",Mazzika
+http://149.100.11.235:8080/Mazzika/index.m3u8
 #EXTINF:-1 tvg-id="MBC1Egypt.eg@HD" tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="🇪🇬 Egypt | مصر",MBC 1 | إم بي سي 1 Egypt
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8
 #EXTINF:-1 tvg-id="MBCMasr.eg@SD" tvg-logo="https://i.imgur.com/o2elx0u.png" group-title="🇪🇬 Egypt | مصر",MBC Masr | إم بي سي مصر
@@ -553,14 +551,14 @@ https://5c7b683162943.streamlock.net/live/ngrp:bahraintvmain_all/playlist.m3u8
 https://mediaserver.abnvideos.com/streams/abnsat.m3u8
 #EXTINF:-1 tvg-id="AfaqTV.iq@SD" tvg-logo="https://i.imgur.com/t7CaTu3.png" group-title="🇮🇶 Iraq | العراق",Afaq TV
 https://stream.afaq.iq/live/channel/afaqtv/playlist.m3u8
-#EXTINF:-1 tvg-id="AlIraqiaNews.iq@SD" tvg-logo="https://i.imgur.com/feQTXeZ.jpg" group-title="🇮🇶 Iraq | العراق",Al Iraqia News
-https://imn-live.esite-lab.com/hls/iraqia-news.m3u8
 #EXTINF:-1 tvg-id="AlRasheedTV.iq@SD" tvg-logo="https://i.imgur.com/ltyRjPK.png" group-title="🇮🇶 Iraq | العراق",Al Rasheed TV
 https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8
 #EXTINF:-1 tvg-id="AlSharqiya.iq@SD" tvg-logo="https://i.imgur.com/mJIG5IV.png" group-title="🇮🇶 Iraq | العراق",Al Sharqiya
 http://185.9.2.18/chid_144/index.m3u8
 #EXTINF:-1 tvg-id="AlAimmaTV.iq@SD" tvg-logo="https://alaimma.tv/alaimma-logo.png" group-title="🇮🇶 Iraq | العراق",Al-Aimma TV
 https://alaimma.tv/live/index.m3u8
+#EXTINF:-1 tvg-id="AlJawadainTV.iq@SD" tvg-logo="https://i.imgur.com/Eo3UYCK.png" group-title="🇮🇶 Iraq | العراق",Al-Jawadain TV
+https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlNaeemTV.iq@SD" tvg-logo="https://i.imgur.com/JyWjfIB.png" group-title="🇮🇶 Iraq | العراق",Al-Naeem TV
 http://37.238.136.61/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlSharqiyaNews.iq@SD" tvg-logo="https://i.imgur.com/PeAcXB9.png" group-title="🇮🇶 Iraq | العراق",Al-Sharqiya News
@@ -627,8 +625,6 @@ https://jmc-live.ercdn.net/altaghier/altaghier.m3u8
 https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8
 #EXTINF:-1 tvg-id="JordanTV.jo@SD" tvg-logo="https://i.imgur.com/0XozB5N.png" group-title="🇯🇴 Jordan | الأردن",Jordan Satellite Channel
 https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8
-#EXTINF:-1 tvg-id="JordanSport.jo@SD" tvg-logo="https://i.imgur.com/2EmrZPQ.png" group-title="🇯🇴 Jordan | الأردن",Jordan Sport
-http://93.184.10.248/JordanSport/index.m3u8
 #EXTINF:-1 tvg-id="KaifaTV.jo@SD" tvg-logo="https://i.imgur.com/zGGeSQg.png" group-title="🇯🇴 Jordan | الأردن",Kaifa TV
 http://82.212.74.2:8000/live/7311.m3u8
 #EXTINF:-1 tvg-id="MBC5.ae@SD" tvg-logo="https://i.imgur.com/fRWaDyF.png" group-title="🇲🇦 Morocco | المغرب",MBC 5 | إم بي سي 5
@@ -667,6 +663,8 @@ https://live.paltodaytv.com/paltv/live/playlist.m3u8
 https://mn-nl.mncdn.com/palabroad/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Raya1.ps@SD" tvg-logo="https://www.rayatv.ps/images/logo_tv.png" group-title="🇵🇸 Palestine | فلسطين",Raya 1
 https://htvmada.mada.ps:4443/raya/index.m3u8
+#EXTINF:-1 tvg-id="SerajTV.ps@SD" tvg-logo="https://i.imgur.com/1d25a9Q.png" group-title="🇵🇸 Palestine | فلسطين",Seraj TV
+https://43869de4e1a0d641.servers.dvcloud.tv/hls/al_aqsa_channel/6udfi7v8a3eof6nlps6e9ovfrs65c7l7.m3u8
 #EXTINF:-1 tvg-id="AlMaarefTV.qa@SD" tvg-logo="https://i.imgur.com/QFnztgo.png" group-title="🇶🇦 Qatar | قطر",Al Maaref TV
 https://bucharest.zeuscdn724.com/lb0/CH-AL-MA/index.m3u8
 #EXTINF:-1 tvg-id="AlRayyanTV.qa@SD" tvg-logo="https://i.imgur.com/Ts3RjTV.png" group-title="🇶🇦 Qatar | قطر",Al Rayyan
@@ -697,6 +695,8 @@ https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8
 https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8
 #EXTINF:-1 tvg-id="AlSouriyaTV.sy@HD" tvg-logo="https://i.imgur.com/8FILgXT.jpeg" group-title="🇸🇾 Syria | سوريا",Al-Souriya TV
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8
+#EXTINF:-1 tvg-id="AlikhbariaSyria.sy@SD" tvg-logo="" group-title="🇸🇾 Syria | سوريا",Alikhbaria Syria
+http://185.9.2.18/chid_423/index.m3u8
 #EXTINF:-1 tvg-id="Althania.sy@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.althania.tv%2Fthemes%2Fcustom%2Falthania%2Fassets%2Fimages%2Fstv-logo.svg&output=png" group-title="🇸🇾 Syria | سوريا",Althania
 https://live.kwikmotion.com/syriatv02live/syriatv02.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="HalabTodayTV.sy@SD" tvg-logo="https://pbs.twimg.com/profile_images/1779495135841075200/aPINrLwe_400x400.png" group-title="🇸🇾 Syria | سوريا",Halab Today TV
