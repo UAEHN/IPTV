@@ -13,6 +13,9 @@ on:
       - "tools/candidate_pool.json"
       - ".github/workflows/candidates.yml"
 
+permissions:
+  contents: write
+
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -31,3 +34,15 @@ jobs:
           name: candidate-results
           path: tools/candidate_results.json
           if-no-files-found: error
+
+      # Committed as well as uploaded: the results are the input to curating
+      # the catalog, and reading them out of the repo beats scraping them back
+      # out of a truncated job log.
+      - name: Commit the results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/candidate_results.json
+          git diff --cached --quiet && { echo "unchanged"; exit 0; }
+          git commit -m "Record candidate stream probe results [skip ci]"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

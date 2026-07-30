@@ -175,7 +175,6 @@ fun ChannelTile(
 
     Box(
         modifier
-            .width(dims.tile)
             .aspectRatio(1.6f)
             .scale(scale)
             .clip(shape)
@@ -260,6 +259,7 @@ fun Rail(
             items(channels, key = { it.id }) { channel ->
                 ChannelTile(
                     channel = channel,
+                    modifier = Modifier.width(dims.tile),
                     onClick = { onOpen(channel) },
                     onLongClick = { onLongPress(channel) },
                     isFavorite = channel.id in favorites,
