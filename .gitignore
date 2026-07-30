@@ -10,3 +10,4 @@ captures/
 *.apk
 *.aab
 out/
+__pycache__/
