@@ -78,6 +78,8 @@ LOGO_SOURCES = {
     "mbc5": "united-arab-emirates/mbc-5-ae.png",
     "mbc-masr": "united-arab-emirates/mbc-maser-ae.png",
     "mbc-iraq": "united-arab-emirates/mbc-iraq-ae.png",
+    "ajman-tv": "united-arab-emirates/ajman-tv-ae.png",
+    "cartoon-network-arabic": "international/cartoon-network-int.png",
 }
 
 

@@ -14,6 +14,11 @@
    "en": "General"
   },
   {
+   "id": "sports",
+   "ar": "رياضة",
+   "en": "Sports"
+  },
+  {
    "id": "docs",
    "ar": "وثائقية",
    "en": "Documentary"
@@ -129,11 +134,11 @@
    "verified": true,
    "sources": [
     {
-     "url": "https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
+     "url": "https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
      "label": "HD"
     },
     {
-     "url": "https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
+     "url": "https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
      "label": "Backup"
     }
    ]
@@ -207,6 +212,22 @@
     {
      "url": "https://live-hls-apps-ajm-v3-fa.getaj.net/AJM/index.m3u8",
      "label": "Backup"
+    }
+   ]
+  },
+  {
+   "id": "alsaudiya-alaan",
+   "ar": "السعودية الآن",
+   "en": "Al Saudiya Alaan",
+   "cat": "news",
+   "country": "SA",
+   "countryAr": "السعودية",
+   "site": "https://www.aloula.sa/live/ksa-now",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8",
+     "label": "HD"
     }
    ]
   },
@@ -383,6 +404,26 @@
    ]
   },
   {
+   "id": "ktv-news",
+   "ar": "الكويت الأخبار",
+   "en": "KTV News",
+   "cat": "news",
+   "country": "KW",
+   "countryAr": "الكويت",
+   "site": "https://media.gov.kw/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://kwtktvata.cdn.mangomolo.com/ktva/smil:ktva.stream.smil/chunklist.m3u8",
+     "label": "HD"
+    },
+    {
+     "url": "https://cdn-globecast.akamaized.net/live/eds/ktv_al_akhbar/hls_roku/ktv_al_akhbar.m3u8",
+     "label": "Backup"
+    }
+   ]
+  },
+  {
    "id": "medi1",
    "ar": "ميدي 1 تي في",
    "en": "Medi1 TV Arabic",
@@ -403,6 +444,22 @@
    ]
   },
   {
+   "id": "oman-mubashir",
+   "ar": "عمان مباشر",
+   "en": "Oman TV Mubashir",
+   "cat": "news",
+   "country": "OM",
+   "countryAr": "عُمان",
+   "site": "http://part.gov.om/part/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
    "id": "qbc",
    "ar": "قطر الاقتصادية",
    "en": "Qatar Business Channel",
@@ -413,11 +470,11 @@
    "verified": true,
    "sources": [
     {
-     "url": "https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8",
+     "url": "https://live.kwikmotion.com/qbusinesslive/qbusiness.smil/playlist.m3u8",
      "label": "HD"
     },
     {
-     "url": "https://live.kwikmotion.com/qbusinesslive/qbusiness.smil/playlist.m3u8",
+     "url": "https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8",
      "label": "Backup"
     }
    ]
@@ -449,11 +506,11 @@
    "verified": true,
    "sources": [
     {
-     "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=6017",
+     "url": "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
      "label": "HD"
     },
     {
-     "url": "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
+     "url": "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
      "label": "Backup"
     }
    ]
@@ -495,6 +552,22 @@
    ]
   },
   {
+   "id": "ajman-tv",
+   "ar": "عجمان",
+   "en": "Ajman TV",
+   "cat": "general",
+   "country": "AE",
+   "countryAr": "الإمارات",
+   "site": "https://www.ajmantv.com/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
    "id": "alaoula",
    "ar": "الأولى المغربية",
    "en": "Al Aoula",
@@ -515,6 +588,26 @@
    ]
   },
   {
+   "id": "alaraby-2",
+   "ar": "التلفزيون العربي 2",
+   "en": "Al Araby TV 2",
+   "cat": "general",
+   "country": "QA",
+   "countryAr": "قطر",
+   "site": "https://www.alaraby.com/alaraby2",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://origin-cae-t482536.cdn.nextologies.com/63d8c759c5db83b4/25c4f89d27a79014ALA2306/playlist.m3u8",
+     "label": "HD"
+    },
+    {
+     "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5617",
+     "label": "Backup"
+    }
+   ]
+  },
+  {
    "id": "iraqia",
    "ar": "العراقية",
    "en": "Al Iraqia",
@@ -526,6 +619,38 @@
    "sources": [
     {
      "url": "https://imn-live.esite-lab.com/hls/iraqia-general.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "alkhalij",
+   "ar": "الخليج",
+   "en": "Al Khalij TV",
+   "cat": "general",
+   "country": "SA",
+   "countryAr": "السعودية",
+   "site": "https://www.al-khalij.tv/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://mn-nl.mncdn.com/khalij/khalij/playlist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "alrayyan-old",
+   "ar": "الريان القديم",
+   "en": "Al Rayyan Al Qadeem",
+   "cat": "general",
+   "country": "QA",
+   "countryAr": "قطر",
+   "site": "https://www.alrayyan.tv/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8",
      "label": "HD"
     }
    ]
@@ -583,6 +708,22 @@
    ]
   },
   {
+   "id": "kalba",
+   "ar": "الشرقية من كلباء",
+   "en": "Al Sharqiya Min Kalba",
+   "cat": "general",
+   "country": "AE",
+   "countryAr": "الإمارات",
+   "site": "",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
    "id": "alsouriya",
    "ar": "السورية",
    "en": "Al Souriya TV",
@@ -599,6 +740,22 @@
    ]
   },
   {
+   "id": "alwousta",
+   "ar": "الوسطى",
+   "en": "Al Wousta TV",
+   "cat": "general",
+   "country": "AE",
+   "countryAr": "الإمارات",
+   "site": "https://sba.net.ae/ar/tv/channel/38",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
    "id": "amman-tv",
    "ar": "عمان",
    "en": "Amman TV",
@@ -609,12 +766,28 @@
    "verified": true,
    "sources": [
     {
-     "url": "https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8",
+     "url": "https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8",
      "label": "HD"
     },
     {
-     "url": "https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8",
+     "url": "https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8",
      "label": "Backup"
+    }
+   ]
+  },
+  {
+   "id": "bahrain-international",
+   "ar": "البحرين الدولية",
+   "en": "Bahrain International",
+   "cat": "general",
+   "country": "BH",
+   "countryAr": "البحرين",
+   "site": "https://www.mia.gov.bh/media-center/live-tv-and-radio/?lang=en",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist.m3u8",
+     "label": "HD"
     }
    ]
   },
@@ -677,12 +850,28 @@
    "verified": true,
    "sources": [
     {
-     "url": "https://kwtktv1ta.cdn.mangomolo.com/ktv1/smil:ktv1.stream.smil/chunklist.m3u8",
+     "url": "https://cdn-globecast.akamaized.net/live/eds/kuwait_tv1/hls_roku/index.m3u8",
      "label": "HD"
     },
     {
-     "url": "https://cdn-globecast.akamaized.net/live/eds/kuwait_tv1/hls_roku/index.m3u8",
+     "url": "https://kwtktv1ta.cdn.mangomolo.com/ktv1/smil:ktv1.stream.smil/chunklist.m3u8",
      "label": "Backup"
+    }
+   ]
+  },
+  {
+   "id": "ktv2",
+   "ar": "تلفزيون الكويت 2",
+   "en": "Kuwait TV 2",
+   "cat": "general",
+   "country": "KW",
+   "countryAr": "الكويت",
+   "site": "https://media.gov.kw/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://kwtktv2ta.cdn.mangomolo.com/ktv2/smil:ktv2.stream.smil/chunklist.m3u8",
+     "label": "HD"
     }
    ]
   },
@@ -809,11 +998,11 @@
    "verified": true,
    "sources": [
     {
-     "url": "https://partneta.cdn.mgmlcdn.com/omantv/smil:omantv.stream.smil/chunklist.m3u8",
+     "url": "https://cdn-globecast.akamaized.net/live/eds/oman_tv/hls_roku/index.m3u8",
      "label": "HD"
     },
     {
-     "url": "https://cdn-globecast.akamaized.net/live/eds/oman_tv/hls_roku/index.m3u8",
+     "url": "https://partneta.cdn.mgmlcdn.com/omantv/smil:omantv.stream.smil/chunklist.m3u8",
      "label": "Backup"
     }
    ]
@@ -845,11 +1034,31 @@
    "verified": true,
    "sources": [
     {
-     "url": "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8",
+     "url": "https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8",
      "label": "HD"
     },
     {
-     "url": "https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8",
+     "url": "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8",
+     "label": "Backup"
+    }
+   ]
+  },
+  {
+   "id": "qatar-tv-2",
+   "ar": "تلفزيون قطر 2",
+   "en": "Qatar TV 2",
+   "cat": "general",
+   "country": "QA",
+   "countryAr": "قطر",
+   "site": "http://www.qtv.qa/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8",
+     "label": "HD"
+    },
+    {
+     "url": "https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8",
      "label": "Backup"
     }
    ]
@@ -882,7 +1091,8 @@
    "sources": [
     {
      "url": "https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8",
-     "label": "HD"
+     "label": "HD",
+     "referer": true
     }
    ]
   },
@@ -914,6 +1124,246 @@
    "sources": [
     {
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/8cfa8fe0c96275735745b89c683b27e3/index.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "alkass-4",
+   "ar": "الكأس 4",
+   "en": "Alkass Four",
+   "cat": "sports",
+   "country": "QA",
+   "countryAr": "قطر",
+   "site": "https://www.alkass.net/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "alkass-1",
+   "ar": "الكأس 1",
+   "en": "Alkass One",
+   "cat": "sports",
+   "country": "QA",
+   "countryAr": "قطر",
+   "site": "https://www.alkass.net/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "alkass-shoof",
+   "ar": "شوف",
+   "en": "Alkass Shoof",
+   "cat": "sports",
+   "country": "QA",
+   "countryAr": "قطر",
+   "site": "https://shoof.alkass.net/live?ch=shoof",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "alkass-shoof-2",
+   "ar": "شوف 2",
+   "en": "Alkass Shoof 2",
+   "cat": "sports",
+   "country": "QA",
+   "countryAr": "قطر",
+   "site": "https://www.alkass.net/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "alkass-6",
+   "ar": "الكأس 6",
+   "en": "Alkass Six",
+   "cat": "sports",
+   "country": "QA",
+   "countryAr": "قطر",
+   "site": "https://www.alkass.net/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "alkass-3",
+   "ar": "الكأس 3",
+   "en": "Alkass Three",
+   "cat": "sports",
+   "country": "QA",
+   "countryAr": "قطر",
+   "site": "https://www.alkass.net/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "alkass-2",
+   "ar": "الكأس 2",
+   "en": "Alkass Two",
+   "cat": "sports",
+   "country": "QA",
+   "countryAr": "قطر",
+   "site": "https://www.alkass.net/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "bahrain-sports-1",
+   "ar": "البحرين الرياضية 1",
+   "en": "Bahrain Sports 1",
+   "cat": "sports",
+   "country": "BH",
+   "countryAr": "البحرين",
+   "site": "https://www.mia.gov.bh/media-center/live-tv-and-radio/?lang=en",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "bahrain-sports-2",
+   "ar": "البحرين الرياضية 2",
+   "en": "Bahrain Sports 2",
+   "cat": "sports",
+   "country": "BH",
+   "countryAr": "البحرين",
+   "site": "https://www.mia.gov.bh/media-center/live-tv-and-radio/?lang=en",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "ksa-sports-1",
+   "ar": "السعودية الرياضية 1",
+   "en": "KSA Sports 1",
+   "cat": "sports",
+   "country": "SA",
+   "countryAr": "السعودية",
+   "site": "https://www.aloula.sa/live/ksa-sports1",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://aloula-redirect.vercel.app/9/playlist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "ksa-sports-2",
+   "ar": "السعودية الرياضية 2",
+   "en": "KSA Sports 2",
+   "cat": "sports",
+   "country": "SA",
+   "countryAr": "السعودية",
+   "site": "https://www.aloula.sa/live/ksa-sports2",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://aloula-redirect.vercel.app/10/playlist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "ksa-sports-3",
+   "ar": "السعودية الرياضية 3",
+   "en": "KSA Sports 3",
+   "cat": "sports",
+   "country": "SA",
+   "countryAr": "السعودية",
+   "site": "https://www.aloula.sa/live/ksa-sports3",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://aloula-redirect.vercel.app/16/playlist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "ktv-sport",
+   "ar": "الكويت الرياضية",
+   "en": "KTV Sport",
+   "cat": "sports",
+   "country": "KW",
+   "countryAr": "الكويت",
+   "site": "https://media.gov.kw/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "ktv-sport-plus",
+   "ar": "الكويت الرياضية بلس",
+   "en": "KTV Sport Plus",
+   "cat": "sports",
+   "country": "KW",
+   "countryAr": "الكويت",
+   "site": "",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "oman-sports",
+   "ar": "عمان الرياضية",
+   "en": "Oman Sports TV",
+   "cat": "sports",
+   "country": "OM",
+   "countryAr": "عُمان",
+   "site": "http://part.gov.om/omantvsport/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
      "label": "HD"
     }
    ]
@@ -966,8 +1416,7 @@
    "sources": [
     {
      "url": "https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8",
-     "label": "HD",
-     "referer": true
+     "label": "HD"
     }
    ]
   },
@@ -1068,6 +1517,22 @@
    ]
   },
   {
+   "id": "almaaref",
+   "ar": "المعارف",
+   "en": "Al Maaref TV",
+   "cat": "religion",
+   "country": "QA",
+   "countryAr": "قطر",
+   "site": "https://almaaref.ch/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://bucharest.zeuscdn724.com/lb0/CH-AL-MA/index.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
    "id": "bahrain-quran",
    "ar": "القرآن الكريم – البحرين",
    "en": "Bahrain Quran TV",
@@ -1111,6 +1576,22 @@
    "sources": [
     {
      "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8",
+     "label": "HD"
+    }
+   ]
+  },
+  {
+   "id": "ktv-alqurain",
+   "ar": "القرين",
+   "en": "KTV Al Qurain",
+   "cat": "religion",
+   "country": "KW",
+   "countryAr": "الكويت",
+   "site": "https://media.gov.kw/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://kwtktvaqta.cdn.mangomolo.com/ktvaq/smil:tktvaq.stream.smil/chunklist.m3u8",
      "label": "HD"
     }
    ]
@@ -1213,6 +1694,22 @@
     {
      "url": "https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8",
      "label": "Backup"
+    }
+   ]
+  },
+  {
+   "id": "cartoon-network-arabic",
+   "ar": "كرتون نتورك بالعربية",
+   "en": "Cartoon Network Arabic",
+   "cat": "kids",
+   "country": "AE",
+   "countryAr": "الإمارات",
+   "site": "https://www.cartoonnetworkarabic.com/",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8",
+     "label": "HD"
     }
    ]
   },

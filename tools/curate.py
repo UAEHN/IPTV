@@ -55,6 +55,24 @@ EXTRA_SOURCES: dict[str, list[str]] = {}
 # it; the app then sends the same headers for them.
 NEEDS_REFERER = {"quran-ksa"}
 
+# Probed and dropped, 2026-07-30 — kept in candidate_pool.json as the record of
+# what was tried, but not shipped, because the catalog only carries endpoints a
+# runner confirmed:
+#   * Abu Dhabi Media (Abu Dhabi TV, Al Emarat, Sports 1-4, Yas, Majid, Nat Geo)
+#     and Dubai Media Incorporated (Dubai TV, One, Sama, Zaman, Sports 1-3,
+#     Racing 1-2, Mubasher, Noor) — every admdn*/dmi* host these are published
+#     under has no DNS record any more, on either cdn.mangomolo.com or
+#     cdn.mgmlcdn.com, with or without the "ta" suffix. Kuwait and Oman still
+#     resolve on the same CDN, so the hosts were retired, not the CDN. The
+#     orange.com edge that carries Abu Dhabi Sports 1-2 and Baynounah answers
+#     DNS but refuses the TLS handshake.
+#   * Sharjah Sports, Fujairah TV, Al Aan TV — http 403 from the runner.
+#   * KTV Al Majlis, Alrai TV — the itworkscdn path answers with something that
+#     is not a playlist.
+#   * Ahl Al Quran TV timed out; Makkah TV's host does not resolve.
+#   * Alkass Five and Seven — http 404; the other seven Alkass feeds are fine,
+#     so those two slugs are wrong or the channels are off air.
+
 SELECTION: list[tuple[str, str, str, str, str, str | None]] = [
     # ---------------------------------------------------------------- news
     ("aljazeera", "AlJazeera.qa", "الجزيرة", "Al Jazeera", "news", "getaj.net/AJA"),
@@ -82,10 +100,8 @@ SELECTION: list[tuple[str, str, str, str, str, str | None]] = [
     ("iraqia-news", "AlIraqiaNews.iq", "الإخبارية العراقية", "Al Iraqia News", "news", None),
     ("alsharqiya-news", "AlSharqiyaNews.iq", "الشرقية نيوز", "Al Sharqiya News", "news", None),
     ("altaghier", "AltaghierTV.jo", "التغيير", "Al Taghier TV", "news", None),
-    ("alaan", "AlAanTV.ae", "الآن", "Al Aan TV", "news", None),
     ("alsaudiya-alaan", "AlSaudiyaAlaan.sa", "السعودية الآن", "Al Saudiya Alaan", "news", None),
     ("ktv-news", "KTVNews.kw", "الكويت الأخبار", "KTV News", "news", None),
-    ("ktv-almajlis", "KTVAlMajlis.kw", "المجلس", "KTV Al Majlis", "news", None),
     ("oman-mubashir", "OmanTVMubashir.om", "عمان مباشر", "Oman TV Mubashir", "news", None),
 
     # ------------------------------------------------------------- general
@@ -115,19 +131,10 @@ SELECTION: list[tuple[str, str, str, str, str, str | None]] = [
     ("libya-alwataniya", "LibyaAlWataniya.ly", "ليبيا الوطنية", "Libya Al Wataniya", "general", None),
     ("sudan-tv", "SudanTV.sd", "تلفزيون السودان", "Sudan TV", "general", None),
     ("alsouriya", "AlSouriyaTV.sy", "السورية", "Al Souriya TV", "general", None),
-    ("abudhabi-tv", "AbuDhabiTV.ae", "أبوظبي", "Abu Dhabi TV", "general", None),
-    ("alemarat", "AlEmarat.ae", "الإمارات", "Al Emarat TV", "general", None),
-    ("baynounah", "BaynounahTV.ae", "بينونة", "Baynounah TV", "general", None),
-    ("dubai-tv", "DubaiTV.ae", "دبي", "Dubai TV", "general", None),
-    ("dubai-one", "DubaiOne.ae", "دبي وان", "Dubai One", "general", None),
-    ("sama-dubai", "SamaDubai.ae", "سما دبي", "Sama Dubai", "general", None),
-    ("dubai-zaman", "DubaiZaman.ae", "دبي زمان", "Dubai Zaman", "general", None),
     ("ajman-tv", "AjmanTV.ae", "عجمان", "Ajman TV", "general", None),
-    ("fujairah-tv", "FujairahTV.ae", "الفجيرة", "Fujairah TV", "general", None),
     ("alwousta", "AlWoustaTV.ae", "الوسطى", "Al Wousta TV", "general", None),
     ("kalba", "AlSharqiyaMinKabla.ae", "الشرقية من كلباء", "Al Sharqiya Min Kalba", "general", None),
     ("ktv2", "KTV2.kw", "تلفزيون الكويت 2", "Kuwait TV 2", "general", None),
-    ("alrai", "AlraiTV.kw", "الراي", "Alrai TV", "general", None),
     ("alkhalij", "AlKhalijTV.sa", "الخليج", "Al Khalij TV", "general", None),
     ("qatar-tv-2", "QatarTelevision2.qa", "تلفزيون قطر 2", "Qatar TV 2", "general", 'qtv2'),
     ("alrayyan-old", "AlRayyanOldTV.qa", "الريان القديم", "Al Rayyan Al Qadeem", "general", None),
@@ -138,18 +145,6 @@ SELECTION: list[tuple[str, str, str, str, str, str | None]] = [
     ("ksa-sports-1", "KSASports1.sa", "السعودية الرياضية 1", "KSA Sports 1", "sports", None),
     ("ksa-sports-2", "KSASports2.sa", "السعودية الرياضية 2", "KSA Sports 2", "sports", None),
     ("ksa-sports-3", "KSASports3.sa", "السعودية الرياضية 3", "KSA Sports 3", "sports", None),
-    ("abudhabi-sports-1", "AbuDhabiSports1.ae", "أبوظبي الرياضية 1", "Abu Dhabi Sports 1", "sports", None),
-    ("abudhabi-sports-2", "AbuDhabiSports2.ae", "أبوظبي الرياضية 2", "Abu Dhabi Sports 2", "sports", None),
-    ("abudhabi-sports-3", "AbuDhabiSports3.ae", "أبوظبي الرياضية 3", "Abu Dhabi Sports 3", "sports", None),
-    ("abudhabi-sports-4", "AbuDhabiSports4.ae", "أبوظبي الرياضية 4", "Abu Dhabi Sports 4", "sports", None),
-    ("yas-tv", "YasTV.ae", "ياس", "Yas TV", "sports", None),
-    ("dubai-sports-1", "DubaiSports1.ae", "دبي الرياضية 1", "Dubai Sports 1", "sports", None),
-    ("dubai-sports-2", "DubaiSports2.ae", "دبي الرياضية 2", "Dubai Sports 2", "sports", None),
-    ("dubai-sports-3", "DubaiSports3.ae", "دبي الرياضية 3", "Dubai Sports 3", "sports", None),
-    ("dubai-racing", "DubaiRacing.ae", "دبي ريسينج", "Dubai Racing", "sports", None),
-    ("dubai-racing-2", "DubaiRacing2.ae", "دبي ريسينج 2", "Dubai Racing 2", "sports", None),
-    ("dubai-mubasher", "DubaiRacing3.ae", "دبي مباشر", "Dubai Mubasher", "sports", None),
-    ("sharjah-sports", "SharjahSports.ae", "الشارقة الرياضية", "Sharjah Sports", "sports", None),
     ("ktv-sport", "KTVSport.kw", "الكويت الرياضية", "KTV Sport", "sports", None),
     ("ktv-sport-plus", "KTVSportPlus.kw", "الكويت الرياضية بلس", "KTV Sport Plus", "sports", None),
     ("bahrain-sports-1", "BahrainSports1.bh", "البحرين الرياضية 1", "Bahrain Sports 1", "sports", None),
@@ -159,9 +154,7 @@ SELECTION: list[tuple[str, str, str, str, str, str | None]] = [
     ("alkass-2", "AlkassTwo.qa", "الكأس 2", "Alkass Two", "sports", None),
     ("alkass-3", "AlkassThree.qa", "الكأس 3", "Alkass Three", "sports", 'alkass3-p'),
     ("alkass-4", "AlkassFour.qa", "الكأس 4", "Alkass Four", "sports", None),
-    ("alkass-5", "AlkassFive.qa", "الكأس 5", "Alkass Five", "sports", None),
     ("alkass-6", "AlkassSix.qa", "الكأس 6", "Alkass Six", "sports", None),
-    ("alkass-7", "AlkassSeven.qa", "الكأس 7", "Alkass Seven", "sports", None),
     ("alkass-shoof", "AlkassSHOOF.qa", "شوف", "Alkass Shoof", "sports", None),
     ("alkass-shoof-2", "AlkassSHOOF2.qa", "شوف 2", "Alkass Shoof 2", "sports", None),
 
@@ -174,7 +167,6 @@ SELECTION: list[tuple[str, str, str, str, str, str | None]] = [
     ("oman-cultural", "OmanTVCultural.om", "عمان الثقافية", "Oman TV Cultural", "docs", None),
     ("ktv-arabe", "KTVArabe.kw", "الكويت العربي", "KTV Arabe", "docs", None),
     ("story-channel", "StoryChannelTV.ma", "ستوري", "Story Channel", "docs", None),
-    ("natgeo-abudhabi", "NationalGeographicAbuDhabi.ae", "ناشيونال جيوغرافيك أبوظبي", "Nat Geo Abu Dhabi", "docs", None),
 
     # ----------------------------------------------------------- religious
     ("quran-ksa", "HolyQuranRadio.sa", "القرآن الكريم", "Saudi Quran TV", "religion", "kwikmotion"),
@@ -186,10 +178,7 @@ SELECTION: list[tuple[str, str, str, str, str, str | None]] = [
     ("iqraa-quran", "IqraaQuran.sa", "إقرأ القرآن", "Iqraa Quran", "religion", None),
     ("ktv-ethraa", "KTVEthraa.kw", "الكويت إثراء", "KTV Ethraa", "religion", None),
     ("alistiqama", "AlistiqamaTV.om", "الاستقامة", "Al Istiqama TV", "religion", None),
-    ("noor-dubai", "NoorDubai.ae", "نور دبي", "Noor Dubai", "religion", None),
-    ("ahl-alquran", "AhlAlquranTV.sa", "أهل القرآن", "Ahl Al Quran TV", "religion", None),
     ("ktv-alqurain", "KTVAlQurain.kw", "القرين", "KTV Al Qurain", "religion", None),
-    ("makkah-tv", "MakkahTV.sa", "مكة", "Makkah TV", "religion", None),
     ("almaaref", "AlMaarefTV.qa", "المعارف", "Al Maaref TV", "religion", None),
 
     # ---------------------------------------------------------------- kids
@@ -199,7 +188,6 @@ SELECTION: list[tuple[str, str, str, str, str, str | None]] = [
     ("roya-kids-originals", "RoyaKidsOriginals.jo", "رؤيا كيدز أوريجينالز", "Roya Kids Originals", "kids", None),
     ("taha", "TahaTV.lb", "طه", "Taha TV", "kids", None),
     ("atfal-mawaheb", "AtfalMawahebTV.sa", "أطفال ومواهب", "Atfal Mawaheb", "kids", None),
-    ("majid", "Majid.ae", "ماجد", "Majid", "kids", None),
     ("cartoon-network-arabic", "CartoonNetworkArabic.ae", "كرتون نتورك بالعربية", "Cartoon Network Arabic", "kids", None),
 ]
 
