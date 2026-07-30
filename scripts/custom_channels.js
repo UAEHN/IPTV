@@ -5,10 +5,10 @@
 // one instead of coming from an automated upstream list. They are still subject
 // to the liveness check in validate_streams.js.
 //
-// Most of the block below is state / government broadcasters from the Gulf and
-// the Levant whose official streams are missing from the upstream iptv-org
-// lists (Abu Dhabi Media, Dubai Media Incorporated, Sharjah Media, Kuwait
-// Ministry of Information, JRTV/Al Mamlaka, Tele Liban).
+// Most of the block below is Gulf and Levant channels whose streams are missing
+// from the upstream iptv-org lists: state broadcasters (Abu Dhabi Media, Dubai
+// Media Incorporated, Sharjah Media, Kuwait Ministry of Information,
+// JRTV/Al Mamlaka, Tele Liban) plus a few private Gulf channels.
 
 const CUSTOM_CHANNELS = [
     // ---------------------------------------------------------------
@@ -73,6 +73,22 @@ const CUSTOM_CHANNELS = [
         id: 'AbuDhabiSports2.ae',
         logo: 'https://i.imgur.com/y1I2jFK.png',
         name: 'Abu Dhabi Sports 2',
+        _country: 'ae',
+        _catId: 'sports'
+    },
+    {
+        url: 'https://admdn3.cdn.mangomolo.com/adsports3/smil:adsports3.stream.smil/playlist.m3u8',
+        id: 'AbuDhabiSports3.ae',
+        logo: 'https://i.imgur.com/LfBQkeq.png',
+        name: 'Abu Dhabi Sports 3',
+        _country: 'ae',
+        _catId: 'sports'
+    },
+    {
+        url: 'https://admdn4ta.cdn.mgmlcdn.com/adsports4/smil:adsports4.stream.smil/playlist.m3u8',
+        id: 'AbuDhabiSports4.ae',
+        logo: 'https://i.imgur.com/65IINZo.png',
+        name: 'Abu Dhabi Sports 4',
         _country: 'ae',
         _catId: 'sports'
     },
@@ -205,7 +221,65 @@ const CUSTOM_CHANNELS = [
     },
 
     // ---------------------------------------------------------------
-    // 🇰🇼 Kuwait — Ministry of Information
+    // 🇦🇪 UAE — other Emirati broadcasters
+    // ---------------------------------------------------------------
+    {
+        url: 'https://shls-live-ak.akamaized.net/out/v1/dfbdea4c1bf149629764e58c6ff314c8/index.m3u8',
+        id: 'AlAanTV.ae',
+        logo: 'https://i.imgur.com/Jl9Uw8N.png',
+        name: 'Al Aan TV | الآن',
+        _country: 'ae',
+        _catId: 'news'
+    },
+    {
+        url: 'http://live.aldafrah.tv:1935/live/myStream3/playlist.m3u8',
+        id: 'AlDafrahTV.ae',
+        logo: 'https://i.imgur.com/sOMOe9t.png',
+        name: 'Al Dafrah TV | الظفرة',
+        _country: 'ae',
+        _catId: 'general'
+    },
+    {
+        // MENA feed, distributed out of Dubai.
+        url: 'https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8',
+        id: 'CartoonNetworkArabic.ae',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_Arabic_logo.png/960px-Cartoon_Network_Arabic_logo.png',
+        name: 'Cartoon Network Arabic',
+        _country: 'ae',
+        _catId: 'kids'
+    },
+
+    // ---------------------------------------------------------------
+    // 🇸🇦 Saudi Arabia
+    // ---------------------------------------------------------------
+    {
+        url: 'https://mn-nl.mncdn.com/khalij/khalij/playlist.m3u8',
+        id: 'AlKhalijTV.sa',
+        logo: 'https://i.imgur.com/Knd2lAQ.png',
+        name: 'Al Khalij TV | الخليج',
+        _country: 'sa',
+        _catId: 'general'
+    },
+    {
+        // Name is expanded to Arabic by CHANNEL_NAME_MAP ('MBC Max').
+        url: 'https://shls-mbcmax-prod-dub.shahid.net/out/v1/13815a7cda864c249a88c38e66a2e653/index.m3u8',
+        id: 'MBCMax.sa',
+        logo: 'https://i.imgur.com/A02CptP.png',
+        name: 'MBC Max',
+        _country: 'sa',
+        _catId: 'movies'
+    },
+    {
+        url: 'https://59355e6c6462b.streamlock.net/quran/ngrp:ahul_all/playlist.m3u8',
+        id: 'AhlAlquranTV.sa',
+        logo: 'https://i.imgur.com/xeQvi2z.png',
+        name: 'Ahl Al Quran TV',
+        _country: 'sa',
+        _catId: 'religious'
+    },
+
+    // ---------------------------------------------------------------
+    // 🇰🇼 Kuwait
     // ---------------------------------------------------------------
     {
         // Broadcasts the sessions of the National Assembly (مجلس الأمة).
@@ -215,6 +289,14 @@ const CUSTOM_CHANNELS = [
         name: 'KTV Al Majlis | تلفزيون الكويت المجلس',
         _country: 'kw',
         _catId: 'news'
+    },
+    {
+        url: 'https://svs.itworkscdn.net/alraitvlive/alraitv.smil/playlist.m3u8',
+        id: 'AlraiTV.kw',
+        logo: 'https://i.imgur.com/ZohZFuq.png',
+        name: 'Alrai TV | الراي',
+        _country: 'kw',
+        _catId: 'general'
     },
 
     // ---------------------------------------------------------------
