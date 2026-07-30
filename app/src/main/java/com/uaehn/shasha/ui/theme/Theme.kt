@@ -153,6 +153,16 @@ val LocalMetrics: ProvidableCompositionLocal<Metrics> =
 val LocalTypography: ProvidableCompositionLocal<ShashaTypography> =
     staticCompositionLocalOf { ShashaTypography(1f) }
 
+/**
+ * Whether the UI is currently reading Arabic. Channel and category names come
+ * from the catalog rather than from string resources, so they need this to pick
+ * which of the two names to lead with.
+ */
+val LocalArabic: ProvidableCompositionLocal<Boolean> = staticCompositionLocalOf { true }
+
+val isArabicUi: Boolean
+    @Composable @ReadOnlyComposable get() = LocalArabic.current
+
 /** Shorthand so screens read `Type.section` rather than `LocalTypography.current.section`. */
 val Type: ShashaTypography
     @Composable @ReadOnlyComposable get() = LocalTypography.current
@@ -167,7 +177,7 @@ fun Context.isTelevision(): Boolean {
 }
 
 @Composable
-fun ShashaTheme(content: @Composable () -> Unit) {
+fun ShashaTheme(arabic: Boolean = true, content: @Composable () -> Unit) {
     val context = LocalContext.current
     val config = LocalConfiguration.current
     val isTv = remember(context) { context.isTelevision() }
@@ -181,6 +191,7 @@ fun ShashaTheme(content: @Composable () -> Unit) {
     CompositionLocalProvider(
         LocalMetrics provides metrics,
         LocalTypography provides typography,
+        LocalArabic provides arabic,
         content = content,
     )
 }

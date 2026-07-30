@@ -58,6 +58,7 @@ import com.uaehn.shasha.ui.components.IconAction
 import com.uaehn.shasha.ui.components.LiveBadge
 import com.uaehn.shasha.ui.components.pressable
 import com.uaehn.shasha.ui.theme.Palette
+import com.uaehn.shasha.ui.theme.isArabicUi
 import com.uaehn.shasha.ui.theme.Type
 
 /**
@@ -222,6 +223,7 @@ private fun TopBar(
     onToggleFavorite: () -> Unit,
     onNextSource: () -> Unit,
 ) {
+    val arabic = isArabicUi
     Column(Modifier.fillMaxWidth().background(Palette.Scrim)) {
         Row(
             Modifier
@@ -235,7 +237,7 @@ private fun TopBar(
 
             Column(Modifier.weight(1f)) {
                 Text(
-                    channel.ar,
+                    channel.name(arabic),
                     style = Type.title,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis,
@@ -243,8 +245,9 @@ private fun TopBar(
                 Spacer(Modifier.height(2.dp))
                 Text(
                     listOfNotNull(
-                        channel.en.takeIf { it.isNotBlank() },
-                        channel.countryAr.takeIf { it.isNotBlank() },
+                        channel.subtitle(arabic).takeIf { it.isNotBlank() },
+                        (if (arabic) channel.countryAr else channel.country)
+                            .takeIf { it.isNotBlank() },
                         sourceLabel.takeIf { it.isNotBlank() },
                     ).joinToString("  ·  "),
                     style = Type.meta,
@@ -338,8 +341,10 @@ private fun ErrorPanel(
             Text(stringResource(R.string.player_error_title), style = Type.title)
             Spacer(Modifier.height(6.dp))
             Text(
-                listOfNotNull(channel.ar, sourceLabel.takeIf { it.isNotBlank() })
-                    .joinToString("  ·  "),
+                listOfNotNull(
+                    channel.name(isArabicUi),
+                    sourceLabel.takeIf { it.isNotBlank() },
+                ).joinToString("  ·  "),
                 style = Type.meta,
             )
             Spacer(Modifier.height(26.dp))

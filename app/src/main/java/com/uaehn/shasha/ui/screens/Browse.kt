@@ -37,6 +37,7 @@ import com.uaehn.shasha.ui.components.ChannelTile
 import com.uaehn.shasha.ui.components.FilterChip
 import com.uaehn.shasha.ui.components.SectionHeader
 import com.uaehn.shasha.ui.theme.Dims
+import com.uaehn.shasha.ui.theme.isArabicUi
 import com.uaehn.shasha.ui.theme.Palette
 import com.uaehn.shasha.ui.theme.Type
 
@@ -54,6 +55,7 @@ fun BrowseScreen(
     modifier: Modifier = Modifier,
 ) {
     val dims = Dims
+    val arabic = isArabicUi
     var filter by rememberSaveable { mutableStateOf(ALL) }
 
     val channels = remember(state.catalog, filter) {
@@ -83,7 +85,7 @@ fun BrowseScreen(
                 )
                 state.catalog.categories.forEach { category ->
                     FilterChip(
-                        label = category.ar,
+                        label = category.label(arabic),
                         selected = filter == category.id,
                         onClick = { filter = category.id },
                     )

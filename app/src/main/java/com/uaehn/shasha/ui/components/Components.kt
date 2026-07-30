@@ -46,6 +46,7 @@ import coil.compose.SubcomposeAsyncImage
 import com.uaehn.shasha.data.Channel
 import com.uaehn.shasha.ui.ShashaIcons
 import com.uaehn.shasha.ui.theme.Dims
+import com.uaehn.shasha.ui.theme.isArabicUi
 import com.uaehn.shasha.ui.theme.Palette
 import com.uaehn.shasha.ui.theme.Type
 
@@ -205,9 +206,10 @@ fun ChannelTile(
  */
 @Composable
 fun ChannelArtwork(channel: Channel, modifier: Modifier = Modifier) {
+    val arabic = isArabicUi
     SubcomposeAsyncImage(
         model = channel.logoModel,
-        contentDescription = channel.ar,
+        contentDescription = channel.name(arabic),
         contentScale = ContentScale.Fit,
         modifier = modifier,
         loading = { Box(Modifier.fillMaxSize()) },
@@ -217,10 +219,11 @@ fun ChannelArtwork(channel: Channel, modifier: Modifier = Modifier) {
 
 @Composable
 private fun Monogram(channel: Channel) {
+    val arabic = isArabicUi
     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(
-                channel.ar,
+                channel.name(arabic),
                 style = Type.title,
                 maxLines = 2,
                 overflow = TextOverflow.Ellipsis,

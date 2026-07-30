@@ -32,15 +32,28 @@ data class Channel(
      * channel added after the APK was built.
      */
     val logo: String = "",
+    /**
+     * False when the catalog shipped a source that could not be confirmed live
+     * at build time. Kept so a future build can surface it rather than
+     * pretending every channel is equally reliable.
+     */
+    val verified: Boolean = true,
 ) {
     val assetLogo: String get() = "file:///android_asset/logos/$id.webp"
+
+    /** Primary name in the reading language, with the other as the subtitle. */
+    fun name(arabic: Boolean): String = if (arabic) ar else en.ifBlank { ar }
+
+    fun subtitle(arabic: Boolean): String = if (arabic) en else ar
 
     /** What the logo loader should try, in order. */
     val logoModel: String get() = logo.ifEmpty { assetLogo }
 }
 
 @Serializable
-data class Category(val id: String, val ar: String, val en: String)
+data class Category(val id: String, val ar: String, val en: String) {
+    fun label(arabic: Boolean): String = if (arabic) ar else en.ifBlank { ar }
+}
 
 @Serializable
 data class Catalog(

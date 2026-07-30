@@ -59,7 +59,7 @@ class MainActivity : ComponentActivity() {
         // Live TV: the screen must not dim while a channel is on.
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
 
-        setContent { ShashaTheme { ShashaRoot(::persistLanguage) } }
+        setContent { ShashaRoot(::persistLanguage) }
     }
 
     /**
@@ -130,7 +130,8 @@ private fun ShashaRoot(onLanguageChosen: (AppLanguage) -> Unit) {
         navigator.push(Destination.Player(last.id, state.recents))
     }
 
-    CompositionLocalProvider(LocalLayoutDirection provides direction) {
+    ShashaTheme(arabic = state.settings.language == AppLanguage.Arabic) {
+      CompositionLocalProvider(LocalLayoutDirection provides direction) {
         Box(Modifier.fillMaxSize().background(Palette.Ink)) {
             when (val current = navigator.current) {
                 is Destination.Player -> {
@@ -204,4 +205,5 @@ private fun ShashaRoot(onLanguageChosen: (AppLanguage) -> Unit) {
             }
         }
     }
+  }
 }

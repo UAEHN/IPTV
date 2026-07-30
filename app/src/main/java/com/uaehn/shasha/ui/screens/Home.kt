@@ -42,6 +42,7 @@ import com.uaehn.shasha.ui.components.LiveBadge
 import com.uaehn.shasha.ui.components.Rail
 import com.uaehn.shasha.ui.components.pressable
 import com.uaehn.shasha.ui.theme.Dims
+import com.uaehn.shasha.ui.theme.isArabicUi
 import com.uaehn.shasha.ui.theme.Palette
 import com.uaehn.shasha.ui.theme.Type
 
@@ -59,6 +60,7 @@ fun HomeScreen(
     modifier: Modifier = Modifier,
 ) {
     val dims = Dims
+    val arabic = isArabicUi
     val catalog = state.catalog
     val recents = state.recentChannels
     val resume = recents.firstOrNull()
@@ -94,7 +96,7 @@ fun HomeScreen(
             item("resume") {
                 NowPanel(
                     channel = resume,
-                    categoryLabel = catalog.category(resume.cat)?.ar.orEmpty(),
+                    categoryLabel = catalog.category(resume.cat)?.label(arabic).orEmpty(),
                     onClick = { onOpen(resume, recents) },
                     modifier = Modifier.padding(horizontal = dims.gutter),
                 )
@@ -130,7 +132,7 @@ fun HomeScreen(
             val category = catalog.categories[index]
             val channels = catalog.inCategory(category.id)
             Rail(
-                title = category.ar,
+                title = category.label(arabic),
                 channels = channels,
                 favorites = state.favorites,
                 onOpen = { onOpen(it, channels) },
@@ -189,12 +191,18 @@ private fun NowPanel(
         Column(Modifier.weight(1f)) {
             LiveBadge(stringResource(R.string.live))
             Spacer(Modifier.height(9.dp))
-            Text(channel.ar, style = Type.title, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(
+                channel.name(isArabicUi),
+                style = Type.title,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
             Spacer(Modifier.height(3.dp))
             Text(
                 listOfNotNull(
                     categoryLabel.takeIf { it.isNotBlank() },
-                    channel.countryAr.takeIf { it.isNotBlank() },
+                    channel.countryAr.takeIf { it.isNotBlank() && isArabicUi },
+                    channel.country.takeIf { it.isNotBlank() && !isArabicUi },
                 ).joinToString("  ·  "),
                 style = Type.meta,
                 maxLines = 1,

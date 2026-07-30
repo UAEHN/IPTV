@@ -15,11 +15,6 @@
     <string name="section_all">All channels</string>
 
     <string name="cat_all">All</string>
-    <string name="cat_news">News</string>
-    <string name="cat_general">General</string>
-    <string name="cat_religion">Religious</string>
-    <string name="cat_kids">Kids</string>
-    <string name="cat_docs">Documentary</string>
 
     <string name="live">LIVE</string>
     <string name="watch">Watch</string>
@@ -30,13 +25,10 @@
     <string name="search_empty">No results</string>
     <string name="favorites_empty_title">No favorites yet</string>
     <string name="favorites_empty_body">Long-press any channel to pin it here.</string>
-
-    <string name="player_connecting">Connecting…</string>
     <string name="player_buffering">Buffering…</string>
     <string name="player_error_title">Channel unavailable</string>
     <string name="player_retry">Retry</string>
     <string name="player_next_source">Try another source</string>
-    <string name="player_source">Source</string>
 
     <string name="settings_playback">Playback</string>
     <string name="settings_catalog">Channel guide</string>

@@ -19,11 +19,6 @@
     <string name="section_all">كل القنوات</string>
 
     <string name="cat_all">الكل</string>
-    <string name="cat_news">أخبار</string>
-    <string name="cat_general">عام</string>
-    <string name="cat_religion">قنوات دينية</string>
-    <string name="cat_kids">أطفال</string>
-    <string name="cat_docs">وثائقية</string>
 
     <string name="live">مباشر</string>
     <string name="watch">مشاهدة</string>
@@ -34,13 +29,10 @@
     <string name="search_empty">لا توجد نتائج</string>
     <string name="favorites_empty_title">لا توجد قنوات مفضلة</string>
     <string name="favorites_empty_body">اضغط مطوّلاً على أي قناة لإضافتها هنا.</string>
-
-    <string name="player_connecting">جارٍ الاتصال…</string>
     <string name="player_buffering">جارٍ التحميل…</string>
     <string name="player_error_title">تعذّر تشغيل القناة</string>
     <string name="player_retry">إعادة المحاولة</string>
     <string name="player_next_source">مصدر آخر</string>
-    <string name="player_source">المصدر</string>
 
     <string name="settings_playback">التشغيل</string>
     <string name="settings_catalog">دليل القنوات</string>
