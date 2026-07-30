@@ -1,11 +1,14 @@
 package com.uaehn.shasha.ui.player
 
+import android.app.Activity
 import android.view.ViewGroup
+import android.view.WindowManager
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.border
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -31,6 +34,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -88,7 +92,7 @@ fun PlayerScreen(
     val state = controller.state
     val focusRequester = remember { FocusRequester() }
 
-    LaunchedEffect(channel.id) { controller.play(channel) }
+    LaunchedEffect(controller, channel.id) { controller.play(channel) }
 
     // Playback must stop when the app goes to the background: a live stream
     // left running is a data bill, and audio-only TV is not a feature anyone
@@ -107,6 +111,14 @@ fun PlayerScreen(
     }
 
     LaunchedEffect(Unit) { focusRequester.requestFocus() }
+
+    // The screen must not dim during a channel, but holding the flag for the
+    // whole app would burn battery while someone browses the grid.
+    val window = (LocalContext.current as? Activity)?.window
+    DisposableEffect(window) {
+        window?.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        onDispose { window?.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON) }
+    }
 
     val index = queue.indexOfFirst { it.id == channel.id }
     fun step(delta: Int) {
@@ -157,6 +169,19 @@ fun PlayerScreen(
             modifier = Modifier.fillMaxSize(),
         )
 
+        // Tap-to-toggle sits directly above the video and below every control,
+        // so it never swallows a tap meant for a button. Not focusable: the
+        // outer Box owns D-pad focus.
+        Box(
+            Modifier
+                .fillMaxSize()
+                .clickable(
+                    interactionSource = remember { MutableInteractionSource() },
+                    indication = null,
+                    onClick = controller::toggleControls,
+                ),
+        )
+
         if (state.error != null) {
             ErrorPanel(
                 channel = channel,
@@ -200,16 +225,6 @@ fun PlayerScreen(
                 onNext = { step(1) },
             )
         }
-
-        // A tap anywhere that is not a control toggles the overlay.
-        Box(
-            Modifier
-                .fillMaxSize()
-                .pressable(
-                    onClick = controller::toggleControls,
-                    interaction = remember { MutableInteractionSource() },
-                ),
-        )
     }
 }
 

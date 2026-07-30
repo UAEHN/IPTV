@@ -1158,16 +1158,9 @@
    "verified": true,
    "sources": [
     {
-     "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
-     "label": "HD"
-    },
-    {
-     "url": "https://cdn-globecast.akamaized.net/live/eds/al_quran_al_kareem/hls_roku/index.m3u8",
-     "label": "Backup"
-    },
-    {
      "url": "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8",
-     "label": "Backup"
+     "label": "HD",
+     "referer": true
     }
    ]
   },

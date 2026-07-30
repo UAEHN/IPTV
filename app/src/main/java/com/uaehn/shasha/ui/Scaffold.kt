@@ -31,6 +31,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.focus.focusGroup
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -99,6 +100,8 @@ private fun NavRail(selected: Destination, onSelect: (Destination) -> Unit) {
             .width(width)
             .fillMaxHeight()
             .background(Palette.InkRaised)
+            .focusGroup()
+            .onFocusChanged { anyFocused = it.hasFocus }
             .statusBarsPadding()
             .padding(vertical = 24.dp),
         verticalArrangement = Arrangement.spacedBy(6.dp),
@@ -114,7 +117,6 @@ private fun NavRail(selected: Destination, onSelect: (Destination) -> Unit) {
                 spec = spec,
                 selected = spec.destination == selected,
                 expanded = anyFocused,
-                onFocusChanged = { focused -> if (focused) anyFocused = true },
                 onClick = { onSelect(spec.destination) },
             )
         }
@@ -126,7 +128,6 @@ private fun RailItem(
     spec: TabSpec,
     selected: Boolean,
     expanded: Boolean,
-    onFocusChanged: (Boolean) -> Unit,
     onClick: () -> Unit,
 ) {
     val interaction = remember { MutableInteractionSource() }
@@ -149,7 +150,6 @@ private fun RailItem(
             .clip(shape)
             .background(background)
             .pressable(onClick = onClick, interaction = interaction)
-            .onFocusChanged { onFocusChanged(it.isFocused) }
             .padding(horizontal = 14.dp, vertical = 13.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {

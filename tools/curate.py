@@ -43,17 +43,16 @@ COUNTRY_AR = {
 }
 
 # (our id, iptv-org id, Arabic name, English name, category, URL must contain)
-# Extra endpoints appended ahead of the probed ones. Saudi Broadcasting delivers
-# Al Ekhbariya and Al Sunnah from cdn-globecast under /live/eds/<slug>/, so the
-# Quran channel almost certainly sits beside them; the probed kwikmotion feed is
-# the radio simulcast and is kept only as a fallback. The health check confirms
-# or drops these on the next run.
-EXTRA_SOURCES: dict[str, list[str]] = {
-    "quran-ksa": [
-        "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
-        "https://cdn-globecast.akamaized.net/live/eds/al_quran_al_kareem/hls_roku/index.m3u8",
-    ],
-}
+# Extra endpoints appended ahead of the probed ones. Empty: the guess that
+# Saudi Broadcasting also serves the Quran channel from cdn-globecast under
+# /live/eds/<slug>/ beside Al Ekhbariya and Al Sunnah was tested and wrong —
+# `saudi_quran` 404s and `al_quran_al_kareem` 403s.
+EXTRA_SOURCES: dict[str, list[str]] = {}
+
+# Channels whose CDN only answers when the request carries a Referer and Origin
+# from the broadcaster's own page. The health check reports which sources needed
+# it; the app then sends the same headers for them.
+NEEDS_REFERER = {"quran-ksa"}
 
 SELECTION: list[tuple[str, str, str, str, str, str | None]] = [
     # ---------------------------------------------------------------- news
@@ -188,7 +187,7 @@ def main() -> None:
                 {
                     "url": e["url"],
                     "label": "HD" if (i == 0 and cid not in EXTRA_SOURCES) else "Backup",
-                    **({"referer": True} if e.get("referer") else {}),
+                    **({"referer": True} if e.get("referer") or cid in NEEDS_REFERER else {}),
                 }
                 for i, e in enumerate(chosen)
             ],

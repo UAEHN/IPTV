@@ -35,7 +35,6 @@
             android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="fullUser"
-            android:supportsPictureInPicture="true"
             android:resizeableActivity="true"
             android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation|uiMode|density"
             android:theme="@style/Theme.Shasha"
