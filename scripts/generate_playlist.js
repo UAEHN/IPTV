@@ -166,15 +166,19 @@ async function main() {
 
     const addToMap = (list) => {
         list.forEach(ch => {
-            // Filter by Keywords (Rotana, etc.)
-            if (EXCLUDED_KEYWORDS.some(k => ch.name.includes(k) || ch.group.includes(k))) return;
+            // Curated entries from custom_channels.js are vetted by hand, so the
+            // filters below (which exist to tame the automated sources) don't apply.
+            if (!ch._custom) {
+                // Filter by Keywords (Rotana, etc.)
+                if (EXCLUDED_KEYWORDS.some(k => ch.name.includes(k) || ch.group.includes(k))) return;
 
-            // Filter by Blocked Regions (IR, TR, etc.)
-            const idLower = (ch.id || '').toLowerCase();
-            if (BLOCKED_REGIONS.some(r => idLower.includes(r))) return;
+                // Filter by Blocked Regions (IR, TR, etc.)
+                const idLower = (ch.id || '').toLowerCase();
+                if (BLOCKED_REGIONS.some(r => idLower.includes(r))) return;
 
-            // SPECIAL FILTER: Remove "Al Iraqia" (General/Drama/Sports) but KEEP "Al Iraqia News"
-            if (ch.name.includes('Al Iraqia') && !ch.name.includes('News')) return;
+                // SPECIAL FILTER: Remove "Al Iraqia" (General/Drama/Sports) but KEEP "Al Iraqia News"
+                if (ch.name.includes('Al Iraqia') && !ch.name.includes('News')) return;
+            }
 
             if (!streamMap.has(ch.url)) {
                 streamMap.set(ch.url, ch);
