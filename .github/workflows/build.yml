@@ -65,7 +65,6 @@ jobs:
       - name: Publish the rolling latest release
         env:
           GH_TOKEN: ${{ github.token }}
-          APK: ${{ steps.apk.outputs.path }}
           VERSION: ${{ steps.apk.outputs.version }}
         run: |
           count=$(python3 -c "import json;print(len(json.load(open('channels/channels.json'))['channels']))")
@@ -80,8 +79,17 @@ jobs:
 
           if gh release view latest >/dev/null 2>&1; then
             gh release edit latest --title "Shasha $VERSION" --notes-file notes.md
-            gh release upload latest "$APK" shasha.apk --clobber
+            gh release upload latest shasha.apk --clobber
+            # One asset only. Version-stamped copies from earlier builds would
+            # otherwise pile up on a release that is meant to mean "current";
+            # that copy lives on as this run's Actions artifact instead.
+            gh release view latest --json assets \
+              --jq '.assets[].name | select(. != "shasha.apk")' \
+            | while read -r stale; do
+                echo "removing stale asset $stale"
+                gh release delete-asset latest "$stale" --yes
+              done
           else
-            gh release create latest "$APK" shasha.apk \
+            gh release create latest shasha.apk \
               --title "Shasha $VERSION" --notes-file notes.md
           fi
