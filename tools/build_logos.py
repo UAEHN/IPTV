@@ -53,6 +53,7 @@ BRASS = (200, 164, 93, 255)
 # channel id -> path under countries/ in the tv-logos collection
 LOGO_SOURCES = {
     "aljazeera": "united-kingdom/aljazeera-uk.png",
+    "aljazeera-mubasher": "united-kingdom/aljazeera-uk.png",
     "alarabiya": "united-arab-emirates/al-arabiya-ae.png",
     "alhadath": "united-arab-emirates/al-arabiya-al-hadath-ae.png",
     "skynewsarabia": "world-middle-east/sky-news-arabia-mea.png",
@@ -61,18 +62,19 @@ LOGO_SOURCES = {
     "dw-arabic": "international/dw-int.png",
     "trt-arabi": "turkey/trt-arabi-tr.png",
     "cgtn-arabic": "international/cgtn-arabic-int.png",
+    "cnbc-arabia": "world-middle-east/cnbc-arabiya-mea.png",
     "mtv-lebanon": "lebanon/mtv-lebanon-lb.png",
-    "aljadeed": "lebanon/al-jadeed-lb.png",
-    "dubai-tv": "united-arab-emirates/dubai-tv-ae.png",
-    "sama-dubai": "united-arab-emirates/sama-dubai-ae.png",
-    "dubai-zaman": "united-arab-emirates/dubai-zaman-ae.png",
-    "abudhabi-tv": "united-arab-emirates/abu-dhabi-tv-ae.png",
-    "alemarat": "united-arab-emirates/al-emarat-tv-ae.png",
+    "otv-lebanon": "lebanon/otv-lb.png",
     "sharjah-tv": "united-arab-emirates/sharjah-tv-ae.png",
+    "sharjah-quran": "united-arab-emirates/sharjah-tv-ae.png",
     "qatar-tv": "united-arab-emirates/qatar-tv-ae.png",
-    "majid": "united-arab-emirates/majid-tv-ae.png",
-    "natgeo-abudhabi": "united-arab-emirates/national-geographic-abu-dhabi-ae.png",
-    "noor-dubai": "united-arab-emirates/noor-dubai-ae.png",
+    "alsaudiya": "united-arab-emirates/al-saudiya-ae.png",
+    "sbc": "united-arab-emirates/sbc-ae.png",
+    "mbc1": "united-arab-emirates/mbc-1-ae.png",
+    "mbc3": "united-arab-emirates/mbc-3-ae.png",
+    "mbc5": "united-arab-emirates/mbc-5-ae.png",
+    "mbc-masr": "united-arab-emirates/mbc-maser-ae.png",
+    "mbc-iraq": "united-arab-emirates/mbc-iraq-ae.png",
 }
 
 
