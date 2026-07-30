@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Default locale is Arabic on purpose: Shasha is an Arabic-first app, so any device
+  language that is not explicitly English falls back to Arabic rather than to English.
+-->
+<resources>
+    <string name="app_name">شاشة</string>
+
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_browse">القنوات</string>
+    <string name="nav_search">بحث</string>
+    <string name="nav_favorites">المفضلة</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <string name="home_greeting">شاشة</string>
+    <string name="home_tagline">قنوات عربية مباشرة</string>
+    <string name="section_continue">تابع المشاهدة</string>
+    <string name="section_favorites">المفضلة</string>
+    <string name="section_all">كل القنوات</string>
+
+    <string name="cat_all">الكل</string>
+    <string name="cat_news">أخبار</string>
+    <string name="cat_general">عام</string>
+    <string name="cat_religion">قنوات دينية</string>
+    <string name="cat_kids">أطفال</string>
+    <string name="cat_docs">وثائقية</string>
+
+    <string name="live">مباشر</string>
+    <string name="watch">مشاهدة</string>
+    <string name="add_favorite">إضافة إلى المفضلة</string>
+    <string name="remove_favorite">إزالة من المفضلة</string>
+
+    <string name="search_hint">ابحث عن قناة</string>
+    <string name="search_empty">لا توجد نتائج</string>
+    <string name="favorites_empty_title">لا توجد قنوات مفضلة</string>
+    <string name="favorites_empty_body">اضغط مطوّلاً على أي قناة لإضافتها هنا.</string>
+
+    <string name="player_connecting">جارٍ الاتصال…</string>
+    <string name="player_buffering">جارٍ التحميل…</string>
+    <string name="player_error_title">تعذّر تشغيل القناة</string>
+    <string name="player_retry">إعادة المحاولة</string>
+    <string name="player_next_source">مصدر آخر</string>
+    <string name="player_source">المصدر</string>
+
+    <string name="settings_playback">التشغيل</string>
+    <string name="settings_catalog">دليل القنوات</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_about">حول التطبيق</string>
+    <string name="settings_update_catalog">تحديث قائمة القنوات</string>
+    <string name="settings_updating">جارٍ التحديث…</string>
+    <string name="settings_channels_count">قناة</string>
+    <string name="settings_autoplay">تشغيل آخر قناة عند الفتح</string>
+    <string name="settings_buffer">حجم التخزين المؤقت</string>
+    <string name="settings_buffer_low">منخفض — بدء أسرع</string>
+    <string name="settings_buffer_normal">متوازن</string>
+    <string name="settings_buffer_high">مرتفع — اتصال ضعيف</string>
+    <string name="settings_clear_recents">مسح سجل المشاهدة</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_english">English</string>
+
+    <string name="about_legal_title">مصادر البث</string>
+    <string name="about_legal_body">يعرض هذا التطبيق فقط القنوات العربية المفتوحة التي تنشرها المحطات بنفسها للبث المباشر المجاني. لا يحتوي التطبيق على أي محتوى مشفّر أو مدفوع، ولا يفكّ حماية أي خدمة.</string>
+    <string name="about_version">الإصدار</string>
+</resources>

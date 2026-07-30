@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The mark is the Arabic letter ش (sheen) reduced to its skeleton: three teeth on a
+  connecting stroke, with the three dots in their traditional triangle above.
+  Geometry only, single brass tone, no gradient.
+
+  Keep in sync with draw_mark() in tools/gen_brand_assets.py, which renders the
+  same shape into the legacy launcher PNGs and the Android TV banner.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group android:translateY="4">
+        <!-- connecting stroke -->
+        <path
+            android:fillColor="#C8A45D"
+            android:pathData="M29,66 L83,66 A4,4 0 0,1 83,74 L29,74 A4,4 0 0,1 29,66 Z" />
+
+        <!-- three teeth -->
+        <path
+            android:fillColor="#C8A45D"
+            android:pathData="M30,48 A4,4 0 0,1 40,48 L40,68 L30,68 Z" />
+        <path
+            android:fillColor="#C8A45D"
+            android:pathData="M51,48 A4,4 0 0,1 61,48 L61,68 L51,68 Z" />
+        <path
+            android:fillColor="#C8A45D"
+            android:pathData="M72,48 A4,4 0 0,1 82,48 L82,68 L72,68 Z" />
+
+        <!-- three dots, triangular -->
+        <path
+            android:fillColor="#C8A45D"
+            android:pathData="M56,23 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 Z" />
+        <path
+            android:fillColor="#C8A45D"
+            android:pathData="M43,37 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 Z" />
+        <path
+            android:fillColor="#C8A45D"
+            android:pathData="M69,37 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 Z" />
+    </group>
+</vector>
