@@ -16,10 +16,11 @@ import re
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "app", "src", "main", "assets", "fonts")
+OUT = os.path.join(ROOT, "app", "src", "main", "res", "font")
 
 FAMILY = "IBM+Plex+Sans+Arabic"
-WEIGHTS = {400: "Regular", 500: "Medium", 600: "SemiBold", 700: "Bold"}
+# res/font/ filenames must be lowercase with underscores for aapt.
+WEIGHTS = {400: "regular", 500: "medium", 600: "semibold", 700: "bold"}
 # The CSS API picks a font format from the User-Agent. A bare "Mozilla/5.0" is old
 # enough that it is served plain TTF (what Android wants) rather than woff2, but
 # new enough that it is served the full family rather than an empty stylesheet.
@@ -52,7 +53,7 @@ def main() -> None:
 
     for weight, name in WEIGHTS.items():
         data = fetch(found[weight])
-        path = os.path.join(OUT, f"IBMPlexSansArabic-{name}.ttf")
+        path = os.path.join(OUT, f"plex_arabic_{name}.ttf")
         with open(path, "wb") as f:
             f.write(data)
         print(f"  {os.path.relpath(path, ROOT)}  {len(data) // 1024} KB")

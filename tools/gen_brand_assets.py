@@ -20,7 +20,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RES = os.path.join(ROOT, "app", "src", "main", "res")
-FONT_DIR = os.path.join(ROOT, "app", "src", "main", "assets", "fonts")
+FONT_DIR = os.path.join(ROOT, "app", "src", "main", "res", "font")
 
 INK = (14, 16, 19, 255)
 BRASS = (200, 164, 93, 255)
@@ -73,8 +73,8 @@ def launcher_icon(px: int, round_icon: bool) -> Image.Image:
 
 
 def pick_font(size: int) -> ImageFont.FreeTypeFont | None:
-    for name in ("IBMPlexSansArabic-SemiBold.ttf", "IBMPlexSansArabic-Bold.ttf",
-                 "IBMPlexSansArabic-Regular.ttf"):
+    for name in ("plex_arabic_semibold.ttf", "plex_arabic_bold.ttf",
+                 "plex_arabic_regular.ttf"):
         p = os.path.join(FONT_DIR, name)
         if os.path.exists(p):
             return ImageFont.truetype(p, size)
