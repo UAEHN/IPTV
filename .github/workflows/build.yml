@@ -32,6 +32,9 @@ jobs:
           git diff --exit-code -- app/src/main/assets/channels.json \
             || { echo "::error::app/src/main/assets/channels.json is stale; run tools/sync_catalog.py"; exit 1; }
 
+      - name: Unit tests
+        run: ./gradlew --no-daemon testReleaseUnitTest
+
       - name: Build release APK
         run: ./gradlew --no-daemon assembleRelease
 
