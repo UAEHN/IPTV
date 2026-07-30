@@ -50,10 +50,14 @@ PAPER = (243, 241, 236, 255)
 PAPER_DIM = (154, 161, 169, 255)
 BRASS = (200, 164, 93, 255)
 
-# channel id -> path under countries/ in the tv-logos collection
+# channel id -> path under countries/ in the tv-logos collection.
+#
+# A sibling channel never reuses its parent's logo: Al Jazeera Mubasher and
+# Sharjah Quran would have been visually identical to Al Jazeera and Sharjah TV
+# on the wall. They fall through to a wordmark instead, which actually names
+# them.
 LOGO_SOURCES = {
     "aljazeera": "united-kingdom/aljazeera-uk.png",
-    "aljazeera-mubasher": "united-kingdom/aljazeera-uk.png",
     "alarabiya": "united-arab-emirates/al-arabiya-ae.png",
     "alhadath": "united-arab-emirates/al-arabiya-al-hadath-ae.png",
     "skynewsarabia": "world-middle-east/sky-news-arabia-mea.png",
@@ -66,7 +70,6 @@ LOGO_SOURCES = {
     "mtv-lebanon": "lebanon/mtv-lebanon-lb.png",
     "otv-lebanon": "lebanon/otv-lb.png",
     "sharjah-tv": "united-arab-emirates/sharjah-tv-ae.png",
-    "sharjah-quran": "united-arab-emirates/sharjah-tv-ae.png",
     "qatar-tv": "united-arab-emirates/qatar-tv-ae.png",
     "alsaudiya": "united-arab-emirates/al-saudiya-ae.png",
     "sbc": "united-arab-emirates/sbc-ae.png",
@@ -217,6 +220,15 @@ def main() -> None:
 
     catalog = json.load(open(CATALOG, encoding="utf-8"))
     os.makedirs(OUT, exist_ok=True)
+
+    # Two channels sharing one logo file would render as indistinguishable
+    # tiles, which is worse than one of them being set as type.
+    seen: dict[str, str] = {}
+    for cid, rel in LOGO_SOURCES.items():
+        if rel in seen:
+            raise SystemExit(
+                f"{cid} and {seen[rel]} both map to {rel}; give one a wordmark instead")
+        seen[rel] = cid
 
     repo = args.repo
     tmp = None

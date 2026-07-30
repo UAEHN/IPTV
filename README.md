@@ -13,6 +13,19 @@ APK and sideload it.
 - **Arabic-first.** Right-to-left throughout, Arabic names lead, with English
   available from Settings.
 
+<table>
+<tr>
+<td width="34%"><img src="docs/preview-phone.png" alt="Phone home screen" /></td>
+<td><img src="docs/preview-tv.png" alt="TV channel grid" /></td>
+</tr>
+</table>
+
+> These two images are **layout mockups**, not screenshots. They are drawn by
+> `tools/gen_preview.py` from the same inputs the app uses — the palette values
+> from `Theme.kt`, the bundled font, the real artwork tiles, the real channel
+> names and the spacing from `Metrics` — so the design is accurate. They cannot
+> show live video or focus animation.
+
 ---
 
 ## Install it
@@ -205,6 +218,7 @@ not reuse it for anything that matters.
 | `tools/build_logos.py` | Rebuild the artwork tiles |
 | `tools/fetch_fonts.py` | Re-download the bundled fonts |
 | `tools/gen_brand_assets.py` | Regenerate launcher icons and the TV banner |
+| `tools/gen_preview.py` | Redraw the README mockups |
 
 After editing `channels/channels.json`, run `sync_catalog.py` and
 `build_logos.py` — the build fails if the bundled copy is stale.
