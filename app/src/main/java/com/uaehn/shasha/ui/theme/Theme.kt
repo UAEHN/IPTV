@@ -82,7 +82,7 @@ private val trim = LineHeightStyle(
  * pulls the joins apart and makes the type look broken.
  */
 @Immutable
-class ShashaTypography(scale: Float) {
+class ShashaTypography(private val scale: Float) {
     private fun style(
         size: Float,
         weight: FontWeight,
