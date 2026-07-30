@@ -1,0 +1,1604 @@
+{
+ "checked": "2026-07-30T08:21:22Z",
+ "note": "Probed from a GitHub runner. `blocked` means the CDN refused this datacentre, not that the channel is dead.",
+ "channels": {
+  "alarabiya": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
+     "ms": 383
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "media",
+     "variants": 0,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/alarabiapublish/alarabiya_1080p/chunks.m3u8",
+     "ms": 220
+    }
+   ]
+  },
+  "alarabiya-business": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8",
+     "ms": 323
+    }
+   ]
+  },
+  "alarabytv": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5616",
+     "ms": 570
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8",
+     "ms": 437
+    }
+   ]
+  },
+  "alekhbariya": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 2,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
+     "ms": 908
+    }
+   ]
+  },
+  "alghad": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8?sid=wdFIwvsLQki7LVqOaCUDEw",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8",
+     "ms": 1443
+    }
+   ]
+  },
+  "alhadath": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
+     "ms": 391
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
+     "ms": 212
+    }
+   ]
+  },
+  "alhiwar": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8",
+     "ms": 845
+    }
+   ]
+  },
+  "iraqia-news": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "media",
+     "variants": 0,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://imn-live.esite-lab.com/hls/iraqia-news.m3u8",
+     "ms": 831
+    }
+   ]
+  },
+  "aljazeera": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+     "ms": 434
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live-hls-apps-aja-v3-fa.getaj.net/AJA/index.m3u8",
+     "ms": 609
+    }
+   ]
+  },
+  "aljazeera-mubasher": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
+     "ms": 683
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live-hls-apps-ajm-v3-fa.getaj.net/AJM/index.m3u8",
+     "ms": 579
+    }
+   ]
+  },
+  "alsharqiya-news": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 1,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
+     "ms": 940
+    }
+   ]
+  },
+  "altaghier": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://jmc-live.ercdn.net/altaghier/altaghier.m3u8",
+     "ms": 1232
+    }
+   ]
+  },
+  "alyaum": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8",
+     "ms": 272
+    }
+   ]
+  },
+  "alhurra": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "variantUnverified (http 404)",
+     "kind": "master",
+     "variants": 8,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/merge.m3u8",
+     "ms": 198
+    },
+    {
+     "ok": true,
+     "reason": "variantUnverified (http 404)",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/master.m3u8",
+     "ms": 166
+    }
+   ]
+  },
+  "asharq": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live-news.asharq.com/asharq.m3u8",
+     "ms": 363
+    }
+   ]
+  },
+  "bbcarabic": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://vs-hls-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8",
+     "ms": 223
+    }
+   ]
+  },
+  "cgtn-arabic": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "variantUnverified (DNS: [Errno -2] Name or service not known)",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/octet-stream",
+     "snippet": "",
+     "referer": false,
+     "url": "https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8",
+     "ms": 806
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "media",
+     "variants": 0,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8",
+     "ms": 682
+    }
+   ]
+  },
+  "cnbc-arabia": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://cnbc-live.akamaized.net/cnbc/master.m3u8",
+     "ms": 480
+    }
+   ]
+  },
+  "dw-arabic": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 10,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
+     "ms": 233
+    }
+   ]
+  },
+  "france24-ar": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "media",
+     "variants": 0,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
+     "ms": 207
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "media",
+     "variants": 0,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8",
+     "ms": 128
+    }
+   ]
+  },
+  "medi1": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8",
+     "ms": 533
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8",
+     "ms": 1029
+    }
+   ]
+  },
+  "qbc": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8",
+     "ms": 615
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.kwikmotion.com/qbusinesslive/qbusiness.smil/playlist.m3u8",
+     "ms": 271
+    }
+   ]
+  },
+  "skynewsarabia": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8",
+     "ms": 356
+    }
+   ]
+  },
+  "syriatv": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=6017",
+     "ms": 460
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
+     "ms": 502
+    }
+   ]
+  },
+  "trt-arabi": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://tv-trtarabi.medya.trt.com.tr/master.m3u8",
+     "ms": 546
+    }
+   ]
+  },
+  "2m": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8",
+     "ms": 803
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://stream-lb.livemediama.com/2m/hls/master.m3u8",
+     "ms": 811
+    }
+   ]
+  },
+  "alaoula": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://stream-lb.livemediama.com/alaoula/hls/master.m3u8",
+     "ms": 711
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8",
+     "ms": 617
+    }
+   ]
+  },
+  "iraqia": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "media",
+     "variants": 0,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://imn-live.esite-lab.com/hls/iraqia-general.m3u8",
+     "ms": 606
+    }
+   ]
+  },
+  "alrayyan": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8",
+     "ms": 1148
+    }
+   ]
+  },
+  "alsaudiya": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
+     "ms": 687
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 2,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_tv/hls_roku/index.m3u8",
+     "ms": 939
+    }
+   ]
+  },
+  "alsharqiya": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 1,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8",
+     "ms": 877
+    }
+   ]
+  },
+  "alsouriya": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8",
+     "ms": 1136
+    }
+   ]
+  },
+  "amman-tv": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
+     "finalUrl": "https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8?sid=c1tftl1JlkaUHquFJVZiPg",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8",
+     "ms": 1358
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8",
+     "ms": 2258
+    }
+   ]
+  },
+  "bahrain-tv": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 2,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahraintvmain_all/playlist.m3u8",
+     "ms": 1428
+    }
+   ]
+  },
+  "watania1": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 1,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8",
+     "ms": 1363
+    }
+   ]
+  },
+  "jordan-tv": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8",
+     "ms": 1155
+    }
+   ]
+  },
+  "ktv1": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://kwtktv1ta.cdn.mangomolo.com/ktv1/smil:ktv1.stream.smil/chunklist.m3u8",
+     "ms": 769
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 2,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://cdn-globecast.akamaized.net/live/eds/kuwait_tv1/hls_roku/index.m3u8",
+     "ms": 707
+    }
+   ]
+  },
+  "libya-alwataniya": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 2,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://cdn-globecast.akamaized.net/live/eds/libya_al_watanya/hls_roku/index.m3u8",
+     "ms": 730
+    }
+   ]
+  },
+  "mbc1": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8",
+     "ms": 1254
+    }
+   ]
+  },
+  "mbc5": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8",
+     "ms": 1098
+    }
+   ]
+  },
+  "mbc-iraq": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8",
+     "ms": 913
+    }
+   ]
+  },
+  "mbc-masr": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
+     "ms": 741
+    }
+   ]
+  },
+  "mtv-lebanon": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mtv-lebanon/b8ebb2a5affb812f1541712adde10e26/index.m3u8",
+     "ms": 1157
+    }
+   ]
+  },
+  "otv-lebanon": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8",
+     "ms": 706
+    }
+   ]
+  },
+  "oman-tv": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://partneta.cdn.mgmlcdn.com/omantv/smil:omantv.stream.smil/chunklist.m3u8",
+     "ms": 466
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 2,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://cdn-globecast.akamaized.net/live/eds/oman_tv/hls_roku/index.m3u8",
+     "ms": 870
+    }
+   ]
+  },
+  "palestine-tv": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 2,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://cdn-globecast.akamaized.net/live/eds/palestinian_satellite_channel/hls_roku/palestinian_satellite_channel.m3u8",
+     "ms": 853
+    }
+   ]
+  },
+  "qatar-tv": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8",
+     "ms": 509
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8",
+     "ms": 1052
+    }
+   ]
+  },
+  "sbc": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8",
+     "ms": 1294
+    }
+   ]
+  },
+  "sharjah-tv": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8",
+     "ms": 272
+    }
+   ]
+  },
+  "sudan-tv": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 2,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8",
+     "ms": 739
+    }
+   ]
+  },
+  "thikrayat": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/8cfa8fe0c96275735745b89c683b27e3/index.m3u8",
+     "ms": 1218
+    }
+   ]
+  },
+  "alarabiya-programs": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8",
+     "ms": 200
+    }
+   ]
+  },
+  "aljazeera-documentary": {
+   "state": "blocked",
+   "sources": [
+    {
+     "ok": false,
+     "reason": "http 403",
+     "kind": "",
+     "variants": 0,
+     "class": "blocked",
+     "finalUrl": "",
+     "contentType": "text/plain",
+     "snippet": "Google-Edge-Cache: forbidden Error: 7",
+     "referer": false,
+     "url": "https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8",
+     "ms": 121
+    },
+    {
+     "ok": false,
+     "reason": "http 403",
+     "kind": "",
+     "variants": 0,
+     "class": "blocked",
+     "finalUrl": "",
+     "contentType": "text/plain",
+     "snippet": "Google-Edge-Cache: forbidden Error: 7",
+     "referer": false,
+     "url": "https://live-hls-web-ajd.getaj.net/AJD/index.m3u8",
+     "ms": 122
+    }
+   ]
+  },
+  "asharq-discovery": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8",
+     "ms": 450
+    }
+   ]
+  },
+  "asharq-documentary": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8",
+     "ms": 485
+    }
+   ]
+  },
+  "ktv-arabe": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://kwtktvata.cdn.mangomolo.com/ktva/smil:tktva.stream.smil/chunklist.m3u8",
+     "ms": 740
+    }
+   ]
+  },
+  "oman-cultural": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
+     "ms": 415
+    }
+   ]
+  },
+  "saudi-thaqafiya": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8",
+     "ms": 1280
+    }
+   ]
+  },
+  "story-channel": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "media",
+     "variants": 0,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://136044159.r.cdnsun.net/storychannel.m3u8",
+     "ms": 649
+    }
+   ]
+  },
+  "alistiqama": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 2,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
+     "ms": 1070
+    }
+   ]
+  },
+  "bahrain-quran": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 2,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8",
+     "ms": 1285
+    }
+   ]
+  },
+  "iqraa-quran": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8",
+     "ms": 777
+    }
+   ]
+  },
+  "iqraa": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8",
+     "ms": 740
+    }
+   ]
+  },
+  "ktv-ethraa": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://kwtethta.cdn.mangomolo.com/eth/smil:eth.stream.smil/chunklist.m3u8",
+     "ms": 531
+    }
+   ]
+  },
+  "qatar-quran": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8",
+     "ms": 957
+    }
+   ]
+  },
+  "quran-ksa": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 1,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8",
+     "ms": 423
+    }
+   ]
+  },
+  "sunnah-ksa": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 2,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+     "ms": 615
+    }
+   ]
+  },
+  "sharjah-quran": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8",
+     "ms": 613
+    }
+   ]
+  },
+  "atfal-mawaheb": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 1,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://5d658d7e9f562.streamlock.net/atfal1.com/atfal2/playlist.m3u8",
+     "ms": 822
+    },
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 1,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8",
+     "ms": 817
+    }
+   ]
+  },
+  "mbc3": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 6,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/x-mpegURL",
+     "snippet": "",
+     "referer": false,
+     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8",
+     "ms": 976
+    }
+   ]
+  },
+  "roya-kids": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 4,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids/playlist.m3u8",
+     "ms": 890
+    }
+   ]
+  },
+  "roya-kids-originals": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 5,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids-originals/playlist.m3u8",
+     "ms": 691
+    }
+   ]
+  },
+  "spacetoon": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8",
+     "ms": 2608
+    }
+   ]
+  },
+  "taha": {
+   "state": "ok",
+   "sources": [
+    {
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 1,
+     "class": "",
+     "finalUrl": "",
+     "contentType": "application/vnd.apple.mpegurl",
+     "snippet": "",
+     "referer": false,
+     "url": "https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8",
+     "ms": 843
+    }
+   ]
+  }
+ },
+ "summary": {
+  "total": 74,
+  "ok": 73,
+  "blocked": 1,
+  "dead": 0
+ }
+}
