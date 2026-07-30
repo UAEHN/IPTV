@@ -85,6 +85,8 @@ https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8
 https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="AlIraqiaNews.iq@SD" tvg-logo="https://i.imgur.com/feQTXeZ.jpg" group-title="📰 News | أخبار",Al Iraqia News
 https://imn-live.esite-lab.com/hls/iraqia-news.m3u8
+#EXTINF:-1 tvg-id="AlJanoubTV.iq@SD" tvg-logo="https://i.imgur.com/rxDh6W1.png" group-title="📰 News | أخبار",Al Janoub TV
+https://live.alissahost.net/hls/test.m3u8
 #EXTINF:-1 tvg-id="AlSharqiyaNews.iq@SD" tvg-logo="https://i.imgur.com/PeAcXB9.png" group-title="📰 News | أخبار",Al-Sharqiya News
 https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlghadeerTV.iq@SD" tvg-logo="https://i.imgur.com/YPj6kXq.png" group-title="📰 News | أخبار",Alghadeer TV
@@ -323,6 +325,8 @@ https://livefa.marjaeyattv.com/mtv_en/playlist.m3u8
 https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8
 #EXTINF:-1 tvg-id="MBCIraq.iq@SD" tvg-logo="https://i.imgur.com/D0LxiPE.png" group-title="🌍 General | منوعات",MBC Iraq | إم بي سي العراق
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
+#EXTINF:-1 tvg-id="SamarraTV.iq@SD" tvg-logo="https://i.imgur.com/7uQoIXi.png" group-title="🌍 General | منوعات",Samarra TV
+https://samarra.tv/proxy.php/hls/main3/playlist.m3u8
 #EXTINF:-1 tvg-id="AlerthAlnabawiChannel.jo@SD" tvg-logo="https://i.imgur.com/iYibJxK.png" group-title="🌍 General | منوعات",Alerth Alnabawi Channel
 http://82.212.74.2:8000/live/7307.m3u8
 #EXTINF:-1 tvg-id="AmmanTV.jo@SD" tvg-logo="https://i.imgur.com/5l7kw0b.png" group-title="🌍 General | منوعات",Amman TV
@@ -365,8 +369,6 @@ https://cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp:livestream_all/playl
 http://media.smc-host.com:1935/alhorreya.tv/mp4:alhorreya3/playlist.m3u8
 #EXTINF:-1 tvg-id="AlQamarTV.ae@SD" tvg-logo="https://i.imgur.com/zkBT0C8.png" group-title="🌍 General | منوعات",Al Qamar TV
 https://streamer3.premio.link/alqamar/playlist.m3u8
-#EXTINF:-1 tvg-id="AlFadyTV.us@SD" tvg-logo="https://i.imgur.com/7L0l0iY.png" group-title="🌍 General | منوعات",Al-Fady TV
-https://5d658d7e9f562.streamlock.net/alfadytv.tv/alfadytv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlHiwarTV.uk@SD" tvg-logo="https://i.imgur.com/UjOxwdd.png" group-title="🌍 General | منوعات",Alhiwar TV
 https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlkarmaTVAustralia.us@SD" tvg-logo="https://i.imgur.com/90ykspa.png" group-title="🌍 General | منوعات",Alkarma TV Australia
@@ -577,6 +579,8 @@ https://mediaserver.abnvideos.com/streams/abnsat.m3u8
 https://stream.afaq.iq/live/channel/afaqtv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlIraqiaNews.iq@SD" tvg-logo="https://i.imgur.com/feQTXeZ.jpg" group-title="🇮🇶 Iraq | العراق",Al Iraqia News
 https://imn-live.esite-lab.com/hls/iraqia-news.m3u8
+#EXTINF:-1 tvg-id="AlJanoubTV.iq@SD" tvg-logo="https://i.imgur.com/rxDh6W1.png" group-title="🇮🇶 Iraq | العراق",Al Janoub TV
+https://live.alissahost.net/hls/test.m3u8
 #EXTINF:-1 tvg-id="AlRasheedTV.iq@SD" tvg-logo="https://i.imgur.com/ltyRjPK.png" group-title="🇮🇶 Iraq | العراق",Al Rasheed TV
 https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8
 #EXTINF:-1 tvg-id="AlSharqiya.iq@SD" tvg-logo="https://i.imgur.com/mJIG5IV.png" group-title="🇮🇶 Iraq | العراق",Al Sharqiya
@@ -643,6 +647,8 @@ https://livefa.marjaeyattv.com/mtv_en/playlist.m3u8
 https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8
 #EXTINF:-1 tvg-id="MBCIraq.iq@SD" tvg-logo="https://i.imgur.com/D0LxiPE.png" group-title="🇮🇶 Iraq | العراق",MBC Iraq | إم بي سي العراق
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
+#EXTINF:-1 tvg-id="SamarraTV.iq@SD" tvg-logo="https://i.imgur.com/7uQoIXi.png" group-title="🇮🇶 Iraq | العراق",Samarra TV
+https://samarra.tv/proxy.php/hls/main3/playlist.m3u8
 #EXTINF:-1 tvg-id="ShamsTV.iq@SD" tvg-logo="https://www.semakurd.net/sites/default/files/imagecache/400xY/shemis-tv.jpg" group-title="🇮🇶 Iraq | العراق",Shams TV
 https://stream.shams.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlerthAlnabawiChannel.jo@SD" tvg-logo="https://i.imgur.com/iYibJxK.png" group-title="🇯🇴 Jordan | الأردن",Alerth Alnabawi Channel
