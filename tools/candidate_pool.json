@@ -1,0 +1,6291 @@
+{
+ "AjmanTV.ae": [
+  {
+   "cc": "ae",
+   "tid": "AjmanTV.ae@SD",
+   "name": "Ajman TV (1080p)",
+   "url": "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "AE",
+   "site": "https://www.ajmantv.com/"
+  }
+ ],
+ "Alarabiya.ae": [
+  {
+   "cc": "ae",
+   "tid": "Alarabiya.ae@SD",
+   "name": "Al Arabiya (1080p)",
+   "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "AE",
+   "site": "https://www.alarabiya.net/"
+  },
+  {
+   "cc": "ae",
+   "tid": "Alarabiya.ae@SD",
+   "name": "Alarabiya (1080p)",
+   "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/alarabiapublish/alarabiya_1080p/chunks.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "AE",
+   "site": "https://www.alarabiya.net/"
+  },
+  {
+   "cc": "ae",
+   "tid": "Alarabiya.ae@SD",
+   "name": "Alarabiya (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-alarabiya/7f90de73d777d04f3dada92f90d35c44/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "AE",
+   "site": "https://www.alarabiya.net/"
+  }
+ ],
+ "AlArabiyaBusiness.ae": [
+  {
+   "cc": "ae",
+   "tid": "AlArabiyaBusiness.ae@SD",
+   "name": "Al Arabiya Business (1080p)",
+   "url": "https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8",
+   "cats": [
+    "business"
+   ],
+   "country": "AE",
+   "site": "https://www.alarabiya.net/aswaq"
+  }
+ ],
+ "AlArabiyaPrograms.ae": [
+  {
+   "cc": "ae",
+   "tid": "AlArabiyaPrograms.ae@SD",
+   "name": "Al Arabiya Programs (1280p)",
+   "url": "https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8",
+   "cats": [
+    "documentary",
+    "news"
+   ],
+   "country": "AE",
+   "site": "https://www.alarabiya.net/programs"
+  }
+ ],
+ "AlQamarTV.ae": [
+  {
+   "cc": "ae",
+   "tid": "AlQamarTV.ae@SD",
+   "name": "Al Qamar TV (1080p)",
+   "url": "https://streamer3.premio.link/alqamar/playlist.m3u8",
+   "cats": [],
+   "country": "AE",
+   "site": ""
+  }
+ ],
+ "AlShallalTV.ae": [
+  {
+   "cc": "ae",
+   "tid": "AlShallalTV.ae@SD",
+   "name": "Al Shallal TV (1080p)",
+   "url": "https://amg01480-alshallalfze-alshallal-ono-q0hfg.amagi.tv/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "AE",
+   "site": "https://www.alshallalchannel.com/"
+  }
+ ],
+ "AlSharqiyaMinKabla.ae": [
+  {
+   "cc": "ae",
+   "tid": "AlSharqiyaMinKabla.ae@SD",
+   "name": "Al Sharqiya Min Kabla (1080p)",
+   "url": "https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "AE",
+   "site": ""
+  }
+ ],
+ "AlWoustaTV.ae": [
+  {
+   "cc": "ae",
+   "tid": "AlWoustaTV.ae@SD",
+   "name": "Al Wousta TV (1080p)",
+   "url": "https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "AE",
+   "site": "https://sba.net.ae/ar/tv/channel/38"
+  }
+ ],
+ "AlYaumTV.ae": [
+  {
+   "cc": "ae",
+   "tid": "AlYaumTV.ae@SD",
+   "name": "Al Yaum TV (1080p)",
+   "url": "https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "AE",
+   "site": ""
+  }
+ ],
+ "CNBCArabiya.ae": [
+  {
+   "cc": "ae",
+   "tid": "CNBCArabiya.ae@SD",
+   "name": "CNBC Arabiya (1080p)",
+   "url": "https://cnbc-live.akamaized.net/cnbc/master.m3u8",
+   "cats": [
+    "business"
+   ],
+   "country": "AE",
+   "site": "https://www.cnbcarabia.com/"
+  }
+ ],
+ "FujairahTV.ae": [
+  {
+   "cc": "ae",
+   "tid": "FujairahTV.ae@SD",
+   "name": "Fujairah TV (720p)",
+   "url": "https://live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8",
+   "cats": [
+    "entertainment"
+   ],
+   "country": "AE",
+   "site": "https://www.fujairahtv.ae/"
+  }
+ ],
+ "MBC1.ae": [
+  {
+   "cc": "ae",
+   "tid": "MBC1.ae@SD",
+   "name": "MBC 1 (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "AE",
+   "site": "http://www.mbc.net/mbc1"
+  }
+ ],
+ "MBC4.ae": [
+  {
+   "cc": "ae",
+   "tid": "MBC4.ae@SD",
+   "name": "MBC 4 (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8",
+   "cats": [
+    "entertainment"
+   ],
+   "country": "AE",
+   "site": "http://www.mbc.net/mbc4"
+  }
+ ],
+ "MBC5.ae": [
+  {
+   "cc": "ae",
+   "tid": "MBC5.ae@SD",
+   "name": "MBC 5 (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8",
+   "cats": [
+    "family"
+   ],
+   "country": "AE",
+   "site": "https://www.mbc.net/channels/mbc5"
+  }
+ ],
+ "MBCBollywood.ae": [
+  {
+   "cc": "ae",
+   "tid": "MBCBollywood.ae@SD",
+   "name": "MBC Bollywood (1080p) [Geo-blocked]",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8",
+   "cats": [
+    "movies"
+   ],
+   "country": "AE",
+   "site": "http://mbc.net/bollywood"
+  }
+ ],
+ "MBCDrama.ae": [
+  {
+   "cc": "ae",
+   "tid": "MBCDrama.ae@SD",
+   "name": "MBC Drama (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8",
+   "cats": [
+    "entertainment"
+   ],
+   "country": "AE",
+   "site": "https://www.mbc.net/channels/mbc-drama"
+  }
+ ],
+ "MBCMood.sa": [
+  {
+   "cc": "ae",
+   "tid": "MBCMood.sa@SD",
+   "name": "MBC Mood (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": "https://www.mbcmood.com/"
+  },
+  {
+   "cc": "sa",
+   "tid": "MBCMood.sa@HD",
+   "name": "MBC Mood (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d014a10c21031/index.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": "https://www.mbcmood.com/"
+  }
+ ],
+ "Pulse95Radio.ae": [
+  {
+   "cc": "ae",
+   "tid": "Pulse95Radio.ae@SD",
+   "name": "Pulse95 Radio (1080p)",
+   "url": "https://svs.itworkscdn.net/pulse95live/pulse96/playlist.m3u8",
+   "cats": [],
+   "country": "AE",
+   "site": ""
+  }
+ ],
+ "Sharjah2.ae": [
+  {
+   "cc": "ae",
+   "tid": "Sharjah2.ae@SD",
+   "name": "Sharjah 2 (1080p)",
+   "url": "https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "AE",
+   "site": ""
+  }
+ ],
+ "SharjahRadio.ae": [
+  {
+   "cc": "ae",
+   "tid": "SharjahRadio.ae@SD",
+   "name": "Sharjah Radio (1080p)",
+   "url": "https://svs.itworkscdn.net/smcradiolive/smcradiolive/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "AE",
+   "site": ""
+  }
+ ],
+ "SharjahRadioQuran.ae": [
+  {
+   "cc": "ae",
+   "tid": "SharjahRadioQuran.ae@SD",
+   "name": "Sharjah Radio Quran (1080p)",
+   "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "AE",
+   "site": ""
+  }
+ ],
+ "SharjahSports.ae": [
+  {
+   "cc": "ae",
+   "tid": "SharjahSports.ae@SD",
+   "name": "Sharjah Sports (1080p) [Geo-blocked]",
+   "url": "https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "AE",
+   "site": "https://sba.net.ae/ar/tv/channel/35"
+  }
+ ],
+ "SharjahTV.ae": [
+  {
+   "cc": "ae",
+   "tid": "SharjahTV.ae@SD",
+   "name": "Sharjah TV (1080p)",
+   "url": "https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "AE",
+   "site": "https://sba.net.ae/ar/tv/channel/34"
+  },
+  {
+   "cc": "ae",
+   "tid": "SharjahTV.ae@SD",
+   "name": "Sharjah TV (1080p)",
+   "url": "https://svs.itworkscdn.net/smc1live/smc1.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "AE",
+   "site": "https://sba.net.ae/ar/tv/channel/34"
+  },
+  {
+   "cc": "ae",
+   "tid": "SharjahTV.ae@SD",
+   "name": "Sharjah TV (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/sharjah_tv/hls_roku/index.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "AE",
+   "site": "https://sba.net.ae/ar/tv/channel/34"
+  }
+ ],
+ "SkyNewsArabia.ae": [
+  {
+   "cc": "ae",
+   "tid": "SkyNewsArabia.ae@SD",
+   "name": "Sky News Arabia (1080p) [Not 24/7]",
+   "url": "https://stream.skynewsarabia.com/ott/ott.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "AE",
+   "site": "https://www.skynewsarabia.com/"
+  },
+  {
+   "cc": "ae",
+   "tid": "SkyNewsArabia.ae@HD",
+   "name": "Sky News Arabia (1080p)",
+   "url": "https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "AE",
+   "site": "https://www.skynewsarabia.com/"
+  },
+  {
+   "cc": "ae",
+   "tid": "SkyNewsArabia.ae@SD",
+   "name": "Sky News Arabia (720p) [Not 24/7]",
+   "url": "https://stream.skynewsarabia.com/hls/sna.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "AE",
+   "site": "https://www.skynewsarabia.com/"
+  }
+ ],
+ "SkyNewsArabiaVertical.ae": [
+  {
+   "cc": "ae",
+   "tid": "SkyNewsArabiaVertical.ae@SD",
+   "name": "Sky News Arabia (Portrait) (1280p) [Not 24/7]",
+   "url": "https://stream.skynewsarabia.com/vertical/vertical.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "AE",
+   "site": "https://www.skynewsarabia.com/"
+  },
+  {
+   "cc": "ae",
+   "tid": "SkyNewsArabiaVertical.ae@HD",
+   "name": "Sky News Arabia Vertical (1080p)",
+   "url": "https://live-stream.skynewsarabia.com/c-vertical-channel/vertical-stream/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "AE",
+   "site": "https://www.skynewsarabia.com/"
+  }
+ ],
+ "SpacetoonArabic.ae": [
+  {
+   "cc": "ae",
+   "tid": "SpacetoonArabic.ae@SD",
+   "name": "Spacetoon Arabic (576p)",
+   "url": "https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8",
+   "cats": [
+    "animation",
+    "kids"
+   ],
+   "country": "AE",
+   "site": "http://www.spacetoon.com/"
+  }
+ ],
+ "WatarRadio.ae": [
+  {
+   "cc": "ae",
+   "tid": "WatarRadio.ae@SD",
+   "name": "Watar Radio (1080p)",
+   "url": "https://svs.itworkscdn.net/smcwatarlive/smcwatar/playlist.m3u8",
+   "cats": [],
+   "country": "AE",
+   "site": ""
+  }
+ ],
+ "VilayetTV.az": [
+  {
+   "cc": "az",
+   "tid": "VilayetTV.az@SD",
+   "name": "Vilayet TV",
+   "url": "https://nl.livekadeh.com/hls2/vilayet.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "AZ",
+   "site": "https://vilayet.tv/"
+  }
+ ],
+ "BahrainInternational.bh": [
+  {
+   "cc": "bh",
+   "tid": "BahrainInternational.bh@SD",
+   "name": "Bahrain International (720p) [Not 24/7]",
+   "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "BH",
+   "site": "https://www.mia.gov.bh/media-center/live-tv-and-radio/?lang=en"
+  }
+ ],
+ "BahrainQuran.bh": [
+  {
+   "cc": "bh",
+   "tid": "BahrainQuran.bh@SD",
+   "name": "Bahrain Quran (720p) [Not 24/7]",
+   "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "BH",
+   "site": "https://www.mia.gov.bh/media-center/live-tv-and-radio/?lang=en"
+  }
+ ],
+ "BahrainSports1.bh": [
+  {
+   "cc": "bh",
+   "tid": "BahrainSports1.bh@SD",
+   "name": "Bahrain Sports 1 (720p) [Not 24/7]",
+   "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "BH",
+   "site": "https://www.mia.gov.bh/media-center/live-tv-and-radio/?lang=en"
+  }
+ ],
+ "BahrainSports2.bh": [
+  {
+   "cc": "bh",
+   "tid": "BahrainSports2.bh@SD",
+   "name": "Bahrain Sports 2 (720p) [Not 24/7]",
+   "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "BH",
+   "site": "https://www.mia.gov.bh/media-center/live-tv-and-radio/?lang=en"
+  }
+ ],
+ "BahrainTV.bh": [
+  {
+   "cc": "bh",
+   "tid": "BahrainTV.bh@SD",
+   "name": "Bahrain TV (720p) [Not 24/7]",
+   "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahraintvmain_all/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "BH",
+   "site": "https://www.mia.gov.bh/media-center/live-tv-and-radio/?lang=en"
+  }
+ ],
+ "BabyFirst.us": [
+  {
+   "cc": "br_pluto",
+   "tid": "BabyFirst.us@Brazil",
+   "name": "Babyfirst",
+   "url": "https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8",
+   "cats": [
+    "kids"
+   ],
+   "country": "US",
+   "site": "https://www.babyfirsttv.com/"
+  },
+  {
+   "cc": "mx_pluto",
+   "tid": "BabyFirst.us@US",
+   "name": "Babyfirst",
+   "url": "https://jmp2.uk/plu-5ebac49ce4dc8b00078b23bc.m3u8",
+   "cats": [
+    "kids"
+   ],
+   "country": "US",
+   "site": "https://www.babyfirsttv.com/"
+  },
+  {
+   "cc": "us",
+   "tid": "BabyFirst.us@US",
+   "name": "BabyFirst (720p)",
+   "url": "https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8",
+   "cats": [
+    "kids"
+   ],
+   "country": "US",
+   "site": "https://www.babyfirsttv.com/"
+  }
+ ],
+ "CGTNArabic.cn": [
+  {
+   "cc": "cn_cgtn",
+   "tid": "CGTNArabic.cn@SD",
+   "name": "CGTN Arabic (1080p) [Not 24/7]",
+   "url": "https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "CN",
+   "site": "https://arabic.cgtn.com/"
+  },
+  {
+   "cc": "cn_cgtn",
+   "tid": "CGTNArabic.cn@SD",
+   "name": "CGTN Arabic (576p) [Not 24/7]",
+   "url": "https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "CN",
+   "site": "https://arabic.cgtn.com/"
+  },
+  {
+   "cc": "sk_antik",
+   "tid": "CGTNArabic.cn@SD",
+   "name": "CGTN Arabic",
+   "url": "https://dash3.antik.sk/live/test_cgtn_arb_tizen/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "CN",
+   "site": "https://arabic.cgtn.com/"
+  }
+ ],
+ "Sat7Arabic.cy": [
+  {
+   "cc": "cy",
+   "tid": "Sat7Arabic.cy@SD",
+   "name": "Sat 7 Arabic (240p)",
+   "url": "https://svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8",
+   "cats": [],
+   "country": "CY",
+   "site": "https://sat7.org/our-channels/channel-overview/sat-7-arabic"
+  }
+ ],
+ "Sat7Kids.cy": [
+  {
+   "cc": "cy",
+   "tid": "Sat7Kids.cy@SD",
+   "name": "Sat 7 Kids (1080p)",
+   "url": "https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8",
+   "cats": [
+    "kids",
+    "religious"
+   ],
+   "country": "CY",
+   "site": "http://sat7kids.com/"
+  }
+ ],
+ "DW.de": [
+  {
+   "cc": "de",
+   "tid": "DW.de@Arabic",
+   "name": "DW Arabic (1080p)",
+   "url": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "DE",
+   "site": "https://www.dw.com/"
+  },
+  {
+   "cc": "de",
+   "tid": "DW.de@English",
+   "name": "DW English (1080p)",
+   "url": "https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "DE",
+   "site": "https://www.dw.com/"
+  },
+  {
+   "cc": "de",
+   "tid": "DW.de@English",
+   "name": "DW English (1080p)",
+   "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "DE",
+   "site": "https://www.dw.com/"
+  },
+  {
+   "cc": "de",
+   "tid": "DW.de@English",
+   "name": "DW English (720p) [Geo-blocked]",
+   "url": "https://live.fptplay53.net/fnxhd2/dwenglish_hls.smil/chunklist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "DE",
+   "site": "https://www.dw.com/"
+  },
+  {
+   "cc": "de",
+   "tid": "DW.de@English",
+   "name": "DW English (720p)",
+   "url": "https://stream8.cinerama.uz/1418/tracks-v1a1/mono.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "DE",
+   "site": "https://www.dw.com/"
+  },
+  {
+   "cc": "de",
+   "tid": "DW.de@Espanol",
+   "name": "DW Espanol (1080p)",
+   "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "DE",
+   "site": "https://www.dw.com/"
+  },
+  {
+   "cc": "de",
+   "tid": "DW.de@Russian",
+   "name": "DW Russian (1080p)",
+   "url": "https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "DE",
+   "site": "https://www.dw.com/"
+  },
+  {
+   "cc": "de",
+   "tid": "DW.de@English",
+   "name": "DW English (576p)",
+   "url": "https://cdn-7.pishow.tv/live/431/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "DE",
+   "site": "https://www.dw.com/"
+  },
+  {
+   "cc": "de",
+   "tid": "DW.de@Espanol",
+   "name": "DW Espanol (1080p)",
+   "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=16660",
+   "cats": [
+    "news"
+   ],
+   "country": "DE",
+   "site": "https://www.dw.com/"
+  }
+ ],
+ "AL24News.dz": [
+  {
+   "cc": "dz",
+   "tid": "AL24News.dz@SD",
+   "name": "AL24 News",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "DZ",
+   "site": "https://al24news.com/"
+  }
+ ],
+ "CNA.dz": [
+  {
+   "cc": "dz",
+   "tid": "CNA.dz@SD",
+   "name": "CNA (360p) [Not 24/7]",
+   "url": "https://live.creacast.com/cna/stream/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "DZ",
+   "site": "https://cna-sat.org/"
+  },
+  {
+   "cc": "dz",
+   "tid": "CNA.dz@SD",
+   "name": "CNA (Chaîne Nord Africaine) (360p) [Not 24/7]",
+   "url": "https://live.creacast.com/cna/smil:cna.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "DZ",
+   "site": "https://cna-sat.org/"
+  }
+ ],
+ "ElHeddafTV.dz": [
+  {
+   "cc": "dz",
+   "tid": "ElHeddafTV.dz@SD",
+   "name": "El-Heddaf TV (1080i)",
+   "url": "https://live.elheddaftv.com:8081/elheddaf/index.mpd",
+   "cats": [
+    "sports"
+   ],
+   "country": "DZ",
+   "site": "https://www.elheddaf.com/"
+  },
+  {
+   "cc": "dz",
+   "tid": "ElHeddafTV.dz@SD",
+   "name": "El-Heddaf TV (1080p)",
+   "url": "https://live.elheddaftv.com:8081/elheddaftv/index.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "DZ",
+   "site": "https://www.elheddaf.com/"
+  }
+ ],
+ "ElwataniaTV.dz": [
+  {
+   "cc": "dz",
+   "tid": "ElwataniaTV.dz@SD",
+   "name": "Elwatania TV (1080i)",
+   "url": "https://livesstream.work.gd:5443/WebRTCApp/streams/stream.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "DZ",
+   "site": "https://elwataniatv.dz/"
+  }
+ ],
+ "AghapyTV.eg": [
+  {
+   "cc": "eg",
+   "tid": "AghapyTV.eg@SD",
+   "name": "Aghapy TV (1080p) [Not 24/7]",
+   "url": "https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "EG",
+   "site": "http://www.aghapy.tv/"
+  }
+ ],
+ "AlGhadTV.eg": [
+  {
+   "cc": "eg",
+   "tid": "AlGhadTV.eg@SD",
+   "name": "Al Ghad TV (1080p)",
+   "url": "https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "EG",
+   "site": "https://www.alghad.tv/"
+  }
+ ],
+ "ATVSat.us": [
+  {
+   "cc": "eg",
+   "tid": "ATVSat.us@SD",
+   "name": "ATVSat (1080p) [Not 24/7]",
+   "url": "https://stream.atvsat.com/atvsatlive/smil:atvsatlive.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://www.atvsat.net/?ui=desktop"
+  }
+ ],
+ "CBC.eg": [
+  {
+   "cc": "eg",
+   "tid": "CBC.eg@SD",
+   "name": "CBC (576p)",
+   "url": "https://flu.systemnet.tv/CBC/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "EG",
+   "site": "https://www.cbc-eg.com/"
+  }
+ ],
+ "CBCDrama.eg": [
+  {
+   "cc": "eg",
+   "tid": "CBCDrama.eg@SD",
+   "name": "CBC Drama (576p)",
+   "url": "https://flu.systemnet.tv/CBCDrama/index.m3u8",
+   "cats": [
+    "series"
+   ],
+   "country": "EG",
+   "site": "https://www.cbc-eg.com/drama"
+  }
+ ],
+ "CBCSofra.eg": [
+  {
+   "cc": "eg",
+   "tid": "CBCSofra.eg@SD",
+   "name": "CBC Sofra (576p)",
+   "url": "https://flu.systemnet.tv/CBCSofra/index.m3u8",
+   "cats": [
+    "lifestyle"
+   ],
+   "country": "EG",
+   "site": "https://sofra.cbc-eg.com/"
+  }
+ ],
+ "CopticTV.eg": [
+  {
+   "cc": "eg",
+   "tid": "CopticTV.eg@SD",
+   "name": "Coptic TV (720p) [Not 24/7]",
+   "url": "https://ctv.icopts.app/CTV/index.fmp4.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "EG",
+   "site": "https://www.ctvchannel.tv/"
+  }
+ ],
+ "ElRadio9090FM.eg": [
+  {
+   "cc": "eg",
+   "tid": "ElRadio9090FM.eg@SD",
+   "name": "El Radio 9090 FM (480p)",
+   "url": "https://9090video.mobtada.com/hls/stream.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "EG",
+   "site": "https://www.9090.fm/"
+  }
+ ],
+ "ElsharqTV.tr": [
+  {
+   "cc": "eg",
+   "tid": "ElsharqTV.tr@SD",
+   "name": "Elsharq TV (1080p) [Not 24/7]",
+   "url": "https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "TR",
+   "site": "http://elsharq.tv/"
+  }
+ ],
+ "KoogiTV.eg": [
+  {
+   "cc": "eg",
+   "tid": "KoogiTV.eg@SD",
+   "name": "Koogi TV (1080p)",
+   "url": "https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8",
+   "cats": [
+    "kids",
+    "religious"
+   ],
+   "country": "EG",
+   "site": "https://www.koogi.tv/"
+  }
+ ],
+ "MBC1Egypt.eg": [
+  {
+   "cc": "eg",
+   "tid": "MBC1Egypt.eg@HD",
+   "name": "MBC 1 Egypt (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "EG",
+   "site": ""
+  }
+ ],
+ "MBCMasr.eg": [
+  {
+   "cc": "eg",
+   "tid": "MBCMasr.eg@SD",
+   "name": "MBC Masr (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "EG",
+   "site": "http://www.mbc.net/ar/mbc-maser.html"
+  }
+ ],
+ "MBCMasr2.eg": [
+  {
+   "cc": "eg",
+   "tid": "MBCMasr2.eg@SD",
+   "name": "MBC Masr 2 (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "EG",
+   "site": "http://www.mbc.net/ar/mbc-maser.html"
+  }
+ ],
+ "MixHollywood.eg": [
+  {
+   "cc": "eg",
+   "tid": "MixHollywood.eg@SD",
+   "name": "Mix Hollywood (1080p)",
+   "url": "https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8",
+   "cats": [
+    "movies"
+   ],
+   "country": "EG",
+   "site": ""
+  }
+ ],
+ "NogoumFMTV.eg": [
+  {
+   "cc": "eg",
+   "tid": "NogoumFMTV.eg@SD",
+   "name": "NogoumFMTV (672p) [Not 24/7]",
+   "url": "https://nogoumtv.nrpstream.com/hls/stream.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "EG",
+   "site": "https://www.nogoumfm.net/"
+  }
+ ],
+ "RotanaCinemaEgypt.eg": [
+  {
+   "cc": "eg",
+   "tid": "RotanaCinemaEgypt.eg@SD",
+   "name": "Rotana Cinema Egypt (1080p) [Geo-blocked]",
+   "url": "https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8",
+   "cats": [
+    "movies"
+   ],
+   "country": "EG",
+   "site": "http://www.cinema.rotana.net/"
+  }
+ ],
+ "WatanTV.eg": [
+  {
+   "cc": "eg",
+   "tid": "WatanTV.eg@SD",
+   "name": "Watan TV (1080p)",
+   "url": "https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "EG",
+   "site": "https://watanegypt.tv/"
+  }
+ ],
+ "RASDTV.eh": [
+  {
+   "cc": "eh",
+   "tid": "RASDTV.eh@SD",
+   "name": "RASD TV (1080i)",
+   "url": "https://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "EH",
+   "site": "https://rasd.tv/"
+  },
+  {
+   "cc": "eh",
+   "tid": "RASDTV.eh@SD",
+   "name": "RASD TV (720p)",
+   "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12830",
+   "cats": [
+    "general"
+   ],
+   "country": "EH",
+   "site": "https://rasd.tv/"
+  },
+  {
+   "cc": "eh",
+   "tid": "RASDTV.eh@SD",
+   "name": "RASD TV (404p)",
+   "url": "https://cloud.streamingconnect.tv/hls/rasdtv/rasdtv.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "EH",
+   "site": "https://rasd.tv/"
+  }
+ ],
+ "ERiTV1.er": [
+  {
+   "cc": "er",
+   "tid": "ERiTV1.er@SD",
+   "name": "ERi-TV 1 (576p)",
+   "url": "https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "ER",
+   "site": "https://www.dendenmedia.com/"
+  }
+ ],
+ "France24.fr": [
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Arabic",
+   "name": "France 24 Arabic (1080p)",
+   "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Arabic",
+   "name": "France 24 Arabic (1080p)",
+   "url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Arabic",
+   "name": "France 24 Arabic (720p)",
+   "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_2300.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Arabic",
+   "name": "France 24 Arabic (720p)",
+   "url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Arabic",
+   "name": "France 24 Arabic (576p)",
+   "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_900.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Arabic",
+   "name": "France 24 Arabic (576p)",
+   "url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_900.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Arabic",
+   "name": "France 24 Arabic (360p)",
+   "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_500.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Arabic",
+   "name": "France 24 Arabic (360p)",
+   "url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_500.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@English",
+   "name": "France 24 English (1080p)",
+   "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@English",
+   "name": "France 24 English (1080p)",
+   "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@English",
+   "name": "France 24 English (720p)",
+   "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@English",
+   "name": "France 24 English (720p)",
+   "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@English",
+   "name": "France 24 English (720p)",
+   "url": "https://liveh12.vtvprime.vn/hls/FRANCE24/03.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@English",
+   "name": "France 24 English (576p)",
+   "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_900.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@English",
+   "name": "France 24 English (576p)",
+   "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_900.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@English",
+   "name": "France 24 English (360p)",
+   "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_500.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@English",
+   "name": "France 24 English (360p)",
+   "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_500.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Spanish",
+   "name": "France 24 Español (1080p)",
+   "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Spanish",
+   "name": "France 24 Español (1080p)",
+   "url": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Spanish",
+   "name": "France 24 Español (720p)",
+   "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_2300.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Spanish",
+   "name": "France 24 Español (720p)",
+   "url": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_2300.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Spanish",
+   "name": "France 24 Español (576p)",
+   "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_900.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Spanish",
+   "name": "France 24 Español (576p)",
+   "url": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_900.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Spanish",
+   "name": "France 24 Español (360p)",
+   "url": "https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_500.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Spanish",
+   "name": "France 24 Español (360p)",
+   "url": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_500.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@French",
+   "name": "France 24 French (1080p)",
+   "url": "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@French",
+   "name": "France 24 French (1080p)",
+   "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@French",
+   "name": "France 24 French (720p)",
+   "url": "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_2300.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@French",
+   "name": "France 24 French (720p)",
+   "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_2300.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@French",
+   "name": "France 24 French (576p)",
+   "url": "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_900.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@French",
+   "name": "France 24 French (576p)",
+   "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_900.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@French",
+   "name": "France 24 French (360p)",
+   "url": "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_500.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@French",
+   "name": "France 24 French (360p)",
+   "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_500.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "fr",
+   "tid": "France24.fr@Spanish",
+   "name": "France 24 Spanish (720p)",
+   "url": "https://live-evg8.tv360.bitel.com.pe/bitel/france24SRT/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "nz_samsung",
+   "tid": "France24.fr@English",
+   "name": "France 24 (1080p)",
+   "url": "https://amg00106-amg00106c1-samsung-nz-4151.playouts.now.amagi.tv/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "sk_antik",
+   "tid": "France24.fr@French",
+   "name": "France 24",
+   "url": "https://dash4.antik.sk/live/test_france24_france/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "sk_antik",
+   "tid": "France24.fr@English",
+   "name": "France 24 English",
+   "url": "https://dash3.antik.sk/live/test_france24_eng/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "uk_samsung",
+   "tid": "France24.fr@English",
+   "name": "France 24 English (1080p)",
+   "url": "https://amg00106-france24-france24-samsunguk-qvpp8.amagi.tv/playlist/amg00106-france24-france24-samsunguk/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "us_klowdtv",
+   "tid": "France24.fr@English",
+   "name": "France 24 (720p)",
+   "url": "https://a-cdn.klowdtv.com/live2/france24_720p/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  },
+  {
+   "cc": "us_klowdtv",
+   "tid": "France24.fr@Spanish",
+   "name": "France 24 Espanol (720p)",
+   "url": "https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "FR",
+   "site": "https://www.france24.com/"
+  }
+ ],
+ "AlJazeera.qa": [
+  {
+   "cc": "id_denstv",
+   "tid": "AlJazeera.qa@Arabic",
+   "name": "Al Jazeera Arabic [Geo-blocked]",
+   "url": "https://op-group1-swiftservehd-1.dens.tv/s/s16/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeera.qa@Arabic",
+   "name": "Al Jazeera (1080p)",
+   "url": "https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeera.qa@Arabic",
+   "name": "Al Jazeera (1080p)",
+   "url": "https://live-hls-apps-aja-fa.getaj.net/AJA/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeera.qa@Arabic",
+   "name": "Al Jazeera (1080p)",
+   "url": "https://live-hls-apps-aja-v3-fa.getaj.net/AJA/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeera.qa@Arabic",
+   "name": "Al Jazeera (1080p)",
+   "url": "https://live-hls-web-aja-fa.thehlive.com/AJA/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeera.qa@Arabic",
+   "name": "Al Jazeera Arabic (1080p)",
+   "url": "https://live-hls-v3-aja.getaj.net/AJA-V3/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeera.qa@Arabic",
+   "name": "Al Jazeera Arabic (1080p)",
+   "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeera.qa@English",
+   "name": "Al Jazeera English (1080p)",
+   "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeera.qa@English",
+   "name": "Al Jazeera English (1080p)",
+   "url": "https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeera.qa@English",
+   "name": "Al Jazeera English (1080p)",
+   "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeera.qa@English",
+   "name": "Al Jazeera English",
+   "url": "https://cdn-7.pishow.tv/live/429/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeera.qa@English",
+   "name": "Al Jazeera English",
+   "url": "https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "sk_antik",
+   "tid": "AlJazeera.qa@Arabic",
+   "name": "Al Jazeera",
+   "url": "https://dash4.antik.sk/live/test_aljazeera/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "sk_antik",
+   "tid": "AlJazeera.qa@English",
+   "name": "Al Jazeera English",
+   "url": "https://dash4.antik.sk/live/test_aljazeera_eng/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  },
+  {
+   "cc": "uk_samsung",
+   "tid": "AlJazeera.qa@English",
+   "name": "Al Jazeera (1080p)",
+   "url": "https://amg00222-amg00222c4-amgplt0002.playout.now3.amagi.tv/aljazeera-noscte/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeera.net/"
+  }
+ ],
+ "MakkahTV.sa": [
+  {
+   "cc": "id_denstv",
+   "tid": "MakkahTV.sa@SD",
+   "name": "Makkah [Geo-blocked]",
+   "url": "https://op-group1-swiftservesd-1.dens.tv/s/s28/index.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://makkahtv.tv/"
+  },
+  {
+   "cc": "sa",
+   "tid": "MakkahTV.sa@SD",
+   "name": "Makkah TV (576p)",
+   "url": "https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://makkahtv.tv/"
+  }
+ ],
+ "HalaTV.il": [
+  {
+   "cc": "il",
+   "tid": "HalaTV.il@SD",
+   "name": "Hala TV (1080p) [Not 24/7]",
+   "url": "https://stream.panet.com/edge/halaTV/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IL",
+   "site": "http://www.hala-tv.com/"
+  }
+ ],
+ "i24NEWSArabic.il": [
+  {
+   "cc": "il",
+   "tid": "i24NEWSArabic.il@SD",
+   "name": "i24NEWS Arabic (1080p)",
+   "url": "https://i24newsarabic-cdn.encoders.immergo.tv/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IL",
+   "site": "https://www.i24news.tv/ar/"
+  }
+ ],
+ "Makan33.il": [
+  {
+   "cc": "il",
+   "tid": "Makan33.il@SD",
+   "name": "Makan 33 (1080p)",
+   "url": "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IL",
+   "site": "https://www.makan.org.il/"
+  }
+ ],
+ "ZeeAlwan.ae": [
+  {
+   "cc": "in",
+   "tid": "ZeeAlwan.ae@SD",
+   "name": "Zee Alwan (576p) [Not 24/7]",
+   "url": "https://tgn.bozztv.com/gin-dvrfl05/ga-zeealwan/index.m3u8",
+   "cats": [
+    "entertainment",
+    "series"
+   ],
+   "country": "AE",
+   "site": "https://www.zeealwan.com/"
+  }
+ ],
+ "ABNsat.iq": [
+  {
+   "cc": "iq",
+   "tid": "ABNsat.iq@SD",
+   "name": "ABNsat (720p)",
+   "url": "https://mediaserver.abnvideos.com/streams/abnsat.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "IQ",
+   "site": "https://www.abnturkey.com/"
+  }
+ ],
+ "AfaqTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "AfaqTV.iq@SD",
+   "name": "Afaq TV",
+   "url": "https://stream.afaq.iq/live/channel/afaqtv/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IQ",
+   "site": "https://www.afaq.tv/"
+  }
+ ],
+ "AlIraqia.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlIraqia.iq@SD",
+   "name": "Al Iraqia (1080p)",
+   "url": "https://imn-live.esite-lab.com/hls/iraqia-general.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IQ",
+   "site": "http://imn.iq/"
+  }
+ ],
+ "AlIraqiaNews.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlIraqiaNews.iq@SD",
+   "name": "Al Iraqia News (720p)",
+   "url": "https://imn-live.esite-lab.com/hls/iraqia-news.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IQ",
+   "site": "http://imn.iq/"
+  }
+ ],
+ "AlIraqiaSport.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlIraqiaSport.iq@SD",
+   "name": "Al Iraqia Sport (720p)",
+   "url": "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "IQ",
+   "site": "http://imn.iq/"
+  }
+ ],
+ "AlJanoubTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlJanoubTV.iq@SD",
+   "name": "Al Janoub TV",
+   "url": "https://live.alissahost.net/hls/test.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IQ",
+   "site": "https://aljanoub.tv/"
+  }
+ ],
+ "AlRafidainTV.tr": [
+  {
+   "cc": "iq",
+   "tid": "AlRafidainTV.tr@SD",
+   "name": "Al Rafidain (720p) [Not 24/7]",
+   "url": "https://arrafidain.tvplayer.online/arrafidaintv/source/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "TR",
+   "site": "https://alrafidain.tv/"
+  }
+ ],
+ "AlRasheedTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlRasheedTV.iq@SD",
+   "name": "Al Rasheed TV (1080p) [Not 24/7]",
+   "url": "https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IQ",
+   "site": "https://www.alrasheedmedia.com/"
+  }
+ ],
+ "AlAimmaTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlAimmaTV.iq@SD",
+   "name": "Al-Aimma TV (1080p)",
+   "url": "https://alaimma.tv/live/index.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "IQ",
+   "site": "https://alaimma.tv/"
+  }
+ ],
+ "AlJawadainTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlJawadainTV.iq@SD",
+   "name": "Al-Jawadain TV (1080p) [Not 24/7]",
+   "url": "https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "IQ",
+   "site": ""
+  }
+ ],
+ "AlSharqiya.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlSharqiya.iq@SD",
+   "name": "Al-Sharqiya (1080p)",
+   "url": "https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IQ",
+   "site": "http://www.alsharqiya.com/"
+  }
+ ],
+ "AlSharqiyaNews.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlSharqiyaNews.iq@SD",
+   "name": "Al-Sharqiya News (1080p)",
+   "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IQ",
+   "site": "http://www.alsharqiya.com/"
+  }
+ ],
+ "AlabbassiaTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlabbassiaTV.iq@HD",
+   "name": "Alabbassia TV (1080p)",
+   "url": "https://stream.alabbassia.com/live/alabbassia/index.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "IQ",
+   "site": "https://alabbassia.com"
+  }
+ ],
+ "AlawlaTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlawlaTV.iq@SD",
+   "name": "Alawla TV",
+   "url": "https://live.alawla.tv/hls/stream.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IQ",
+   "site": "https://alawla.tv/live.html"
+  }
+ ],
+ "AlghadeerTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "AlghadeerTV.iq@SD",
+   "name": "Alghadeer TV (1080p)",
+   "url": "https://sd343444.vodu.store:3356/live/Alghadeer/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IQ",
+   "site": "http://alghadeertv.net/"
+  }
+ ],
+ "Alquran.iq": [
+  {
+   "cc": "iq",
+   "tid": "Alquran.iq@SD",
+   "name": "Alquran (1080p)",
+   "url": "https://ktvlive.online/stream/hls/ch1.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "IQ",
+   "site": "https://www.karbala-tv.iq/quran/"
+  }
+ ],
+ "AnwarTV2.iq": [
+  {
+   "cc": "iq",
+   "tid": "AnwarTV2.iq@SD",
+   "name": "Anwar TV2 (720p)",
+   "url": "https://cloud.odysee.live/content/f92670235a1ce2bce4cf77671cc4dcc2188baa1d/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IQ",
+   "site": "https://anwartv2.com/"
+  }
+ ],
+ "BeitolAbbasTVChannel.iq": [
+  {
+   "cc": "iq",
+   "tid": "BeitolAbbasTVChannel.iq@SD",
+   "name": "BeitolAbbas TV Channel (720p)",
+   "url": "https://live.beitolabbas.tv/live/beitolabbastv.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "IQ",
+   "site": "http://beitolabbas.tv/"
+  }
+ ],
+ "Channel8.iq": [
+  {
+   "cc": "iq",
+   "tid": "Channel8.iq@SD",
+   "name": "Channel 8 Kurdish (720p)",
+   "url": "https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IQ",
+   "site": "https://channel8.com/english/"
+  }
+ ],
+ "DijlahTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "DijlahTV.iq@SD",
+   "name": "Dijlah TV (1080p)",
+   "url": "https://ghaasiflu.online/Dijlah/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IQ",
+   "site": "http://www.dijlah.tv/"
+  }
+ ],
+ "ImamHusseinTV2.iq": [
+  {
+   "cc": "iq",
+   "tid": "ImamHusseinTV2.iq@SD",
+   "name": "Imam Hussein TV 2 (1080p) [Not 24/7]",
+   "url": "https://live.imamhossaintv.com/live/ih2.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "IQ",
+   "site": "https://imamhussein2.tv/"
+  }
+ ],
+ "INews.iq": [
+  {
+   "cc": "iq",
+   "tid": "INews.iq@SD",
+   "name": "iNEWS TV (1080p)",
+   "url": "https://live.i-news.tv/hls/stream.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IQ",
+   "site": ""
+  }
+ ],
+ "IraqFuture.iq": [
+  {
+   "cc": "iq",
+   "tid": "IraqFuture.iq@SD",
+   "name": "Iraq Future (480p)",
+   "url": "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_040/Stream/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IQ",
+   "site": ""
+  }
+ ],
+ "IshtarTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "IshtarTV.iq@SD",
+   "name": "Ishtar TV (1080p)",
+   "url": "https://stream.ishtartv.com/live/iShtarHD/playlist.m3u8",
+   "cats": [
+    "culture",
+    "music",
+    "religious"
+   ],
+   "country": "IQ",
+   "site": "https://www.ishtartv.com/en/about.html"
+  }
+ ],
+ "KarbalaDocumentary.iq": [
+  {
+   "cc": "iq",
+   "tid": "KarbalaDocumentary.iq@HD",
+   "name": "Karbala Documentary",
+   "url": "https://ktvlive.online/stream/hls/ch3.m3u8",
+   "cats": [
+    "documentary",
+    "religious"
+   ],
+   "country": "IQ",
+   "site": "https://www.karbala-tv.iq/"
+  }
+ ],
+ "KurdistanTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "KurdistanTV.iq@SD",
+   "name": "Kurdistan TV (720p) [Not 24/7]",
+   "url": "https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IQ",
+   "site": "https://kurdistantv.net/"
+  }
+ ],
+ "Kurdsat.iq": [
+  {
+   "cc": "iq",
+   "tid": "Kurdsat.iq@SD",
+   "name": "Kurdsat (1080p)",
+   "url": "https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8",
+   "cats": [
+    "entertainment"
+   ],
+   "country": "IQ",
+   "site": "https://www.kurdsat.tv/"
+  }
+ ],
+ "KurdsatNews.iq": [
+  {
+   "cc": "iq",
+   "tid": "KurdsatNews.iq@SD",
+   "name": "Kurdsat News (1080p)",
+   "url": "https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IQ",
+   "site": "https://www.kurdsatnews.com/"
+  }
+ ],
+ "MarjaeyatTVArabic.iq": [
+  {
+   "cc": "iq",
+   "tid": "MarjaeyatTVArabic.iq@SD",
+   "name": "Marjaeyat TV Arabic (1080p)",
+   "url": "https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "IQ",
+   "site": "https://marjaeyattv.com/"
+  }
+ ],
+ "MBCIraq.iq": [
+  {
+   "cc": "iq",
+   "tid": "MBCIraq.iq@SD",
+   "name": "MBC Iraq (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IQ",
+   "site": "https://www.mbc.net/channels/mbc-iraq"
+  }
+ ],
+ "SamarraTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "SamarraTV.iq@SD",
+   "name": "Samarra TV",
+   "url": "https://samarra.tv/proxy.php/hls/main3/playlist.m3u8",
+   "cats": [],
+   "country": "IQ",
+   "site": "http://www.samarra.tv/"
+  },
+  {
+   "cc": "iq",
+   "tid": "SamarraTV.iq@SD",
+   "name": "Samarra TV",
+   "url": "https://live.bradosti.net/live/samaraweb_playlist.m3u8",
+   "cats": [],
+   "country": "IQ",
+   "site": "http://www.samarra.tv/"
+  }
+ ],
+ "ShamsTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "ShamsTV.iq@SD",
+   "name": "Shams TV (1080p)",
+   "url": "https://stream.shams.tv/hls/stream.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IQ",
+   "site": "https://shams.tv"
+  }
+ ],
+ "UTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "UTV.iq@SD",
+   "name": "UTV (1080p)",
+   "url": "https://mn-nl.mncdn.com/utviraqi2/64c80359/index.m3u8",
+   "cats": [],
+   "country": "IQ",
+   "site": ""
+  }
+ ],
+ "ZagrosTV.iq": [
+  {
+   "cc": "iq",
+   "tid": "ZagrosTV.iq@SD",
+   "name": "Zagros (720p) [Not 24/7]",
+   "url": "https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IQ",
+   "site": "https://www.zagrosnews.net/"
+  },
+  {
+   "cc": "iq",
+   "tid": "ZagrosTV.iq@SD",
+   "name": "Zagros TV (1080p)",
+   "url": "https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IQ",
+   "site": "https://www.zagrosnews.net/"
+  }
+ ],
+ "ManuChat.iq": [
+  {
+   "cc": "iq",
+   "tid": "ManuChat.iq@SD",
+   "name": "Manu Chat",
+   "url": "https://vmi747311.contaboserver.net/hls/livetv.m3u8",
+   "cats": [],
+   "country": "IQ",
+   "site": "http://www.manuchat.net/"
+  }
+ ],
+ "AlAlam.ir": [
+  {
+   "cc": "ir",
+   "tid": "AlAlam.ir@SD",
+   "name": "Al Alam (360p)",
+   "url": "https://live2.alalam.ir/alalam.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "IR",
+   "site": "https://www.alalam.ir/"
+  }
+ ],
+ "AlWilayah.ir": [
+  {
+   "cc": "ir",
+   "tid": "AlWilayah.ir@SD",
+   "name": "Al Wilayah (720p)",
+   "url": "https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "IR",
+   "site": ""
+  }
+ ],
+ "AsilTV.ir": [
+  {
+   "cc": "ir",
+   "tid": "AsilTV.ir@SD",
+   "name": "Asil TV (576p)",
+   "url": "https://live.asil.tv/asiltv/index.m3u8",
+   "cats": [],
+   "country": "IR",
+   "site": "http://webtv.islamasil.net/"
+  }
+ ],
+ "AssiratTV.ir": [
+  {
+   "cc": "ir",
+   "tid": "AssiratTV.ir@SD",
+   "name": "Assirat TV (576p)",
+   "url": "https://softverse.b-cdn.net/Assirat/assiratobs/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "IR",
+   "site": "https://www.assirat.net/"
+  }
+ ],
+ "iFilmArabic.ir": [
+  {
+   "cc": "ir",
+   "tid": "iFilmArabic.ir@SD",
+   "name": "iFilm Arabic",
+   "url": "https://live.presstv.ir/hls/ifilmar.m3u8",
+   "cats": [
+    "movies"
+   ],
+   "country": "IR",
+   "site": "http://www.ifilmtv.ir/"
+  }
+ ],
+ "HabibTV.ir": [
+  {
+   "cc": "ir_telewebion",
+   "tid": "HabibTV.ir@SD",
+   "name": "Habib TV",
+   "url": "https://ncdn.telewebion.ir/habib/live/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "IR",
+   "site": "https://telewebion.com/live/habib"
+  }
+ ],
+ "Palestinetv.ir": [
+  {
+   "cc": "ir_telewebion",
+   "tid": "Palestinetv.ir@SD",
+   "name": "Palestine",
+   "url": "https://ncdn.telewebion.ir/palestine/live/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "IR",
+   "site": ""
+  }
+ ],
+ "AlhaqeqaAldawlia.jo": [
+  {
+   "cc": "jo",
+   "tid": "AlhaqeqaAldawlia.jo@SD",
+   "name": "Alhaqeqa Aldawlia (1080p) [Not 24/7]",
+   "url": "https://ghaasiflu.online/alhqeqa/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "JO",
+   "site": "https://www.factjo.com/Pages.aspx?id=6"
+  }
+ ],
+ "AltaghierTV.jo": [
+  {
+   "cc": "jo",
+   "tid": "AltaghierTV.jo@SD",
+   "name": "Altaghier TV (1080p)",
+   "url": "https://jmc-live.ercdn.net/altaghier/altaghier.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "JO",
+   "site": "https://altaghier.tv/"
+  }
+ ],
+ "AmmanTV.jo": [
+  {
+   "cc": "jo",
+   "tid": "AmmanTV.jo@SD",
+   "name": "Amman TV (720p)",
+   "url": "https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "JO",
+   "site": "https://ammantv.net/"
+  },
+  {
+   "cc": "jo",
+   "tid": "AmmanTV.jo@SD",
+   "name": "Amman TV (720p)",
+   "url": "https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "JO",
+   "site": "https://ammantv.net/"
+  }
+ ],
+ "JordanArchive.jo": [
+  {
+   "cc": "jo",
+   "tid": "JordanArchive.jo@SD",
+   "name": "Jordan Archive (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Archive/playlist.m3u8",
+   "cats": [],
+   "country": "JO",
+   "site": ""
+  }
+ ],
+ "JordanComedy.jo": [
+  {
+   "cc": "jo",
+   "tid": "JordanComedy.jo@SD",
+   "name": "Jordan Comedy (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Comedy/playlist.m3u8",
+   "cats": [
+    "comedy"
+   ],
+   "country": "JO",
+   "site": ""
+  }
+ ],
+ "JordanDrama.jo": [
+  {
+   "cc": "jo",
+   "tid": "JordanDrama.jo@SD",
+   "name": "Jordan Drama (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Drama/playlist.m3u8",
+   "cats": [],
+   "country": "JO",
+   "site": ""
+  }
+ ],
+ "JordanKitchen.jo": [
+  {
+   "cc": "jo",
+   "tid": "JordanKitchen.jo@SD",
+   "name": "Jordan Kitchen (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/cooking/playlist.m3u8",
+   "cats": [
+    "cooking"
+   ],
+   "country": "JO",
+   "site": ""
+  }
+ ],
+ "JordanTV.jo": [
+  {
+   "cc": "jo",
+   "tid": "JordanTV.jo@SD",
+   "name": "Jordan Satellite Channel (1080p)",
+   "url": "https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "JO",
+   "site": "https://www.jrtv.gov.jo/"
+  }
+ ],
+ "JordanSongs.jo": [
+  {
+   "cc": "jo",
+   "tid": "JordanSongs.jo@SD",
+   "name": "Jordan Songs (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Song/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "JO",
+   "site": ""
+  }
+ ],
+ "JordanSport.jo": [
+  {
+   "cc": "jo",
+   "tid": "JordanSport.jo@SD",
+   "name": "Jordan Sport (1080p) [Geo-blocked]",
+   "url": "https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "JO",
+   "site": ""
+  }
+ ],
+ "JordanTourism.jo": [
+  {
+   "cc": "jo",
+   "tid": "JordanTourism.jo@SD",
+   "name": "Jordan Tourism (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Tourism/playlist.m3u8",
+   "cats": [],
+   "country": "JO",
+   "site": ""
+  }
+ ],
+ "RoyaComedy.jo": [
+  {
+   "cc": "jo",
+   "tid": "RoyaComedy.jo@SD",
+   "name": "Roya Comedy (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-comedy/playlist.m3u8",
+   "cats": [
+    "comedy"
+   ],
+   "country": "JO",
+   "site": "https://www.roya.tv/"
+  }
+ ],
+ "RoyaDrama.jo": [
+  {
+   "cc": "jo",
+   "tid": "RoyaDrama.jo@SD",
+   "name": "Roya Drama (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/a2le4pbpa6rpzv147haf4w/drama/playlist.m3u8",
+   "cats": [
+    "series"
+   ],
+   "country": "JO",
+   "site": "https://www.roya.tv/"
+  }
+ ],
+ "RoyaKids.jo": [
+  {
+   "cc": "jo",
+   "tid": "RoyaKids.jo@SD",
+   "name": "Roya Kids",
+   "url": "https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids/playlist.m3u8",
+   "cats": [
+    "kids"
+   ],
+   "country": "JO",
+   "site": "https://www.roya.tv/"
+  }
+ ],
+ "RoyaKidsOriginals.jo": [
+  {
+   "cc": "jo",
+   "tid": "RoyaKidsOriginals.jo@SD",
+   "name": "Roya Kids Originals (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids-originals/playlist.m3u8",
+   "cats": [
+    "kids"
+   ],
+   "country": "JO",
+   "site": "https://www.roya.tv/"
+  }
+ ],
+ "RoyaKitchen.jo": [
+  {
+   "cc": "jo",
+   "tid": "RoyaKitchen.jo@SD",
+   "name": "Roya Kitchen (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-kitchen/playlist.m3u8",
+   "cats": [
+    "cooking"
+   ],
+   "country": "JO",
+   "site": "https://www.roya.tv/"
+  }
+ ],
+ "Ch4TeenDocumentary.kw": [
+  {
+   "cc": "kw",
+   "tid": "Ch4TeenDocumentary.kw@SD",
+   "name": "Ch4Teen Documentary (1080p)",
+   "url": "https://ch14.tv/live/ch4teendoc/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "KW",
+   "site": "https://www.twitch.tv/ch4teendoc"
+  }
+ ],
+ "KTV1.kw": [
+  {
+   "cc": "kw",
+   "tid": "KTV1.kw@SD",
+   "name": "KTV 1 (1080p)",
+   "url": "https://kwtktv1ta.cdn.mangomolo.com/ktv1/smil:ktv1.stream.smil/chunklist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "KW",
+   "site": "https://media.gov.kw/"
+  },
+  {
+   "cc": "kw",
+   "tid": "KTV1.kw@SD",
+   "name": "KTV 1 (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/kuwait_tv1/hls_roku/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "KW",
+   "site": "https://media.gov.kw/"
+  }
+ ],
+ "KTVAlQurain.kw": [
+  {
+   "cc": "kw",
+   "tid": "KTVAlQurain.kw@SD",
+   "name": "KTV Al Qurain (1080p)",
+   "url": "https://kwtktvaqta.cdn.mangomolo.com/ktvaq/smil:tktvaq.stream.smil/chunklist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "KW",
+   "site": "https://media.gov.kw/"
+  }
+ ],
+ "KTVArabe.kw": [
+  {
+   "cc": "kw",
+   "tid": "KTVArabe.kw@SD",
+   "name": "KTV Arabe (1080p)",
+   "url": "https://kwtktvata.cdn.mangomolo.com/ktva/smil:tktva.stream.smil/chunklist.m3u8",
+   "cats": [
+    "culture"
+   ],
+   "country": "KW",
+   "site": "https://media.gov.kw/"
+  }
+ ],
+ "KTVEthraa.kw": [
+  {
+   "cc": "kw",
+   "tid": "KTVEthraa.kw@SD",
+   "name": "KTV Ethraa (1080p)",
+   "url": "https://kwtethta.cdn.mangomolo.com/eth/smil:eth.stream.smil/chunklist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "KW",
+   "site": "https://media.gov.kw/"
+  }
+ ],
+ "KTVNews.kw": [
+  {
+   "cc": "kw",
+   "tid": "KTVNews.kw@SD",
+   "name": "KTV News (1080p)",
+   "url": "https://kwtkbta.cdn.mangomolo.com/kb/smil:kb.stream.smil/chunklist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "KW",
+   "site": "https://media.gov.kw/"
+  },
+  {
+   "cc": "kw",
+   "tid": "KTVNews.kw@SD",
+   "name": "KTV News (1080p)",
+   "url": "https://kwtktvata.cdn.mangomolo.com/ktva/smil:ktva.stream.smil/chunklist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "KW",
+   "site": "https://media.gov.kw/"
+  },
+  {
+   "cc": "kw",
+   "tid": "KTVNews.kw@SD",
+   "name": "KTV News (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/ktv_al_akhbar/hls_roku/ktv_al_akhbar.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "KW",
+   "site": "https://media.gov.kw/"
+  }
+ ],
+ "KTVSport.kw": [
+  {
+   "cc": "kw",
+   "tid": "KTVSport.kw@SD",
+   "name": "KTV Sport (1080p)",
+   "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "KW",
+   "site": "https://media.gov.kw/"
+  }
+ ],
+ "KTVSportPlus.kw": [
+  {
+   "cc": "kw",
+   "tid": "KTVSportPlus.kw@SD",
+   "name": "KTV Sport Plus (1080p)",
+   "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "KW",
+   "site": ""
+  }
+ ],
+ "MarinaTV.kw": [
+  {
+   "cc": "kw",
+   "tid": "MarinaTV.kw@SD",
+   "name": "Marina TV (1080p)",
+   "url": "https://ffs.gulfsat.com/Marina-TV-HD/index.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "KW",
+   "site": "http://www.marinatv.me/"
+  }
+ ],
+ "RitmuTV.kw": [
+  {
+   "cc": "kw",
+   "tid": "RitmuTV.kw@SD",
+   "name": "Ritmu TV",
+   "url": "https://659605a54e9a6.streamlock.net:8443/live/livestream/playlist.m3u8",
+   "cats": [
+    "entertainment"
+   ],
+   "country": "KW",
+   "site": "https://www.ritmu.tv/"
+  }
+ ],
+ "AghaniAghaniTV.lb": [
+  {
+   "cc": "lb",
+   "tid": "AghaniAghaniTV.lb@SD",
+   "name": "Aghani Aghani TV (1080p)",
+   "url": "https://cdn.streamlane.tv/hls/aghanitv/index.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "LB",
+   "site": "https://aghaniaghani.com/"
+  }
+ ],
+ "AlIttihadTV.lb": [
+  {
+   "cc": "lb",
+   "tid": "AlIttihadTV.lb@SD",
+   "name": "Al Ittihad (552p) [Not 24/7]",
+   "url": "https://live.alittihad.tv:444/ittihad/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "LB",
+   "site": "http://www.alittihad.tv/"
+  }
+ ],
+ "AlManar.lb": [
+  {
+   "cc": "lb",
+   "tid": "AlManar.lb@SD",
+   "name": "Al Manar (576p) [Not 24/7]",
+   "url": "https://edge.fastpublish.me/live/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "LB",
+   "site": "https://www.almanar.com.lb/"
+  }
+ ],
+ "AlMayadeenTV.lb": [
+  {
+   "cc": "lb",
+   "tid": "AlMayadeenTV.lb@SD",
+   "name": "Al Mayadeen (576p)",
+   "url": "https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "LB",
+   "site": "https://www.almayadeen.net/"
+  }
+ ],
+ "AlImanTV.lb": [
+  {
+   "cc": "lb",
+   "tid": "AlImanTV.lb@SD",
+   "name": "Aliman TV (240p) [Not 24/7]",
+   "url": "https://svs.itworkscdn.net/alimanlive/imantv.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "LB",
+   "site": "https://www.alimantv.com.lb/"
+  }
+ ],
+ "CharityTV.lb": [
+  {
+   "cc": "lb",
+   "tid": "CharityTV.lb@SD",
+   "name": "Charity TV",
+   "url": "https://652930de05533.streamlock.net/live/ngrp:livestream_all/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "LB",
+   "site": "http://www.charityradiotv.org/"
+  }
+ ],
+ "LanaTV.lb": [
+  {
+   "cc": "lb",
+   "tid": "LanaTV.lb@SD",
+   "name": "Lana TV (576p)",
+   "url": "https://cdn.streamlane.tv/hls/ltv/master.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "LB",
+   "site": "https://ltv.com.lb/"
+  }
+ ],
+ "mfm.lb": [
+  {
+   "cc": "lb",
+   "tid": "mfm.lb@HD",
+   "name": "mfm (1080p)",
+   "url": "https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "LB",
+   "site": ""
+  }
+ ],
+ "MTVLebanon.lb": [
+  {
+   "cc": "lb",
+   "tid": "MTVLebanon.lb@SD",
+   "name": "MTV Lebanon (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mtv-lebanon/b8ebb2a5affb812f1541712adde10e26/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "LB",
+   "site": "http://www.mtv.com.lb/"
+  }
+ ],
+ "NabaaTV.lb": [
+  {
+   "cc": "lb",
+   "tid": "NabaaTV.lb@SD",
+   "name": "Nabaa TV (720p) [Not 24/7]",
+   "url": "https://5dc7d824154d0.streamlock.net/live/Nabaa/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "LB",
+   "site": "https://nabaatv.net/"
+  },
+  {
+   "cc": "lb",
+   "tid": "NabaaTV.lb@SD",
+   "name": "Nabaa TV (720p) [Not 24/7]",
+   "url": "https://655ca86f46b1f.streamlock.net/live/Nabaa/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "LB",
+   "site": "https://nabaatv.net/"
+  }
+ ],
+ "NourAlKoddass.lb": [
+  {
+   "cc": "lb",
+   "tid": "NourAlKoddass.lb@SD",
+   "name": "Nour Al Koddas (406p) [Not 24/7]",
+   "url": "https://svs.itworkscdn.net/nour1satlive/livestream/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "LB",
+   "site": "https://noursat.tv/"
+  }
+ ],
+ "NourAlSharq.lb": [
+  {
+   "cc": "lb",
+   "tid": "NourAlSharq.lb@SD",
+   "name": "Nour Al Sharq (576p)",
+   "url": "https://svs.itworkscdn.net/nour8satlive/livestream/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "LB",
+   "site": ""
+  }
+ ],
+ "NourElShabeb.lb": [
+  {
+   "cc": "lb",
+   "tid": "NourElShabeb.lb@SD",
+   "name": "Nour El Shabeb (720p)",
+   "url": "https://svs.itworkscdn.net/nour3satlive/livestream/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "LB",
+   "site": "https://noursat.tv/"
+  }
+ ],
+ "NourMariam.lb": [
+  {
+   "cc": "lb",
+   "tid": "NourMariam.lb@SD",
+   "name": "Nour Mariam (576p)",
+   "url": "https://svs.itworkscdn.net/nour9satlive/livestream/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "LB",
+   "site": ""
+  }
+ ],
+ "Noursat.lb": [
+  {
+   "cc": "lb",
+   "tid": "Noursat.lb@SD",
+   "name": "NourSAT (576p)",
+   "url": "https://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "LB",
+   "site": "https://noursat.tv/"
+  }
+ ],
+ "OneTV.lb": [
+  {
+   "cc": "lb",
+   "tid": "OneTV.lb@SD",
+   "name": "One TV (720p) [Not 24/7]",
+   "url": "https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "LB",
+   "site": "https://www.mtv.com.lb/OneTV/Live"
+  }
+ ],
+ "OneFM.lb": [
+  {
+   "cc": "lb",
+   "tid": "OneFM.lb@SD",
+   "name": "OneFM (720p) [Not 24/7]",
+   "url": "https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "LB",
+   "site": "https://www.mtv.com.lb/OneTV/Live"
+  }
+ ],
+ "OTV.lb": [
+  {
+   "cc": "lb",
+   "tid": "OTV.lb@SD",
+   "name": "OTV (1080p)",
+   "url": "https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "LB",
+   "site": "https://www.otv.com.lb/"
+  }
+ ],
+ "PalestineAlYawm.lb": [
+  {
+   "cc": "lb",
+   "tid": "PalestineAlYawm.lb@SD",
+   "name": "Palestine Al Yawm (720p)",
+   "url": "https://live.paltodaytv.com/paltv/live/playlist_sfm4s.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "LB",
+   "site": "https://paltodaytv.com/"
+  }
+ ],
+ "RedTVLebanon.lb": [
+  {
+   "cc": "lb",
+   "tid": "RedTVLebanon.lb@HD",
+   "name": "Red TV Lebanon (1080p)",
+   "url": "https://live.kwikmotion.com/redtvlive/redtv.smil/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "LB",
+   "site": "https://redtvlebanon.com"
+  }
+ ],
+ "TahaTV.lb": [
+  {
+   "cc": "lb",
+   "tid": "TahaTV.lb@SD",
+   "name": "Taha TV (576p)",
+   "url": "https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8",
+   "cats": [
+    "kids"
+   ],
+   "country": "LB",
+   "site": "https://www.tahatv.com/"
+  }
+ ],
+ "TeleLiban.lb": [
+  {
+   "cc": "lb",
+   "tid": "TeleLiban.lb@SD",
+   "name": "Tele Liban (720p) [Not 24/7]",
+   "url": "https://cdn.catiacast.video/abr/ed8f807e2548db4507d2a6f4ba0c4a06/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "LB",
+   "site": "http://www.teleliban.com.lb/"
+  }
+ ],
+ "UNews.lb": [
+  {
+   "cc": "lb",
+   "tid": "UNews.lb@SD",
+   "name": "UNews",
+   "url": "https://cdn.catiacast.video/abr/9436b5ab3c1171ab04a59af11951292f/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "LB",
+   "site": "https://unews.com.lb/live"
+  }
+ ],
+ "VoiceofLebanon.lb": [
+  {
+   "cc": "lb",
+   "tid": "VoiceofLebanon.lb@SD",
+   "name": "Voice of Lebanon (1080p)",
+   "url": "https://svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "LB",
+   "site": "https://www.vdl.me"
+  }
+ ],
+ "AlMasarTV.ly": [
+  {
+   "cc": "ly",
+   "tid": "AlMasarTV.ly@SD",
+   "name": "Al Masar TV (576p)",
+   "url": "https://starmenajo.com/hls/almasar/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "LY",
+   "site": "https://almasartv.ly/"
+  }
+ ],
+ "LibyaAlWataniya.ly": [
+  {
+   "cc": "ly",
+   "tid": "LibyaAlWataniya.ly@SD",
+   "name": "Libya Al Wataniya (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/libya_al_watanya/hls_roku/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "LY",
+   "site": "http://www.ltv.ly/"
+  }
+ ],
+ "TanasuhTV.ly": [
+  {
+   "cc": "ly",
+   "tid": "TanasuhTV.ly@HD",
+   "name": "Tanasuh TV (1080p)",
+   "url": "https://kilolink.pulsarstarsolutions.com/live/smil:tanasuhtv.smil/manifest.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "LY",
+   "site": "https://tanasuh.tv/"
+  },
+  {
+   "cc": "ly",
+   "tid": "TanasuhTV.ly@HD",
+   "name": "Tanasuh TV (1080p)",
+   "url": "https://kilolink.pulsarstarsolutions.com/live/smil:tanasuhtv.smil/manifest.mpd",
+   "cats": [
+    "general"
+   ],
+   "country": "LY",
+   "site": "https://tanasuh.tv/"
+  },
+  {
+   "cc": "ly",
+   "tid": "TanasuhTV.ly@HD",
+   "name": "Tanasuh TV (1080p)",
+   "url": "https://tip.stream.tanasuh.tv:4434/live/smil:tanasuhtv.smil/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "LY",
+   "site": "https://tanasuh.tv/"
+  }
+ ],
+ "WasatTV.ly": [
+  {
+   "cc": "ly",
+   "tid": "WasatTV.ly@SD",
+   "name": "Wasat TV (1080p)",
+   "url": "https://alwasattv.hibridcdn.net/alwasattv/alwasat_abr/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "LY",
+   "site": "http://wasat.tv/"
+  }
+ ],
+ "2MMonde.ma": [
+  {
+   "cc": "ma",
+   "tid": "2MMonde.ma@HD",
+   "name": "2M Monde (1080p)",
+   "url": "https://stream-lb.livemediama.com/2m/hls/master.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "MA",
+   "site": "https://2m.ma/"
+  },
+  {
+   "cc": "ma",
+   "tid": "2MMonde.ma@SD",
+   "name": "2M Monde (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "MA",
+   "site": "https://2m.ma/"
+  },
+  {
+   "cc": "ma",
+   "tid": "2MMonde.ma@Plus1",
+   "name": "2M Monde +1 (1080p)",
+   "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "MA",
+   "site": "https://2m.ma/"
+  }
+ ],
+ "AlAoula.ma": [
+  {
+   "cc": "ma",
+   "tid": "AlAoula.ma@HD",
+   "name": "Al Aoula (1080p)",
+   "url": "https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "MA",
+   "site": "http://www.snrt.ma/"
+  },
+  {
+   "cc": "ma",
+   "tid": "AlAoula.ma@InterHD",
+   "name": "Al Aoula Inter (1080p)",
+   "url": "https://stream-lb.livemediama.com/alaoula/hls/master.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "MA",
+   "site": "http://www.snrt.ma/"
+  }
+ ],
+ "AlMaghribia.ma": [
+  {
+   "cc": "ma",
+   "tid": "AlMaghribia.ma@SD",
+   "name": "Al Maghribia (480p)",
+   "url": "https://snrtworker.kharazbelaid.workers.dev/?id=almaghribia.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "MA",
+   "site": "https://www.snrt.ma/"
+  }
+ ],
+ "ChadaTV.ma": [
+  {
+   "cc": "ma",
+   "tid": "ChadaTV.ma@SD",
+   "name": "Chada TV (720p)",
+   "url": "https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "MA",
+   "site": "https://chadatv.com/"
+  },
+  {
+   "cc": "ma",
+   "tid": "ChadaTV.ma@SD",
+   "name": "Chada TV (720p)",
+   "url": "https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "MA",
+   "site": "https://chadatv.com/"
+  },
+  {
+   "cc": "ma",
+   "tid": "ChadaTV.ma@SD",
+   "name": "Chada TV (720p)",
+   "url": "https://edge19.vedge.infomaniak.com/livecast/ik:chadatv/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "MA",
+   "site": "https://chadatv.com/"
+  }
+ ],
+ "Medi1TVArabic.ma": [
+  {
+   "cc": "ma",
+   "tid": "Medi1TVArabic.ma@SD",
+   "name": "Medi 1 TV Arabic (1080p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "MA",
+   "site": "https://medi1tv.com/"
+  },
+  {
+   "cc": "ma",
+   "tid": "Medi1TVArabic.ma@SD",
+   "name": "Medi 1 TV Arabic (1080p) (DVR) (1080p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "MA",
+   "site": "https://medi1tv.com/"
+  }
+ ],
+ "Medi1TVMaghreb.ma": [
+  {
+   "cc": "ma",
+   "tid": "Medi1TVMaghreb.ma@SD",
+   "name": "Medi 1 TV Maghreb (1080p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "MA",
+   "site": "https://medi1tv.com/"
+  },
+  {
+   "cc": "ma",
+   "tid": "Medi1TVMaghreb.ma@SD",
+   "name": "Medi 1 TV Maghreb (1080p) (DVR) (1080p)",
+   "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist_dvr.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "MA",
+   "site": "https://medi1tv.com/"
+  }
+ ],
+ "StoryChannelTV.ma": [
+  {
+   "cc": "ma",
+   "tid": "StoryChannelTV.ma@SD",
+   "name": "StoryChannel TV (720p)",
+   "url": "https://136044159.r.cdnsun.net/storychannel.m3u8",
+   "cats": [
+    "culture"
+   ],
+   "country": "MA",
+   "site": "https://storychannel.tv/"
+  }
+ ],
+ "LoveWorldArabic.ng": [
+  {
+   "cc": "ng",
+   "tid": "LoveWorldArabic.ng@SD",
+   "name": "LoveWorld Arabic (360p)",
+   "url": "https://go5lm6a6dawb-hls-live.5centscdn.com/lwarabic/53132d996b4263ec0d7b602292c46eaf.sdp/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "NG",
+   "site": "http://loveworldarabic.tv/"
+  }
+ ],
+ "AlistiqamaTV.om": [
+  {
+   "cc": "om",
+   "tid": "AlistiqamaTV.om@SD",
+   "name": "Alistiqama TV (576p)",
+   "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "OM",
+   "site": "http://www.istiqama.tv/"
+  }
+ ],
+ "OmanTVCultural.om": [
+  {
+   "cc": "om",
+   "tid": "OmanTVCultural.om@SD",
+   "name": "Oman Althakafia (1080p)",
+   "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
+   "cats": [
+    "culture"
+   ],
+   "country": "OM",
+   "site": "http://part.gov.om/part/"
+  }
+ ],
+ "OmanTVMubashir.om": [
+  {
+   "cc": "om",
+   "tid": "OmanTVMubashir.om@SD",
+   "name": "Oman Mubashir (1080p)",
+   "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "OM",
+   "site": "http://part.gov.om/part/"
+  }
+ ],
+ "OmanSportsTV.om": [
+  {
+   "cc": "om",
+   "tid": "OmanSportsTV.om@SD",
+   "name": "Oman Sports TV (1080p) [Not 24/7]",
+   "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "OM",
+   "site": "http://part.gov.om/omantvsport/"
+  }
+ ],
+ "OmanTV.om": [
+  {
+   "cc": "om",
+   "tid": "OmanTV.om@SD",
+   "name": "Oman TV (1080p)",
+   "url": "https://partneta.cdn.mgmlcdn.com/omantv/smil:omantv.stream.smil/chunklist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "OM",
+   "site": "http://part.gov.om/part/"
+  },
+  {
+   "cc": "om",
+   "tid": "OmanTV.om@SD",
+   "name": "Oman TV (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/oman_tv/hls_roku/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "OM",
+   "site": "http://part.gov.om/part/"
+  }
+ ],
+ "GodStandsKidsClubTV.pk": [
+  {
+   "cc": "pk",
+   "tid": "GodStandsKidsClubTV.pk@Arabic",
+   "name": "God Stands Kids Club TV Arabic",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/KidsArabic.m3u8",
+   "cats": [
+    "kids",
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://godstands.tv/kids-club-tv/"
+  },
+  {
+   "cc": "pk",
+   "tid": "GodStandsKidsClubTV.pk@Chinese",
+   "name": "God Stands Kids Club TV Chinese",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/KidsChinese.m3u8",
+   "cats": [
+    "kids",
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://godstands.tv/kids-club-tv/"
+  },
+  {
+   "cc": "pk",
+   "tid": "GodStandsKidsClubTV.pk@English",
+   "name": "God Stands Kids Club TV English",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/kidsenglish.m3u8",
+   "cats": [
+    "kids",
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://godstands.tv/kids-club-tv/"
+  },
+  {
+   "cc": "pk",
+   "tid": "GodStandsKidsClubTV.pk@Urdu",
+   "name": "God Stands Kids Club TV Urdu",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/KidsUrdu.m3u8",
+   "cats": [
+    "kids",
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://godstands.tv/kids-club-tv/"
+  }
+ ],
+ "GodStandsTV.pk": [
+  {
+   "cc": "pk",
+   "tid": "GodStandsTV.pk@Main",
+   "name": "God Stands TV",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/mainlive.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://www.godstands.tv/"
+  },
+  {
+   "cc": "pk",
+   "tid": "GodStandsTV.pk@Arabic",
+   "name": "God Stands TV Arabic",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/Arabic.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://www.godstands.tv/"
+  },
+  {
+   "cc": "pk",
+   "tid": "GodStandsTV.pk@Chinese",
+   "name": "God Stands TV Chinese",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://www.godstands.tv/"
+  },
+  {
+   "cc": "pk",
+   "tid": "GodStandsTV.pk@English",
+   "name": "God Stands TV English",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/EnglishStreaming.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://www.godstands.tv/"
+  },
+  {
+   "cc": "pk",
+   "tid": "GodStandsTV.pk@Hindi",
+   "name": "God Stands TV Hindi",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/HindiStreaming.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://www.godstands.tv/"
+  },
+  {
+   "cc": "pk",
+   "tid": "GodStandsTV.pk@Punjabi",
+   "name": "God Stands TV Punjabi",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/PunjabiStreaming.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://www.godstands.tv/"
+  },
+  {
+   "cc": "pk",
+   "tid": "GodStandsTV.pk@Tagalog",
+   "name": "God Stands TV Tagalog",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/Tagalog.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://www.godstands.tv/"
+  },
+  {
+   "cc": "pk",
+   "tid": "GodStandsTV.pk@Urdu",
+   "name": "God Stands TV Urdu",
+   "url": "https://online.godstands.tv:5443/WebRTCApp/streams/UrduStreaming.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "PK",
+   "site": "https://www.godstands.tv/"
+  }
+ ],
+ "AlMadina.ps": [
+  {
+   "cc": "ps",
+   "tid": "AlMadina.ps@SD",
+   "name": "Al Madina (720p)",
+   "url": "https://streaming.zaytonatube.com:8081/AlMadinatv/almadina21/index.m3u8",
+   "cats": [],
+   "country": "PS",
+   "site": "https://almadina.tv/"
+  }
+ ],
+ "AlNajahNews.ps": [
+  {
+   "cc": "ps",
+   "tid": "AlNajahNews.ps@SD",
+   "name": "Al Najah News (720p)",
+   "url": "https://streaming.najah.edu:8443/hls/AlNajah.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "PS",
+   "site": "https://nn.najah.edu"
+  }
+ ],
+ "FalastiniTV.ps": [
+  {
+   "cc": "ps",
+   "tid": "FalastiniTV.ps@SD",
+   "name": "Falastini TV (1080p)",
+   "url": "https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "PS",
+   "site": "http://falastini.tv/"
+  }
+ ],
+ "HalaRamallah.ps": [
+  {
+   "cc": "ps",
+   "tid": "HalaRamallah.ps@SD",
+   "name": "Hala Ramallah (720p)",
+   "url": "https://halaramallahtv.com:2053/HRamallah-Tv/HalaRamallah/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "PS",
+   "site": "https://halaramallahtv.com/"
+  }
+ ],
+ "KolalnasTV.ps": [
+  {
+   "cc": "ps",
+   "tid": "KolalnasTV.ps@SD",
+   "name": "Kolalnas TV",
+   "url": "https://htvint.mada.ps/kolalnas/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "PS",
+   "site": "https://kolalnastv.com/"
+  }
+ ],
+ "MusawaChannel.ps": [
+  {
+   "cc": "ps",
+   "tid": "MusawaChannel.ps@SD",
+   "name": "MusawaChannel (1080p) [Not 24/7]",
+   "url": "https://pbc.furrera.ps/musawahd/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "PS",
+   "site": "https://musawachannel.com/"
+  }
+ ],
+ "NablusTV.ps": [
+  {
+   "cc": "ps",
+   "tid": "NablusTV.ps@SD",
+   "name": "Nablus TV (1080p)",
+   "url": "https://htvint.mada.ps/nabluslive/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "PS",
+   "site": "https://www.nablustv.net/"
+  }
+ ],
+ "PalestineEdu.ps": [
+  {
+   "cc": "ps",
+   "tid": "PalestineEdu.ps@SD",
+   "name": "Palestine Edu (1080p)",
+   "url": "https://pbc.furrera.ps/PalestineEDU/index.m3u8",
+   "cats": [
+    "education"
+   ],
+   "country": "PS",
+   "site": ""
+  }
+ ],
+ "PalestineMubasher.ps": [
+  {
+   "cc": "ps",
+   "tid": "PalestineMubasher.ps@SD",
+   "name": "Palestine Mubasher (1080p)",
+   "url": "https://pbc.furrera.ps/palestinelivehd/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "PS",
+   "site": "https://www.pbc.ps/palestinemubasherchannel"
+  }
+ ],
+ "PalestineSatelliteChannel.ps": [
+  {
+   "cc": "ps",
+   "tid": "PalestineSatelliteChannel.ps@SD",
+   "name": "Palestine Satellite Channel (1080p)",
+   "url": "https://pbc.furrera.ps/palestinehd/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "PS",
+   "site": "https://www.pbc.ps/"
+  },
+  {
+   "cc": "ps",
+   "tid": "PalestineSatelliteChannel.ps@SD",
+   "name": "Palestine Satellite Channel (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/palestinian_satellite_channel/hls_roku/palestinian_satellite_channel.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "PS",
+   "site": "https://www.pbc.ps/"
+  }
+ ],
+ "PalestineToday.ps": [
+  {
+   "cc": "ps",
+   "tid": "PalestineToday.ps@SD",
+   "name": "Palestine Today (480p) [Geo-blocked]",
+   "url": "https://live.paltodaytv.com/paltv/live/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "PS",
+   "site": "https://paltoday.tv/"
+  }
+ ],
+ "RadioAlbaladTV.ps": [
+  {
+   "cc": "ps",
+   "tid": "RadioAlbaladTV.ps@SD",
+   "name": "Radio Albalad TV (576p)",
+   "url": "https://streaming.zaytonatube.com:8081/radioalbalad/radioalbalad/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "PS",
+   "site": ""
+  }
+ ],
+ "RajeenTV.ps": [
+  {
+   "cc": "ps",
+   "tid": "RajeenTV.ps@SD",
+   "name": "Rajeen TV (1080p) [Not 24/7]",
+   "url": "https://mn-nl.mncdn.com/palabroad/live/playlist.m3u8",
+   "cats": [],
+   "country": "PS",
+   "site": "https://www.rajeen.tv/"
+  }
+ ],
+ "Raya1.ps": [
+  {
+   "cc": "ps",
+   "tid": "Raya1.ps@SD",
+   "name": "Raya 1 (1080p)",
+   "url": "https://htvmada.mada.ps:4443/raya/index.m3u8",
+   "cats": [],
+   "country": "PS",
+   "site": "https://www.rayatv.ps"
+  }
+ ],
+ "ShababFM.ps": [
+  {
+   "cc": "ps",
+   "tid": "ShababFM.ps@SD",
+   "name": "Shabab FM (720p) [Not 24/7]",
+   "url": "https://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8",
+   "cats": [],
+   "country": "PS",
+   "site": "https://shababfm.ps/"
+  }
+ ],
+ "WatarTV.ps": [
+  {
+   "cc": "ps",
+   "tid": "WatarTV.ps@SD",
+   "name": "Watar TV (720p) [Not 24/7]",
+   "url": "https://htvint.mada.ps/orient/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "PS",
+   "site": ""
+  }
+ ],
+ "SerajTV.ps": [
+  {
+   "cc": "ps",
+   "tid": "SerajTV.ps@SD",
+   "name": "Seraj TV (1080i)",
+   "url": "https://43869de4e1a0d641.servers.dvcloud.tv/hls/al_aqsa_channel/6udfi7v8a3eof6nlps6e9ovfrs65c7l7.m3u8",
+   "cats": [
+    "general",
+    "news"
+   ],
+   "country": "PS",
+   "site": "https://www.alaqsanet.news/"
+  }
+ ],
+ "WattanTV.ps": [
+  {
+   "cc": "ps",
+   "tid": "WattanTV.ps@SD",
+   "name": "Wattan TV",
+   "url": "https://htvmada.mada.ps:4443/wattan/index.m3u8",
+   "cats": [],
+   "country": "PS",
+   "site": "https://wattan.net/"
+  }
+ ],
+ "MaanTV.ps": [
+  {
+   "cc": "ps",
+   "tid": "MaanTV.ps@SD",
+   "name": "Ma'an TV (720p)",
+   "url": "https://htvmada.mada.ps:4443/maannews/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "PS",
+   "site": "https://www.maannews.net/"
+  }
+ ],
+ "AlArabyTV.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlArabyTV.qa@SD",
+   "name": "Al Araby TV (1080p)",
+   "url": "https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.alaraby.com/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlArabyTV.qa@SD",
+   "name": "Al Araby TV (1080p)",
+   "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5616",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.alaraby.com/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlArabyTV.qa@SD",
+   "name": "Alaraby TV (1080p)",
+   "url": "https://origin-cae-t482536.cdn.nextologies.com/6837800d47c40cb2/1544c5accd8e84d5ALA2306/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.alaraby.com/"
+  }
+ ],
+ "AlArabyTV2.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlArabyTV2.qa@SD",
+   "name": "Al Araby TV 2 (1080p)",
+   "url": "https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.alaraby.com/alaraby2"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlArabyTV2.qa@SD",
+   "name": "Al Araby TV 2 (1080p)",
+   "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5617",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.alaraby.com/alaraby2"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlArabyTV2.qa@SD",
+   "name": "Alaraby 2 TV (1080p)",
+   "url": "https://origin-cae-t482536.cdn.nextologies.com/63d8c759c5db83b4/25c4f89d27a79014ALA2306/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.alaraby.com/alaraby2"
+  }
+ ],
+ "AlJazeera2.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlJazeera2.qa@HD",
+   "name": "Al Jazeera 2 (1080p)",
+   "url": "https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": ""
+  }
+ ],
+ "AlJazeeraDocumentary.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraDocumentary.qa@SD",
+   "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
+   "url": "https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8",
+   "cats": [
+    "documentary"
+   ],
+   "country": "QA",
+   "site": "http://doc.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraDocumentary.qa@SD",
+   "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
+   "url": "https://live-hls-apps-ajd-v3-fa.getaj.net/AJD/index.m3u8",
+   "cats": [
+    "documentary"
+   ],
+   "country": "QA",
+   "site": "http://doc.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraDocumentary.qa@SD",
+   "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
+   "url": "https://live-hls-web-ajd-fa.thehlive.com/AJD/index.m3u8",
+   "cats": [
+    "documentary"
+   ],
+   "country": "QA",
+   "site": "http://doc.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraDocumentary.qa@SD",
+   "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
+   "url": "https://live-hls-web-ajd.getaj.net/AJD/index.m3u8",
+   "cats": [
+    "documentary"
+   ],
+   "country": "QA",
+   "site": "http://doc.aljazeera.net/"
+  }
+ ],
+ "AlJazeeraMubasher.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraMubasher.qa@SD",
+   "name": "Al Jazeera Mubasher (1080p)",
+   "url": "https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "http://mubasher.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraMubasher.qa@SD",
+   "name": "Al Jazeera Mubasher (1080p)",
+   "url": "https://live-hls-apps-ajm-v3-fa.getaj.net/AJM/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "http://mubasher.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraMubasher.qa@SD",
+   "name": "Al Jazeera Mubasher (1080p)",
+   "url": "https://live-hls-web-ajm-fa.thehlive.com/AJM/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "http://mubasher.aljazeera.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraMubasher.qa@SD",
+   "name": "Al Jazeera Mubasher (1080p)",
+   "url": "https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "http://mubasher.aljazeera.net/"
+  }
+ ],
+ "AlJazeeraMubasher24.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraMubasher24.qa@SD",
+   "name": "Al Jazeera Mubasher 24 (1080p)",
+   "url": "https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeeramubasher.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraMubasher24.qa@SD",
+   "name": "Al Jazeera Mubasher 24 (1080p)",
+   "url": "https://live-hls-web-ajm24-fa.getaj.net/AJM24/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeeramubasher.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraMubasher24.qa@SD",
+   "name": "Al Jazeera Mubasher 24 (1080p)",
+   "url": "https://live-hls-web-ajm24-fa.thehlive.com/AJM24/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeeramubasher.net/"
+  }
+ ],
+ "AlJazeeraMubasherBroadcast2.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraMubasherBroadcast2.qa@SD",
+   "name": "Al Jazeera Mubasher Broadcast 2 (1080p)",
+   "url": "https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeeramubasher.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraMubasherBroadcast2.qa@SD",
+   "name": "Al Jazeera Mubasher Broadcast 2 (1080p)",
+   "url": "https://live-hls-web-ajm2-fa.getaj.net/AJM2/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeeramubasher.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlJazeeraMubasherBroadcast2.qa@SD",
+   "name": "Al Jazeera Mubasher Broadcast 2 (1080p)",
+   "url": "https://live-hls-web-ajm2-fa.thehlive.com/AJM2/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.aljazeeramubasher.net/"
+  }
+ ],
+ "AlMaarefTV.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlMaarefTV.qa@SD",
+   "name": "Al Maaref TV (1080p)",
+   "url": "https://bucharest.zeuscdn724.com/lb0/CH-AL-MA/index.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "QA",
+   "site": "https://almaaref.ch/"
+  }
+ ],
+ "AlRayyanTV.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlRayyanTV.qa@SD",
+   "name": "Al Rayyan (1080p)",
+   "url": "https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "https://www.alrayyan.tv/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlRayyanTV.qa@SD",
+   "name": "Al Rayyan TV (720p)",
+   "url": "https://streamer7.qna.org.qa/148136749_live/148136749_296.sdp/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "https://www.alrayyan.tv/"
+  }
+ ],
+ "AlRayyanOldTV.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlRayyanOldTV.qa@SD",
+   "name": "Al Rayyan Al Qadeem (1080p)",
+   "url": "https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "https://www.alrayyan.tv/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlRayyanOldTV.qa@SD",
+   "name": "Al Rayyan Old TV (720p)",
+   "url": "https://streamer7.qna.org.qa/148136781_live/148136781_63.sdp/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "https://www.alrayyan.tv/"
+  }
+ ],
+ "AlkassFive.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlkassFive.qa@SD",
+   "name": "Alkass Five (1080p)",
+   "url": "https://liveeu-gcp.alkassdigital.net/alkass5-p/main.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "QA",
+   "site": "https://www.alkass.net/"
+  }
+ ],
+ "AlkassFour.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlkassFour.qa@SD",
+   "name": "Alkass Four (1080p)",
+   "url": "https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "QA",
+   "site": "https://www.alkass.net/"
+  }
+ ],
+ "AlkassOne.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlkassOne.qa@SD",
+   "name": "Alkass One (1080p)",
+   "url": "https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "QA",
+   "site": "https://www.alkass.net/"
+  }
+ ],
+ "AlkassSeven.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlkassSeven.qa@SD",
+   "name": "Alkass Seven (1080p)",
+   "url": "https://liveeu-gcp.alkassdigital.net/alkass7-p/main.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "QA",
+   "site": "https://www.alkass.net/"
+  }
+ ],
+ "AlkassSHOOF.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlkassSHOOF.qa@SD",
+   "name": "Alkass SHOOF (1080p)",
+   "url": "https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "QA",
+   "site": "https://shoof.alkass.net/live?ch=shoof"
+  }
+ ],
+ "AlkassSHOOF2.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlkassSHOOF2.qa@SD",
+   "name": "Alkass SHOOF 2 (1080p)",
+   "url": "https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "QA",
+   "site": "https://www.alkass.net/"
+  }
+ ],
+ "AlkassSix.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlkassSix.qa@SD",
+   "name": "Alkass Six (1080p)",
+   "url": "https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "QA",
+   "site": "https://www.alkass.net/"
+  }
+ ],
+ "AlkassThree.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlkassThree.qa@SD",
+   "name": "Alkass Three (1080p)",
+   "url": "https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "QA",
+   "site": "https://www.alkass.net/"
+  },
+  {
+   "cc": "qa",
+   "tid": "AlkassThree.qa@SD",
+   "name": "Alkass Three (720p)",
+   "url": "https://streamer2.qna.org.qa/148161470_live/148161470_296.sdp/playlist.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "QA",
+   "site": "https://www.alkass.net/"
+  }
+ ],
+ "AlkassTwo.qa": [
+  {
+   "cc": "qa",
+   "tid": "AlkassTwo.qa@SD",
+   "name": "Alkass Two (1080p)",
+   "url": "https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "QA",
+   "site": "https://www.alkass.net/"
+  }
+ ],
+ "LibyaAlAhrarTV.qa": [
+  {
+   "cc": "qa",
+   "tid": "LibyaAlAhrarTV.qa@SD",
+   "name": "Libya Al Ahrar TV (1080p)",
+   "url": "https://stream-hls.castr.net/64490fcefe045f1b63012886/live_22d9a1f0c69c11ee9441219c2cc6d61f/index.fmp4.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://libyaalahrar.tv/"
+  }
+ ],
+ "QatarTelevision.qa": [
+  {
+   "cc": "qa",
+   "tid": "QatarTelevision.qa@SD",
+   "name": "Qatar Television (1080p)",
+   "url": "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "http://www.qtv.qa/"
+  },
+  {
+   "cc": "qa",
+   "tid": "QatarTelevision.qa@SD",
+   "name": "Qatar Television (720p)",
+   "url": "https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "http://www.qtv.qa/"
+  },
+  {
+   "cc": "qa",
+   "tid": "QatarTelevision.qa@SD",
+   "name": "Qatar Television (720p)",
+   "url": "https://streamer1.qna.org.qa/148133273_live/148133273_63.sdp/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "http://www.qtv.qa/"
+  },
+  {
+   "cc": "qa",
+   "tid": "QatarTelevision.qa@SD",
+   "name": "Qatar Television (1080p)",
+   "url": "https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "http://www.qtv.qa/"
+  }
+ ],
+ "QatarTelevision2.qa": [
+  {
+   "cc": "qa",
+   "tid": "QatarTelevision2.qa@SD",
+   "name": "Qatar Television 2 (1080p)",
+   "url": "https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "http://www.qtv.qa/"
+  },
+  {
+   "cc": "qa",
+   "tid": "QatarTelevision2.qa@SD",
+   "name": "Qatar Television 2 (720p)",
+   "url": "https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "http://www.qtv.qa/"
+  },
+  {
+   "cc": "qa",
+   "tid": "QatarTelevision2.qa@SD",
+   "name": "Qatar Television 2 (720p)",
+   "url": "https://streamer1.qna.org.qa/148133344_live/148133344_63.sdp/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "http://www.qtv.qa/"
+  },
+  {
+   "cc": "qa",
+   "tid": "QatarTelevision2.qa@SD",
+   "name": "Qatar Television 2 (1080p)",
+   "url": "https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "QA",
+   "site": "http://www.qtv.qa/"
+  }
+ ],
+ "QBC.qa": [
+  {
+   "cc": "qa",
+   "tid": "QBC.qa@HD",
+   "name": "QBC (1080p)",
+   "url": "https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8",
+   "cats": [
+    "business",
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.qbc.news/"
+  },
+  {
+   "cc": "qa",
+   "tid": "QBC.qa@HD",
+   "name": "QBC (1080p)",
+   "url": "https://live.kwikmotion.com/qbusinesslive/qbusiness.smil/playlist.m3u8",
+   "cats": [
+    "business",
+    "news"
+   ],
+   "country": "QA",
+   "site": "https://www.qbc.news/"
+  }
+ ],
+ "QatarTVTheHolyQuran.qa": [
+  {
+   "cc": "qa",
+   "tid": "QatarTVTheHolyQuran.qa@HD",
+   "name": "Qatar TV The Holy Quran (1080p)",
+   "url": "https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "QA",
+   "site": "https://www.qtv.qa/"
+  }
+ ],
+ "RTArabic.ru": [
+  {
+   "cc": "ru_rt",
+   "tid": "RTArabic.ru@SD",
+   "name": "RT Arabic (1080p) [Geo-blocked]",
+   "url": "https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "RU",
+   "site": "https://arabic.rt.com/"
+  },
+  {
+   "cc": "ru_rt",
+   "tid": "RTArabic.ru@SD",
+   "name": "RT Arabic (1080p) [Geo-blocked]",
+   "url": "https://rt-arb.rttv.com/live/rtarab/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "RU",
+   "site": "https://arabic.rt.com/"
+  }
+ ],
+ "AbdulmajeedAbdullah.sa": [
+  {
+   "cc": "sa",
+   "tid": "AbdulmajeedAbdullah.sa@SD",
+   "name": "Abdulmajeed Abdullah (1080p)",
+   "url": "https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "Aflam.sa": [
+  {
+   "cc": "sa",
+   "tid": "Aflam.sa@SD",
+   "name": "Aflam (1080p)",
+   "url": "https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8",
+   "cats": [
+    "movies"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "AlHadath.sa": [
+  {
+   "cc": "sa",
+   "tid": "AlHadath.sa@SD",
+   "name": "Al Arabiya Al Hadath (1080p) [Not 24/7]",
+   "url": "https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SA",
+   "site": "https://www.alhadath.net/"
+  },
+  {
+   "cc": "sa",
+   "tid": "AlHadath.sa@SD",
+   "name": "Al Hadath (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SA",
+   "site": "https://www.alhadath.net/"
+  },
+  {
+   "cc": "sa",
+   "tid": "AlHadath.sa@SD",
+   "name": "Al Hadath TV (1080p) [Not 24/7]",
+   "url": "https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SA",
+   "site": "https://www.alhadath.net/"
+  }
+ ],
+ "AlEkhbariya.sa": [
+  {
+   "cc": "sa",
+   "tid": "AlEkhbariya.sa@SD",
+   "name": "Al Ekhbariya (1080p)",
+   "url": "https://aloula-redirect.vercel.app/4/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SA",
+   "site": "https://www.alekhbariya.net/"
+  },
+  {
+   "cc": "sa",
+   "tid": "AlEkhbariya.sa@SD",
+   "name": "Al Ekhbariya (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SA",
+   "site": "https://www.alekhbariya.net/"
+  },
+  {
+   "cc": "sa",
+   "tid": "AlEkhbariya.sa@SD",
+   "name": "Al Ekhbariya (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SA",
+   "site": "https://www.alekhbariya.net/"
+  }
+ ],
+ "AlQuranAlKareemTV.sa": [
+  {
+   "cc": "sa",
+   "tid": "AlQuranAlKareemTV.sa@SD",
+   "name": "Al Quran Al Kareem TV (1080p)",
+   "url": "https://aloula-redirect.vercel.app/7/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://makkahlive.net/tvquran.aspx"
+  },
+  {
+   "cc": "sa",
+   "tid": "AlQuranAlKareemTV.sa@SD",
+   "name": "Al Quran Al Kareem TV (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://makkahlive.net/tvquran.aspx"
+  }
+ ],
+ "AlResalah.sa": [
+  {
+   "cc": "sa",
+   "tid": "AlResalah.sa@SD",
+   "name": "Al Resalah (1080p) [Geo-blocked]",
+   "url": "https://rotana.hibridcdn.net/rotananet/risala_net-7Y83PP5adWixDF93/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://www.alresalah.net/"
+  }
+ ],
+ "AlRiyadhRadio.sa": [
+  {
+   "cc": "sa",
+   "tid": "AlRiyadhRadio.sa@SD",
+   "name": "Al Riyadh Radio (1080p)",
+   "url": "https://aloula-redirect.vercel.app/12/playlist.m3u8",
+   "cats": [],
+   "country": "SA",
+   "site": "https://www.aloula.sa/en/live/riyadhradio"
+  },
+  {
+   "cc": "sa",
+   "tid": "AlRiyadhRadio.sa@SD",
+   "name": "Al Riyadh Radio (1080p)",
+   "url": "https://live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8",
+   "cats": [],
+   "country": "SA",
+   "site": "https://www.aloula.sa/en/live/riyadhradio"
+  }
+ ],
+ "AlSaudiya.sa": [
+  {
+   "cc": "sa",
+   "tid": "AlSaudiya.sa@SD",
+   "name": "Al Saudiya (1080p)",
+   "url": "https://aloula-redirect.vercel.app/2/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "SA",
+   "site": "https://saudiatv.sa/"
+  },
+  {
+   "cc": "sa",
+   "tid": "AlSaudiya.sa@SD",
+   "name": "Al Saudiya (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "SA",
+   "site": "https://saudiatv.sa/"
+  },
+  {
+   "cc": "sa",
+   "tid": "AlSaudiya.sa@SD",
+   "name": "Al Saudiya (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_tv/hls_roku/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "SA",
+   "site": "https://saudiatv.sa/"
+  }
+ ],
+ "AlSaudiyaAlaan.sa": [
+  {
+   "cc": "sa",
+   "tid": "AlSaudiyaAlaan.sa@SD",
+   "name": "Al Saudiya Alaan (1080p)",
+   "url": "https://aloula-redirect.vercel.app/17/playlist.m3u8",
+   "cats": [],
+   "country": "SA",
+   "site": "https://www.aloula.sa/live/ksa-now"
+  },
+  {
+   "cc": "sa",
+   "tid": "AlSaudiyaAlaan.sa@SD",
+   "name": "Al Saudiya Alaan (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8",
+   "cats": [],
+   "country": "SA",
+   "site": "https://www.aloula.sa/live/ksa-now"
+  }
+ ],
+ "AlSunnahAlNabawiyahTV.sa": [
+  {
+   "cc": "sa",
+   "tid": "AlSunnahAlNabawiyahTV.sa@SD",
+   "name": "Al Sunnah Al Nabawiyah TV (1080p)",
+   "url": "https://aloula-redirect.vercel.app/6/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://www.aloula.sa/en/live/sunnatvsa"
+  },
+  {
+   "cc": "sa",
+   "tid": "AlSunnahAlNabawiyahTV.sa@SD",
+   "name": "Al Sunnah Al Nabawiyah TV (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://www.aloula.sa/en/live/sunnatvsa"
+  }
+ ],
+ "AlkhuzamaRadio.sa": [
+  {
+   "cc": "sa",
+   "tid": "AlkhuzamaRadio.sa@SD",
+   "name": "Alkhuzama Radio (1080p)",
+   "url": "https://aloula-redirect.vercel.app/18/playlist.m3u8",
+   "cats": [],
+   "country": "SA",
+   "site": "https://radioplus.sba.sa/en/live/7"
+  },
+  {
+   "cc": "sa",
+   "tid": "AlkhuzamaRadio.sa@SD",
+   "name": "Alkhuzama Radio (1080p)",
+   "url": "https://live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8",
+   "cats": [],
+   "country": "SA",
+   "site": "https://radioplus.sba.sa/en/live/7"
+  }
+ ],
+ "AsharqDiscovery.sa": [
+  {
+   "cc": "sa",
+   "tid": "AsharqDiscovery.sa@SD",
+   "name": "Asharq Discovery (1080p)",
+   "url": "https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8",
+   "cats": [
+    "documentary",
+    "education"
+   ],
+   "country": "SA",
+   "site": "https://asharqdiscovery.com"
+  }
+ ],
+ "AsharqDocumentary.sa": [
+  {
+   "cc": "sa",
+   "tid": "AsharqDocumentary.sa@SD",
+   "name": "Asharq Documentary (1080p)",
+   "url": "https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8",
+   "cats": [
+    "documentary"
+   ],
+   "country": "SA",
+   "site": "https://now.asharq.com/%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D9%88%D8%AB%D8%A7%D8%A6%D9%82%D9%8A%D8%A9"
+  }
+ ],
+ "AsharqNews.sa": [
+  {
+   "cc": "sa",
+   "tid": "AsharqNews.sa@SD",
+   "name": "Asharq News (1080p)",
+   "url": "https://live-news.asharq.com/asharq.m3u8",
+   "cats": [
+    "business",
+    "news"
+   ],
+   "country": "SA",
+   "site": "https://asharq.com/"
+  },
+  {
+   "cc": "sa",
+   "tid": "AsharqNews.sa@SD",
+   "name": "Asharq News (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-asharq/10ae30c64e21402c8116a7fb1e5aa789/index.m3u8",
+   "cats": [
+    "business",
+    "news"
+   ],
+   "country": "SA",
+   "site": "https://asharq.com/"
+  },
+  {
+   "cc": "sa",
+   "tid": "AsharqNews.sa@SD",
+   "name": "Asharq News (1080p)",
+   "url": "https://svs.itworkscdn.net/bloomberarlive/bloomberg.smil/manifest.mpd",
+   "cats": [
+    "business",
+    "news"
+   ],
+   "country": "SA",
+   "site": "https://asharq.com/"
+  },
+  {
+   "cc": "sa",
+   "tid": "AsharqNews.sa@SD",
+   "name": "Asharq News (1080p)",
+   "url": "https://svs.itworkscdn.net/bloomberarlive/bloomberg.smil/playlist_dvr.m3u8",
+   "cats": [
+    "business",
+    "news"
+   ],
+   "country": "SA",
+   "site": "https://asharq.com/"
+  }
+ ],
+ "AsharqRadio.sa": [
+  {
+   "cc": "sa",
+   "tid": "AsharqRadio.sa@SD",
+   "name": "Asharq Radio (1080p)",
+   "url": "https://svs.itworkscdn.net/asharqradiovlive/asharqradiov/playlist.m3u8",
+   "cats": [
+    "business",
+    "news"
+   ],
+   "country": "SA",
+   "site": "https://asharqbusiness.com/radio/"
+  }
+ ],
+ "AtfalMawahebTV.sa": [
+  {
+   "cc": "sa",
+   "tid": "AtfalMawahebTV.sa@SD",
+   "name": "Atfal & Mawaheb TV (1080p)",
+   "url": "https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8",
+   "cats": [
+    "kids"
+   ],
+   "country": "SA",
+   "site": "https://atfal1.com/"
+  },
+  {
+   "cc": "sa",
+   "tid": "AtfalMawahebTV.sa@SD",
+   "name": "Atfal & Mawaheb TV (1080p)",
+   "url": "https://5d658d7e9f562.streamlock.net/atfal1.com/atfal2/playlist.m3u8",
+   "cats": [
+    "kids"
+   ],
+   "country": "SA",
+   "site": "https://atfal1.com/"
+  }
+ ],
+ "BabAlHara.sa": [
+  {
+   "cc": "sa",
+   "tid": "BabAlHara.sa@SD",
+   "name": "Bab Al Hara (1080p)",
+   "url": "https://shd-amg-fast.edgenextcdn.net/tx010/playlist.m3u8",
+   "cats": [
+    "series"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "BigTimePlus.sa": [
+  {
+   "cc": "sa",
+   "tid": "BigTimePlus.sa@SD",
+   "name": "Big Time Plus (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-big-time-plus/924283f994779a311c1389698ff7e736/index.m3u8",
+   "cats": [],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "DrPalTV.sa": [
+  {
+   "cc": "sa",
+   "tid": "DrPalTV.sa@SD",
+   "name": "Dr Pal TV (720p)",
+   "url": "https://stream.cisk.tech/drpal/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "SA",
+   "site": "https://drpal.online/"
+  }
+ ],
+ "Fairuz.sa": [
+  {
+   "cc": "sa",
+   "tid": "Fairuz.sa@HD",
+   "name": "Fairuz (1080p)",
+   "url": "https://shd-amg-fast.edgenextcdn.net/tx029/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "HolyQuranRadio.sa": [
+  {
+   "cc": "sa",
+   "tid": "HolyQuranRadio.sa@SD",
+   "name": "Holy Quran Radio (1080p)",
+   "url": "https://aloula-redirect.vercel.app/13/playlist.m3u8",
+   "cats": [
+    "general",
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://radioplus.sba.sa/ar/live/4"
+  },
+  {
+   "cc": "sa",
+   "tid": "HolyQuranRadio.sa@SD",
+   "name": "Quran Radio (1080p)",
+   "url": "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8",
+   "cats": [
+    "general",
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://radioplus.sba.sa/ar/live/4"
+  }
+ ],
+ "IqraaAfricaEurope.sa": [
+  {
+   "cc": "sa",
+   "tid": "IqraaAfricaEurope.sa@SD",
+   "name": "Iqraa Africa & Europe (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://iqraa.com/"
+  }
+ ],
+ "IqraaArabic.sa": [
+  {
+   "cc": "sa",
+   "tid": "IqraaArabic.sa@SD",
+   "name": "Iqraa Arabic (1080p) [Not 24/7]",
+   "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://iqraa.com/"
+  }
+ ],
+ "IqraaQuran.sa": [
+  {
+   "cc": "sa",
+   "tid": "IqraaQuran.sa@SD",
+   "name": "Iqraa Quran (1080p)",
+   "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "SA",
+   "site": "https://iqraa.com/"
+  }
+ ],
+ "JeddahRadio.sa": [
+  {
+   "cc": "sa",
+   "tid": "JeddahRadio.sa@SD",
+   "name": "Jeddah Radio (1080p)",
+   "url": "https://aloula-redirect.vercel.app/15/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": ""
+  },
+  {
+   "cc": "sa",
+   "tid": "JeddahRadio.sa@SD",
+   "name": "Jeddah Radio (1080p)",
+   "url": "https://live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/chunks.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "KSASports1.sa": [
+  {
+   "cc": "sa",
+   "tid": "KSASports1.sa@SD",
+   "name": "KSA Sports 1 (1080p)",
+   "url": "https://aloula-redirect.vercel.app/9/playlist.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "SA",
+   "site": "https://www.aloula.sa/live/ksa-sports1"
+  }
+ ],
+ "KSASports2.sa": [
+  {
+   "cc": "sa",
+   "tid": "KSASports2.sa@SD",
+   "name": "KSA Sports 2 (1080p)",
+   "url": "https://aloula-redirect.vercel.app/10/playlist.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "SA",
+   "site": "https://www.aloula.sa/live/ksa-sports2"
+  }
+ ],
+ "KSASports3.sa": [
+  {
+   "cc": "sa",
+   "tid": "KSASports3.sa@SD",
+   "name": "KSA Sports 3 (1080p)",
+   "url": "https://aloula-redirect.vercel.app/16/playlist.m3u8",
+   "cats": [
+    "sports"
+   ],
+   "country": "SA",
+   "site": "https://www.aloula.sa/live/ksa-sports3"
+  }
+ ],
+ "LBC.sa": [
+  {
+   "cc": "sa",
+   "tid": "LBC.sa@SD",
+   "name": "LBC (1080p) [Geo-blocked]",
+   "url": "https://rotana.hibridcdn.net/rotananet/lbc_net-7Y83PP5adWixDF93/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "SA",
+   "site": "https://rotana.net/en/channels?tz=-120/channels#/live/rotana-lbc"
+  }
+ ],
+ "MajidAlMohandis.sa": [
+  {
+   "cc": "sa",
+   "tid": "MajidAlMohandis.sa@SD",
+   "name": "Majid Al Mohandis (1080p)",
+   "url": "https://shd-amg-fast.edgenextcdn.net/tx019/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "Maraya.sa": [
+  {
+   "cc": "sa",
+   "tid": "Maraya.sa@HD",
+   "name": "Maraya (1080p)",
+   "url": "https://shd-amg-fast.edgenextcdn.net/tx008/playlist.m3u8",
+   "cats": [
+    "series"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "MBCMasrDrama.sa": [
+  {
+   "cc": "sa",
+   "tid": "MBCMasrDrama.sa@SD",
+   "name": "MBC Masr Drama (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8",
+   "cats": [
+    "series"
+   ],
+   "country": "SA",
+   "site": "https://www.mbc.net/"
+  }
+ ],
+ "MBCPlusDrama.sa": [
+  {
+   "cc": "sa",
+   "tid": "MBCPlusDrama.sa@SD",
+   "name": "MBC+ Drama (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8",
+   "cats": [
+    "movies"
+   ],
+   "country": "SA",
+   "site": "https://www.mbc.net/channels/mbc-drama-plus"
+  }
+ ],
+ "MohammedAbdo.sa": [
+  {
+   "cc": "sa",
+   "tid": "MohammedAbdo.sa@SD",
+   "name": "Mohammed Abdo (1080p)",
+   "url": "https://d2ow8h651gs7dx.cloudfront.net/out/v1/371fb663da604e659a2fb99bf89d92d4/index.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "MoviesAction.sa": [
+  {
+   "cc": "sa",
+   "tid": "MoviesAction.sa@SD",
+   "name": "Movies Action (1080p)",
+   "url": "https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8",
+   "cats": [
+    "movies"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "MoviesThriller.sa": [
+  {
+   "cc": "sa",
+   "tid": "MoviesThriller.sa@SD",
+   "name": "Movies Thriller (1080p)",
+   "url": "https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8",
+   "cats": [
+    "movies"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "NidaeAlIslamRadio.sa": [
+  {
+   "cc": "sa",
+   "tid": "NidaeAlIslamRadio.sa@SD",
+   "name": "Nidae AlIslam Radio (1080p)",
+   "url": "https://aloula-redirect.vercel.app/14/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": "https://www.aloula.sa/en/live/nidaalislam"
+  },
+  {
+   "cc": "sa",
+   "tid": "NidaeAlIslamRadio.sa@SD",
+   "name": "Nidae AlIslam Radio (1080p)",
+   "url": "https://live.kwikmotion.com/sbrksanedaradiolive/srpksanedaradio/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": "https://www.aloula.sa/en/live/nidaalislam"
+  }
+ ],
+ "PanoramaFM.sa": [
+  {
+   "cc": "sa",
+   "tid": "PanoramaFM.sa@SD",
+   "name": "Panorama FM (1080p)",
+   "url": "https://d6izdil55uftn.cloudfront.net/out/v1/0a06d1d6377c47edbd48721ed724bd08/index.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": "https://www.mbc.net/ar/privacy-policy"
+  },
+  {
+   "cc": "sa",
+   "tid": "PanoramaFM.sa@SD",
+   "name": "Panorama FM (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-panorama-fm/ea22f3856a1b772f793c43eb5d1c0636/index.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": "https://www.mbc.net/ar/privacy-policy"
+  }
+ ],
+ "RabehSaqer.sa": [
+  {
+   "cc": "sa",
+   "tid": "RabehSaqer.sa@HD",
+   "name": "Rabeh Saqer (1080p)",
+   "url": "https://shd-amg-fast.edgenextcdn.net/tx004/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "RashidAlMajed.sa": [
+  {
+   "cc": "sa",
+   "tid": "RashidAlMajed.sa@SD",
+   "name": "Rashid AlMajed (1080p)",
+   "url": "https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "RotanaCinemaKSA.sa": [
+  {
+   "cc": "sa",
+   "tid": "RotanaCinemaKSA.sa@SD",
+   "name": "Rotana Cinema KSA (1080p) [Geo-blocked]",
+   "url": "https://rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/playlist.m3u8",
+   "cats": [
+    "movies"
+   ],
+   "country": "SA",
+   "site": "http://www.cinema.rotana.net/"
+  }
+ ],
+ "RotanaClassic.sa": [
+  {
+   "cc": "sa",
+   "tid": "RotanaClassic.sa@SD",
+   "name": "Rotana Classic (1080p) [Geo-blocked]",
+   "url": "https://rotana.hibridcdn.net/rotananet/classical_net-7Y83PP5adWixDF93/playlist.m3u8",
+   "cats": [
+    "classic"
+   ],
+   "country": "SA",
+   "site": "https://rotana.net/"
+  }
+ ],
+ "RotanaClip.sa": [
+  {
+   "cc": "sa",
+   "tid": "RotanaClip.sa@SD",
+   "name": "Rotana Clip (1080p) [Geo-blocked]",
+   "url": "https://rotana.hibridcdn.net/rotananet/clip_net-7Y83PP5adWixDF93/playlist.m3u8",
+   "cats": [],
+   "country": "SA",
+   "site": "https://rotana.net/"
+  }
+ ],
+ "RotanaComedy.sa": [
+  {
+   "cc": "sa",
+   "tid": "RotanaComedy.sa@SD",
+   "name": "Rotana Comedy (1080p) [Geo-blocked]",
+   "url": "https://rotana.hibridcdn.net/rotananet/comedy_net-7Y83PP5adWixDF93/playlist.m3u8",
+   "cats": [
+    "comedy"
+   ],
+   "country": "SA",
+   "site": "https://rotana.net/"
+  }
+ ],
+ "RotanaDrama.sa": [
+  {
+   "cc": "sa",
+   "tid": "RotanaDrama.sa@SD",
+   "name": "Rotana Drama (1080p) [Geo-blocked]",
+   "url": "https://rotana.hibridcdn.net/rotananet/drama_net-7Y83PP5adWixDF93/playlist.m3u8",
+   "cats": [
+    "series"
+   ],
+   "country": "SA",
+   "site": "https://rotana.net/"
+  }
+ ],
+ "RotanaKhalijia.sa": [
+  {
+   "cc": "sa",
+   "tid": "RotanaKhalijia.sa@SD",
+   "name": "Rotana Khalijia (1080p) [Geo-blocked]",
+   "url": "https://rotana.hibridcdn.net/rotananet/khaleejiya_net-7Y83PP5adWixDF93/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": "https://rotana.net/"
+  }
+ ],
+ "RotanaMusic.sa": [
+  {
+   "cc": "sa",
+   "tid": "RotanaMusic.sa@SD",
+   "name": "Rotana Music (1080p) [Geo-blocked]",
+   "url": "https://rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": "https://rotana.net/"
+  }
+ ],
+ "SaudiThaqafiyaTV.sa": [
+  {
+   "cc": "sa",
+   "tid": "SaudiThaqafiyaTV.sa@SD",
+   "name": "Saudi Thaqafiya TV (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8",
+   "cats": [
+    "culture"
+   ],
+   "country": "SA",
+   "site": "http://thaqafiyatv.sa/"
+  }
+ ],
+ "SaudiaRadio.sa": [
+  {
+   "cc": "sa",
+   "tid": "SaudiaRadio.sa@SD",
+   "name": "Saudia Radio (1080p)",
+   "url": "https://aloula-redirect.vercel.app/11/playlist.m3u8",
+   "cats": [],
+   "country": "SA",
+   "site": ""
+  },
+  {
+   "cc": "sa",
+   "tid": "SaudiaRadio.sa@SD",
+   "name": "Saudia Radio (1080p)",
+   "url": "https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8",
+   "cats": [],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "SBC.sa": [
+  {
+   "cc": "sa",
+   "tid": "SBC.sa@SD",
+   "name": "SBC (1080p)",
+   "url": "https://aloula-redirect.vercel.app/1/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "SA",
+   "site": "https://sbctv.sba.sa/Home"
+  },
+  {
+   "cc": "sa",
+   "tid": "SBC.sa@SD",
+   "name": "SBC (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "SA",
+   "site": "https://sbctv.sba.sa/Home"
+  }
+ ],
+ "Tarab.sa": [
+  {
+   "cc": "sa",
+   "tid": "Tarab.sa@SD",
+   "name": "Tarab (1080p)",
+   "url": "https://shd-amg-fast-btpls.shahid.net/tx002/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "SA",
+   "site": ""
+  }
+ ],
+ "ThikrayatTV.sa": [
+  {
+   "cc": "sa",
+   "tid": "ThikrayatTV.sa@SD",
+   "name": "Thikrayat TV (1080p) [Geo-blocked]",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/8cfa8fe0c96275735745b89c683b27e3/index.m3u8",
+   "cats": [
+    "classic"
+   ],
+   "country": "SA",
+   "site": "https://www.aloula.sa/live/thikrayat-tv"
+  },
+  {
+   "cc": "sa",
+   "tid": "ThikrayatTV.sa@SD",
+   "name": "Thikrayat TV (1080p)",
+   "url": "https://aloula-redirect.vercel.app/3/playlist.m3u8",
+   "cats": [
+    "classic"
+   ],
+   "country": "SA",
+   "site": "https://www.aloula.sa/live/thikrayat-tv"
+  }
+ ],
+ "DabangaTV.sd": [
+  {
+   "cc": "sd",
+   "tid": "DabangaTV.sd@SD",
+   "name": "Dabanga TV (1080p)",
+   "url": "https://hls.dabangasudan.org/hls/stream.m3u8",
+   "cats": [
+    "education",
+    "news"
+   ],
+   "country": "SD",
+   "site": "https://www.dabangasudan.org/"
+  }
+ ],
+ "SudanTV.sd": [
+  {
+   "cc": "sd",
+   "tid": "SudanTV.sd@SD",
+   "name": "Sudan TV (360p)",
+   "url": "https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8",
+   "cats": [],
+   "country": "SD",
+   "site": ""
+  }
+ ],
+ "MiracleChannel.se": [
+  {
+   "cc": "se",
+   "tid": "MiracleChannel.se@SD",
+   "name": "Miracle TV (1080p)",
+   "url": "https://live.miracleonline.org/hls/miracle1.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SE",
+   "site": "https://miracleconnect.org/"
+  }
+ ],
+ "MissionAsia.au": [
+  {
+   "cc": "se",
+   "tid": "MissionAsia.au@SD",
+   "name": "Mission Asia (1080p)",
+   "url": "https://livecdn.live247stream.com/missionasia/tv/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "AU",
+   "site": "https://missionasia.org/"
+  }
+ ],
+ "AlSouriyaTV.sy": [
+  {
+   "cc": "sy",
+   "tid": "AlSouriyaTV.sy@HD",
+   "name": "Al-Souriya TV (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8",
+   "cats": [
+    "family"
+   ],
+   "country": "SY",
+   "site": "http://www.ortas.online//SyrianTV/"
+  }
+ ],
+ "AlalamNewsChannelSyria.sy": [
+  {
+   "cc": "sy",
+   "tid": "AlalamNewsChannelSyria.sy@SD",
+   "name": "Alalam News Channel Syria (1080p)",
+   "url": "https://live2.alalam.ir/live/Alalam/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SY",
+   "site": "https://alalamsyria.ir/"
+  }
+ ],
+ "Althania.sy": [
+  {
+   "cc": "sy",
+   "tid": "Althania.sy@SD",
+   "name": "Althania (1080p)",
+   "url": "https://live.kwikmotion.com/syriatv02live/syriatv02.smil/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "SY",
+   "site": "https://www.althania.tv/"
+  },
+  {
+   "cc": "sy",
+   "tid": "Althania.sy@SD",
+   "name": "Althania",
+   "url": "https://qmcconnect.qa/api/StreamServices/arabictvsyria2/master.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "SY",
+   "site": "https://www.althania.tv/"
+  }
+ ],
+ "DamascusRadio.sy": [
+  {
+   "cc": "sy",
+   "tid": "DamascusRadio.sy@SD",
+   "name": "Damascus Radio (720p)",
+   "url": "https://radiodamascus.ortas.live/RDimshq/RDimshqLive/playlist.m3u8",
+   "cats": [],
+   "country": "SY",
+   "site": "https://damasradio.fm"
+  }
+ ],
+ "HalabTodayTV.sy": [
+  {
+   "cc": "sy",
+   "tid": "HalabTodayTV.sy@SD",
+   "name": "Halab Today TV (1080p)",
+   "url": "https://halabtoday-live.lg.mncdn.com/halabtoday/livestream/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SY",
+   "site": "https://halabtodaytv.net/"
+  },
+  {
+   "cc": "sy",
+   "tid": "HalabTodayTV.sy@SD",
+   "name": "Halab Today TV (1080p)",
+   "url": "https://mn-nl.mncdn.com/halabtoday/livestream/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SY",
+   "site": "https://halabtodaytv.net/"
+  }
+ ],
+ "RojavaTV.sy": [
+  {
+   "cc": "sy",
+   "tid": "RojavaTV.sy@SD",
+   "name": "Rojava TV (1080p)",
+   "url": "https://hlspackager.akamaized.net/live/DB/ROJAVA_HD/HLS/ROJAVA_HD.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "SY",
+   "site": ""
+  }
+ ],
+ "RonahiTV.sy": [
+  {
+   "cc": "sy",
+   "tid": "RonahiTV.sy@SD",
+   "name": "Ronahi TV (1080p)",
+   "url": "https://hlspackager.akamaized.net/live/DB/RONAHI_TV/HLS/RONAHI_TV.m3u8",
+   "cats": [],
+   "country": "SY",
+   "site": "http://ronahi.tv/"
+  }
+ ],
+ "SyriaOne.sy": [
+  {
+   "cc": "sy",
+   "tid": "SyriaOne.sy@HD",
+   "name": "Syria One (1080p)",
+   "url": "https://live.syriaone.tv/live/syriaone.m3u8",
+   "cats": [],
+   "country": "SY",
+   "site": ""
+  }
+ ],
+ "SyriaTV.sy": [
+  {
+   "cc": "sy",
+   "tid": "SyriaTV.sy@SD",
+   "name": "Syria TV (1080p)",
+   "url": "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SY",
+   "site": "https://www.syria.tv/"
+  },
+  {
+   "cc": "sy",
+   "tid": "SyriaTV.sy@SD",
+   "name": "Syria TV (1080p)",
+   "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=6017",
+   "cats": [
+    "news"
+   ],
+   "country": "SY",
+   "site": "https://www.syria.tv/"
+  },
+  {
+   "cc": "sy",
+   "tid": "SyriaTV.sy@SD",
+   "name": "Syria TV (1080p)",
+   "url": "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SY",
+   "site": "https://www.syria.tv/"
+  },
+  {
+   "cc": "sy",
+   "tid": "SyriaTV.sy@SD",
+   "name": "Syria TV (1080p)",
+   "url": "https://qmcconnect.qa/api/StreamServices/arabictvsyria1/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SY",
+   "site": "https://www.syria.tv/"
+  }
+ ],
+ "WelatTV.sy": [
+  {
+   "cc": "sy",
+   "tid": "WelatTV.sy@HD",
+   "name": "Welat TV (1080i)",
+   "url": "https://stream.badinan.xyz/welat/tv/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "SY",
+   "site": "https://www.welattv.net/"
+  }
+ ],
+ "Prime.sy": [
+  {
+   "cc": "sy",
+   "tid": "Prime.sy@HD",
+   "name": "Prime (1080p)",
+   "url": "https://mn-nl.mncdn.com/primetv/live/index.m3u8",
+   "cats": [
+    "general",
+    "sports"
+   ],
+   "country": "SY",
+   "site": "https://prime1tv.com/"
+  }
+ ],
+ "TeleTchad.td": [
+  {
+   "cc": "td",
+   "tid": "TeleTchad.td@SD",
+   "name": "Tele Tchad (1080p)",
+   "url": "https://strhlslb01.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "TD",
+   "site": "https://onama.td/"
+  }
+ ],
+ "Turkmenistan.tm": [
+  {
+   "cc": "tm",
+   "tid": "Turkmenistan.tm@SD",
+   "name": "Türkmenistan (406p) [Not 24/7]",
+   "url": "https://alpha.tv.online.tm/hls/ch007.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "TM",
+   "site": "http://turkmentv.gov.tm/"
+  },
+  {
+   "cc": "tm",
+   "tid": "Turkmenistan.tm@SD",
+   "name": "Türkmenistan (406p) [Not 24/7]",
+   "url": "https://alpha.tv.online.tm/legacyhls/ch007.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "TM",
+   "site": "http://turkmentv.gov.tm/"
+  }
+ ],
+ "ElWatania1.tn": [
+  {
+   "cc": "tn",
+   "tid": "ElWatania1.tn@SD",
+   "name": "El Watania 1 (1080i)",
+   "url": "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "TN",
+   "site": "http://www.watania1.tn/"
+  },
+  {
+   "cc": "tn",
+   "tid": "ElWatania1.tn@SD",
+   "name": "El Watania 1 (1080p)",
+   "url": "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/playlist.m3u8?DVR",
+   "cats": [
+    "general"
+   ],
+   "country": "TN",
+   "site": "http://www.watania1.tn/"
+  },
+  {
+   "cc": "tn",
+   "tid": "ElWatania1.tn@SD",
+   "name": "El Watania 1 (1080i)",
+   "url": "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/chunklist.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "TN",
+   "site": "http://www.watania1.tn/"
+  }
+ ],
+ "ElWatania2.tn": [
+  {
+   "cc": "tn",
+   "tid": "ElWatania2.tn@SD",
+   "name": "El Watania 2 (1080p)",
+   "url": "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR",
+   "cats": [
+    "general"
+   ],
+   "country": "TN",
+   "site": "http://www.watania2.tn/"
+  }
+ ],
+ "JawharaTV.tn": [
+  {
+   "cc": "tn",
+   "tid": "JawharaTV.tn@SD",
+   "name": "Jawhara TV (720p) [Not 24/7]",
+   "url": "https://streaming.toutech.net/live/jtv/index.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "TN",
+   "site": "https://www.jawharafm.net/"
+  }
+ ],
+ "MosaiqueFM.tn": [
+  {
+   "cc": "tn",
+   "tid": "MosaiqueFM.tn@SD",
+   "name": "Mosaique FM (1080p)",
+   "url": "https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR",
+   "cats": [
+    "music"
+   ],
+   "country": "TN",
+   "site": "https://www.mosaiquefm.net/"
+  }
+ ],
+ "AlmahriahTV.tr": [
+  {
+   "cc": "tr",
+   "tid": "AlmahriahTV.tr@SD",
+   "name": "Almahriah TV (576p)",
+   "url": "https://starmenajo.com/hls/almahriah/index.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "TR",
+   "site": "https://almahriah.net/"
+  }
+ ],
+ "MekameleenTV.tr": [
+  {
+   "cc": "tr",
+   "tid": "MekameleenTV.tr@SD",
+   "name": "Mekameleen TV (1080p)",
+   "url": "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "TR",
+   "site": "https://www.mekameleen.tv/"
+  }
+ ],
+ "QafTV.tr": [
+  {
+   "cc": "tr",
+   "tid": "QafTV.tr@SD",
+   "name": "Qaf TV (1080p)",
+   "url": "https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8",
+   "cats": [],
+   "country": "TR",
+   "site": "https://www.qaf.tv/"
+  }
+ ],
+ "TRTArabi.tr": [
+  {
+   "cc": "tr",
+   "tid": "TRTArabi.tr@SD",
+   "name": "TRT Arabi (1080p) [Not 24/7]",
+   "url": "https://tv-trtarabi.medya.trt.com.tr/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "TR",
+   "site": "https://www.trtarabi.com/"
+  }
+ ],
+ "AfghanistanInternational.uk": [
+  {
+   "cc": "uk",
+   "tid": "AfghanistanInternational.uk@SD",
+   "name": "Afghanistan International (720p)",
+   "url": "https://hls.afintl.com/hls/stream.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "UK",
+   "site": "https://www.afintl.com/"
+  }
+ ],
+ "AlHiwarTV.uk": [
+  {
+   "cc": "uk",
+   "tid": "AlHiwarTV.uk@SD",
+   "name": "Alhiwar TV (1080p) [Not 24/7]",
+   "url": "https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8",
+   "cats": [
+    "education"
+   ],
+   "country": "UK",
+   "site": "https://www.alhiwar.tv/"
+  }
+ ],
+ "HalaLondon.uk": [
+  {
+   "cc": "uk",
+   "tid": "HalaLondon.uk@SD",
+   "name": "Hala London (1080p)",
+   "url": "https://halalondon-live.ercdn.net/halalondon/halalondon.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "UK",
+   "site": "https://halalondon.com/"
+  }
+ ],
+ "MTA1World.uk": [
+  {
+   "cc": "uk",
+   "tid": "MTA1World.uk@SD",
+   "name": "MTA1 World (720p)",
+   "url": "https://chlivemta1.akamaized.net/hls/live/2008145/mta1/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "UK",
+   "site": "https://www.mta.tv/"
+  }
+ ],
+ "MTA2Europe.uk": [
+  {
+   "cc": "uk",
+   "tid": "MTA2Europe.uk@SD",
+   "name": "MTA2 Europe (720p)",
+   "url": "https://chlivemta1.akamaized.net/hls/live/2008145/mta2/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "UK",
+   "site": "https://www.mta.tv/"
+  }
+ ],
+ "MTA3AlArabia.uk": [
+  {
+   "cc": "uk",
+   "tid": "MTA3AlArabia.uk@SD",
+   "name": "MTA3 Al-Arabia (1080p)",
+   "url": "https://chlivemta1.akamaized.net/hls/live/2010556/mta3alarabia/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "UK",
+   "site": "https://www.mta.tv/"
+  }
+ ],
+ "MTA6Asia.uk": [
+  {
+   "cc": "uk",
+   "tid": "MTA6Asia.uk@SD",
+   "name": "MTA6 Asia (1080p)",
+   "url": "https://livemtaasia.akamaized.net/hls/live/2039224/mta6asia/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "UK",
+   "site": "https://www.mta.tv/"
+  }
+ ],
+ "MTA7Asia.uk": [
+  {
+   "cc": "uk",
+   "tid": "MTA7Asia.uk@SD",
+   "name": "MTA7 Asia (1080p)",
+   "url": "https://livemtaasia.akamaized.net/hls/live/2039224/mtaasia2/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "UK",
+   "site": "https://www.mta.tv/"
+  }
+ ],
+ "BBCArabic.uk": [
+  {
+   "cc": "uk_bbc",
+   "tid": "BBCArabic.uk@SD",
+   "name": "BBC Arabic (720p)",
+   "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd",
+   "cats": [
+    "news"
+   ],
+   "country": "UK",
+   "site": "https://www.bbc.com/arabic"
+  },
+  {
+   "cc": "uk_bbc",
+   "tid": "BBCArabic.uk@SD",
+   "name": "BBC Arabic (720p)",
+   "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_http.mpd",
+   "cats": [
+    "news"
+   ],
+   "country": "UK",
+   "site": "https://www.bbc.com/arabic"
+  },
+  {
+   "cc": "uk_bbc",
+   "tid": "BBCArabic.uk@SD",
+   "name": "BBC Arabic (720p)",
+   "url": "https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd",
+   "cats": [
+    "news"
+   ],
+   "country": "UK",
+   "site": "https://www.bbc.com/arabic"
+  },
+  {
+   "cc": "uk_bbc",
+   "tid": "BBCArabic.uk@SD",
+   "name": "BBC Arabic (720p)",
+   "url": "https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_http.mpd",
+   "cats": [
+    "news"
+   ],
+   "country": "UK",
+   "site": "https://www.bbc.com/arabic"
+  },
+  {
+   "cc": "uk_bbc",
+   "tid": "BBCArabic.uk@SD",
+   "name": "BBC Arabic (720p)",
+   "url": "https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/mobile_wifi_main_hd_abr_v2.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "UK",
+   "site": "https://www.bbc.com/arabic"
+  },
+  {
+   "cc": "uk_bbc",
+   "tid": "BBCArabic.uk@SD",
+   "name": "BBC Arabic (720p)",
+   "url": "https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "UK",
+   "site": "https://www.bbc.com/arabic"
+  },
+  {
+   "cc": "uk_bbc",
+   "tid": "BBCArabic.uk@SD",
+   "name": "BBC Arabic (540p)",
+   "url": "https://vs-hls-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "UK",
+   "site": "https://www.bbc.com/arabic"
+  }
+ ],
+ "AghapyKids.us": [
+  {
+   "cc": "us",
+   "tid": "AghapyKids.us@SD",
+   "name": "Aghapy Kids (1080p)",
+   "url": "https://5b622f07944df.streamlock.net/aghapykids.tv/aghapykids2/playlist.m3u8",
+   "cats": [
+    "kids"
+   ],
+   "country": "US",
+   "site": "https://www.aghapykids.com/"
+  }
+ ],
+ "AlFadyTV.us": [
+  {
+   "cc": "us",
+   "tid": "AlFadyTV.us@SD",
+   "name": "Al-Fady TV (1080p) [Not 24/7]",
+   "url": "https://5d658d7e9f562.streamlock.net/alfadytv.tv/alfadytv.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://www.alfadytv.tv/"
+  }
+ ],
+ "Alhurra.us": [
+  {
+   "cc": "us",
+   "tid": "Alhurra.us@SD",
+   "name": "Alhurra (720p)",
+   "url": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "US",
+   "site": "https://www.alhurra.com/"
+  },
+  {
+   "cc": "us",
+   "tid": "Alhurra.us@SD",
+   "name": "Alhurra (720p)",
+   "url": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/merge.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "US",
+   "site": "https://www.alhurra.com/"
+  }
+ ],
+ "AlhurraIraq.us": [
+  {
+   "cc": "us",
+   "tid": "AlhurraIraq.us@SD",
+   "name": "Alhurra Iraq (720p)",
+   "url": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038899/MBN_Iraq_Worldsafe_HLS/master.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "US",
+   "site": "https://www.alhurra.com/"
+  }
+ ],
+ "AlkarmaTVAustralia.us": [
+  {
+   "cc": "us",
+   "tid": "AlkarmaTVAustralia.us@SD",
+   "name": "Alkarma TV Australia (1080p) [Not 24/7]",
+   "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://alkarmatv.com/"
+  },
+  {
+   "cc": "us",
+   "tid": "AlkarmaTVAustralia.us@SD",
+   "name": "Alkarma TV Australia (1080p)",
+   "url": "https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://alkarmatv.com/"
+  }
+ ],
+ "AlkarmaTVFamily.us": [
+  {
+   "cc": "us",
+   "tid": "AlkarmaTVFamily.us@SD",
+   "name": "Alkarma TV Family (1080p) [Not 24/7]",
+   "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaNA2.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://alkarmatv.com/"
+  }
+ ],
+ "AlkarmaTVMiddleEast.us": [
+  {
+   "cc": "us",
+   "tid": "AlkarmaTVMiddleEast.us@SD",
+   "name": "Alkarma TV Middle East (1080p) [Not 24/7]",
+   "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame1.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://alkarmatv.com/"
+  }
+ ],
+ "AlkarmaTVNorthAmericaCanada.us": [
+  {
+   "cc": "us",
+   "tid": "AlkarmaTVNorthAmericaCanada.us@SD",
+   "name": "Alkarma TV North America & Canada (1080p) [Not 24/7]",
+   "url": "https://5aafcc5de91f1.streamlock.net/alkarmatv.com/alkarmana1.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://alkarmatv.com/"
+  }
+ ],
+ "AlkarmaTVPraise.us": [
+  {
+   "cc": "us",
+   "tid": "AlkarmaTVPraise.us@SD",
+   "name": "Alkarma TV Praise (720p) [Not 24/7]",
+   "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmapa.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://alkarmatv.com/"
+  }
+ ],
+ "AlkarmaTVTalmazaDiscipleship.us": [
+  {
+   "cc": "us",
+   "tid": "AlkarmaTVTalmazaDiscipleship.us@SD",
+   "name": "Alkarma TV Talmaza (Discipleship) (1080p) [Not 24/7]",
+   "url": "https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame2.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://alkarmatv.com/"
+  }
+ ],
+ "AlkarmaTVYouthEnglish.us": [
+  {
+   "cc": "us",
+   "tid": "AlkarmaTVYouthEnglish.us@SD",
+   "name": "Alkarma TV Youth & English (1080p) [Not 24/7]",
+   "url": "https://5aafcc5de91f1.streamlock.net/alkarmatv.com/alkarmaus.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://alkarmatv.com/"
+  }
+ ],
+ "AlmagdTVMiddleEast.us": [
+  {
+   "cc": "us",
+   "tid": "AlmagdTVMiddleEast.us@SD",
+   "name": "Almagd TV Middle East (1080p) [Not 24/7]",
+   "url": "https://597f64b67707a.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://www.almagd.tv/"
+  }
+ ],
+ "AlmagdTVNorthAmerica.us": [
+  {
+   "cc": "us",
+   "tid": "AlmagdTVNorthAmerica.us@SD",
+   "name": "Almagd TV North America (1080p)",
+   "url": "https://5aafcc5de91f1.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://www.almagd.tv/"
+  }
+ ],
+ "LLBNTVArabic.us": [
+  {
+   "cc": "us",
+   "tid": "LLBNTVArabic.us@SD",
+   "name": "Lighting Lives Blessing Nations TV Arabic (LLBN) (480p)",
+   "url": "https://brightstar-arabic-pull-secure.akamaized.net/brightstararabic/stream.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://www.llbn.tv/arabic"
+  }
+ ],
+ "LogosTV.us": [
+  {
+   "cc": "us",
+   "tid": "LogosTV.us@SD",
+   "name": "Logos TV (1080p) [Not 24/7]",
+   "url": "https://5a8308add0b31.streamlock.net/logoschannel.com/logostv.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://logoschannel.com/"
+  },
+  {
+   "cc": "us",
+   "tid": "LogosTV.us@SD",
+   "name": "Logos TV (720p) [Not 24/7]",
+   "url": "https://597f64b67707a.streamlock.net/logoschannel.com/logostv.smil/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://logoschannel.com/"
+  }
+ ],
+ "MBC1USA.us": [
+  {
+   "cc": "us",
+   "tid": "MBC1USA.us@SD",
+   "name": "MBC 1 USA (1080p) [Geo-blocked]",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-usa/fdac3a4fc0473f1f56e07ec1d63a4b7b/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "US",
+   "site": "http://www.mbc.net/mbc1"
+  }
+ ],
+ "MBC3USA.us": [
+  {
+   "cc": "us",
+   "tid": "MBC3USA.us@SD",
+   "name": "MBC 3 USA (1080p) [Geo-blocked]",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8",
+   "cats": [
+    "kids"
+   ],
+   "country": "US",
+   "site": "https://mbc3.mbc.net/"
+  }
+ ],
+ "MBCDramaUSA.us": [
+  {
+   "cc": "us",
+   "tid": "MBCDramaUSA.us@SD",
+   "name": "MBC Drama USA (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama-usa/ea2f5db904aff224b7066e59c7f585a2/index.m3u8",
+   "cats": [
+    "series"
+   ],
+   "country": "US",
+   "site": "https://www.mbc.net/pages/Drama-USA/"
+  }
+ ],
+ "MBCMasrUSA.us": [
+  {
+   "cc": "us",
+   "tid": "MBCMasrUSA.us@SD",
+   "name": "MBC Masr USA (1080p)",
+   "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-usa/cd8d40acdab28aac0582faa3bd3983f1/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "US",
+   "site": "http://www.mbc.net/ar/mbc-maser.html"
+  }
+ ],
+ "ZarinTV.us": [
+  {
+   "cc": "us",
+   "tid": "ZarinTV.us@SD",
+   "name": "Zarin TV (1080p)",
+   "url": "https://fl1002.bozztv.com/gf-zarintv/index.m3u8",
+   "cats": [
+    "general"
+   ],
+   "country": "US",
+   "site": "https://zarintv.com/"
+  }
+ ],
+ "NewsoftheWorld.us": [
+  {
+   "cc": "us",
+   "tid": "NewsoftheWorld.us@Global",
+   "name": "NOW News Global (720p)",
+   "url": "https://nowhls.wns.live/hls/stream.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "US",
+   "site": "https://newsoftheworld.us/"
+  },
+  {
+   "cc": "us",
+   "tid": "NewsoftheWorld.us@Arabic",
+   "name": "NOW News Arabic (720p)",
+   "url": "https://live.nowtelly.com/now_arabic/live/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "US",
+   "site": "https://newsoftheworld.us/"
+  },
+  {
+   "cc": "us",
+   "tid": "NewsoftheWorld.us@Spanish",
+   "name": "NOW News Spanish (1080p)",
+   "url": "https://live.nowtelly.com/now_spanish/live/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "US",
+   "site": "https://newsoftheworld.us/"
+  },
+  {
+   "cc": "us",
+   "tid": "NewsoftheWorld.us@USA",
+   "name": "NOW News USA (1080p)",
+   "url": "https://live.nowtelly.com/now_usa/live_usa/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "US",
+   "site": "https://newsoftheworld.us/"
+  }
+ ],
+ "MuslimNetworkTV.us": [
+  {
+   "cc": "us",
+   "tid": "MuslimNetworkTV.us@SD",
+   "name": "Muslim Network TV",
+   "url": "https://afghantv.app/hls2/muslimnetwork/index.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://www.muslimnetwork.tv/"
+  }
+ ],
+ "AlHayatTV.us": [
+  {
+   "cc": "us_wowza",
+   "tid": "AlHayatTV.us@SD",
+   "name": "Al Hayat TV (720p)",
+   "url": "https://cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp:livestream_all/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "US",
+   "site": "https://www.alhayat.tv/"
+  }
+ ],
+ "MelodyFM.jo": [
+  {
+   "cc": "us_wowza",
+   "tid": "MelodyFM.jo@SD",
+   "name": "Melody FM Jordan (720p) [Not 24/7]",
+   "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8",
+   "cats": [
+    "music"
+   ],
+   "country": "JO",
+   "site": "https://melody-fm.com/"
+  }
+ ],
+ "SafeerTV.uk": [
+  {
+   "cc": "us_wowza",
+   "tid": "SafeerTV.uk@SD",
+   "name": "Safeer TV (1080p)",
+   "url": "https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "UK",
+   "site": "https://safeertv.com/live/"
+  }
+ ],
+ "AlMasirah.ye": [
+  {
+   "cc": "ye",
+   "tid": "AlMasirah.ye@SD",
+   "name": "Al Masirah (720p) [Not 24/7]",
+   "url": "https://live.cdnbridge.tv/Almasirah/Almasirah_all/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "YE",
+   "site": "https://www.masirahtv.net/"
+  }
+ ],
+ "AlMasirahMubacher.ye": [
+  {
+   "cc": "ye",
+   "tid": "AlMasirahMubacher.ye@SD",
+   "name": "Al Masirah Mubacher (642p) [Not 24/7]",
+   "url": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8",
+   "cats": [
+    "news"
+   ],
+   "country": "YE",
+   "site": "https://www.masirahtv.net/"
+  }
+ ],
+ "AlSahatTV.ye": [
+  {
+   "cc": "ye",
+   "tid": "AlSahatTV.ye@SD",
+   "name": "Al-Sahat TV (720p)",
+   "url": "https://assahat.b-cdn.net/Assahat/assahatobs/index.m3u8",
+   "cats": [
+    "religious"
+   ],
+   "country": "YE",
+   "site": "https://alsahattv.com.ye/live.php"
+  }
+ ],
+ "YemenShababChannel.ye": [
+  {
+   "cc": "ye",
+   "tid": "YemenShababChannel.ye@SD",
+   "name": "Yemen Shabab Channel (1080p)",
+   "url": "https://starmenajo.com/hls/yemenshabab/index.m3u8",
+   "cats": [
+    "culture"
+   ],
+   "country": "YE",
+   "site": "https://yemenshabab.net/"
+  }
+ ],
+ "YemenTodayTV.ye": [
+  {
+   "cc": "ye",
+   "tid": "YemenTodayTV.ye@SD",
+   "name": "Yemen Today TV (480p)",
+   "url": "https://video.yementdy.tv/hls/yementoday.m3u8",
+   "cats": [],
+   "country": "YE",
+   "site": "http://www.yementoday.tv/"
+  }
+ ],
+ "YemenTV.ye": [
+  {
+   "cc": "ye",
+   "tid": "YemenTV.ye@SD",
+   "name": "Yemen TV (480p)",
+   "url": "https://live.yementv.tv/memfs/c8fe49a3-b1ca-4d14-9d78-498e8bad4f76_fast_output_0.m3u8",
+   "cats": [],
+   "country": "YE",
+   "site": "https://yementv.tv/"
+  },
+  {
+   "cc": "ye",
+   "tid": "YemenTV.ye@SD",
+   "name": "Yemen TV (480p)",
+   "url": "https://live.yementv.tv/memfs/c8fe49a3-b1ca-4d14-9d78-498e8bad4f76_fast_output_0.m3u8?session=a3Ukc9eUVXdFTN58aiYFdR",
+   "cats": [],
+   "country": "YE",
+   "site": "https://yementv.tv/"
+  }
+ ]
+}

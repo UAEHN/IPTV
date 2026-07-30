@@ -1,0 +1,33 @@
+name: Verify candidate streams
+
+# Maintenance job, run by hand. Probes the wide candidate pool in
+# tools/candidate_pool.json so the catalog can be rebuilt from URLs that
+# actually answer, instead of from URLs that looked right when they were
+# written. Broadcaster CDNs move often enough that this is the only honest way
+# to curate the lineup.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "tools/candidate_pool.json"
+      - ".github/workflows/candidates.yml"
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Probe the candidate pool
+        run: python3 tools/check_streams.py --pool --timeout 12 --jobs 24
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: candidate-results
+          path: tools/candidate_results.json
+          if-no-files-found: error

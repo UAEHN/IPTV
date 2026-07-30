@@ -190,13 +190,57 @@ def probe(url: str, site: str | None, timeout: float) -> dict:
     return result
 
 
+POOL = os.path.join(ROOT, "tools", "candidate_pool.json")
+POOL_REPORT = os.path.join(ROOT, "tools", "candidate_results.json")
+
+
+def probe_pool(timeout: float, jobs: int) -> int:
+    """
+    Probe a pool of candidate URLs rather than the catalog.
+
+    Used when the catalog needs rebuilding: broadcaster CDNs move often enough
+    that hand-written URLs rot, so the honest order of work is to verify a wide
+    pool from a runner first and curate the catalog from what actually answers.
+    """
+    pool = json.load(open(POOL, encoding="utf-8"))
+    work = [(cid, entry) for cid, entries in pool.items() for entry in entries]
+    print(f"probing {len(work)} candidate URLs across {len(pool)} channels\n")
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=jobs) as ex:
+        results = list(ex.map(
+            lambda ce: probe(ce[1]["url"], ce[1].get("site") or None, timeout), work))
+
+    out: dict[str, list[dict]] = {}
+    for (cid, entry), r in zip(work, results):
+        out.setdefault(cid, []).append({**entry, **r})
+
+    with open(POOL_REPORT, "w", encoding="utf-8") as f:
+        json.dump(out, f, indent=1, ensure_ascii=False)
+        f.write("\n")
+
+    live = {cid: [r for r in rs if r["ok"]] for cid, rs in out.items()}
+    live = {cid: rs for cid, rs in live.items() if rs}
+    for cid in sorted(live):
+        best = live[cid][0]
+        cats = ",".join(best.get("cats") or []) or "-"
+        print(f'OK {cid:36} {best.get("country",""):3} {cats:14} {best["url"][:86]}')
+    print("-" * 96)
+    print(f"{len(live)}/{len(pool)} candidate channels answered")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--timeout", type=float, default=20.0)
     ap.add_argument("--jobs", type=int, default=8)
     ap.add_argument("--diagnose", action="store_true",
                     help="print full detail for every failing source")
+    ap.add_argument("--pool", action="store_true",
+                    help="probe tools/candidate_pool.json instead of the catalog")
     args = ap.parse_args()
+
+    if args.pool:
+        return probe_pool(args.timeout, args.jobs)
 
     catalog = json.load(open(CATALOG, encoding="utf-8"))
     channels = catalog["channels"]
