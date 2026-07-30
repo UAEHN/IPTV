@@ -56,6 +56,9 @@ android {
 
     buildFeatures {
         compose = true
+        // Disabled project-wide in gradle.properties; the app module needs it
+        // for BuildConfig.VERSION_NAME, which Settings shows.
+        buildConfig = true
     }
 
     packaging {

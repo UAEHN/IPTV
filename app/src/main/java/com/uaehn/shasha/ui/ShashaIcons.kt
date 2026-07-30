@@ -116,6 +116,15 @@ object ShashaIcons {
         icon("chevronBack") { line("M14.6 5.4 8 12l6.6 6.6") }
     }
 
+    /** Channel step controls in the player. */
+    val ChevronUp: ImageVector by lazy {
+        icon("chevronUp") { line("M5.4 14.6 12 8l6.6 6.6") }
+    }
+
+    val ChevronDown: ImageVector by lazy {
+        icon("chevronDown") { line("M5.4 9.4 12 16l6.6-6.6") }
+    }
+
     val Close: ImageVector by lazy {
         icon("close") {
             line("M6.2 6.2 17.8 17.8")

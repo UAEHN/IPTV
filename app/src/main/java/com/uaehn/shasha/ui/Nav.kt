@@ -1,9 +1,7 @@
 package com.uaehn.shasha.ui
 
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.listSaver
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.snapshots.SnapshotStateList
@@ -61,6 +59,15 @@ class Navigator internal constructor(initial: List<Destination>) {
 
     fun push(destination: Destination) {
         stack.add(destination)
+    }
+
+    /**
+     * Swaps the top of the stack. Stepping through channels inside the player
+     * must not deepen the stack, or back has to be pressed once per channel
+     * the viewer flicked past.
+     */
+    fun replace(destination: Destination) {
+        if (stack.isEmpty()) stack.add(destination) else stack[stack.lastIndex] = destination
     }
 
     /** Returns false when there is nothing left to pop, so the OS can exit. */
