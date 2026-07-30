@@ -1,0 +1,48 @@
+name: Stream health
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 04:00 UTC daily — outside Gulf prime time, so a channel that is merely
+    # busy is less likely to be reported as dead.
+    - cron: "0 4 * * *"
+  push:
+    paths:
+      - "channels/channels.json"
+      - "tools/check_streams.py"
+      - ".github/workflows/health.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Probe every source URL
+        run: python3 tools/check_streams.py --timeout 25 --jobs 8
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: health-report
+          path: channels/health.json
+
+      - name: Commit the report when it changed
+        if: github.event_name == 'schedule'
+        run: |
+          if git diff --quiet -- channels/health.json; then
+            echo "health.json unchanged"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add channels/health.json
+          git commit -m "Update stream health report [skip ci]"
+          git push

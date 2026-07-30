@@ -1,0 +1,68 @@
+name: Build APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      release:
+        description: "Also publish a GitHub Release"
+        type: boolean
+        default: false
+  push:
+    branches:
+      - main
+      - "claude/**"
+    paths-ignore:
+      - "**/*.md"
+      - "channels/health.json"
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Keep the bundled catalog in sync with channels/
+        run: |
+          python3 tools/sync_catalog.py
+          git diff --exit-code -- app/src/main/assets/channels.json \
+            || { echo "::error::app/src/main/assets/channels.json is stale; run tools/sync_catalog.py"; exit 1; }
+
+      - name: Build release APK
+        run: ./gradlew --no-daemon assembleRelease
+
+      - name: Name the artifact
+        id: apk
+        run: |
+          src=$(find app/build/outputs/apk/release -name "*.apk" | head -1)
+          version=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+          out="shasha-${version}-${GITHUB_SHA::7}.apk"
+          cp "$src" "$out"
+          echo "path=$out"       >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          ls -lh "$out"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shasha-apk
+          path: ${{ steps.apk.outputs.path }}
+          if-no-files-found: error
+
+      - name: Publish release
+        if: inputs.release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="v${{ steps.apk.outputs.version }}-${GITHUB_SHA::7}"
+          gh release create "$tag" "${{ steps.apk.outputs.path }}" \
+            --title "Shasha ${{ steps.apk.outputs.version }}" \
+            --notes "Sideload build. Download the APK below and install it on your phone or Android TV. See README for install steps."
