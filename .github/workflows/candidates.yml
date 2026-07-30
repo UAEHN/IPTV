@@ -45,4 +45,13 @@ jobs:
           git add tools/candidate_results.json
           git diff --cached --quiet && { echo "unchanged"; exit 0; }
           git commit -m "Record candidate stream probe results [skip ci]"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          # The branch can move while a probe is in flight (another push, or the
+          # sibling workflow committing its own report), and a straight push
+          # then loses the run's work. Rebase onto whatever landed and retry.
+          for attempt in 1 2 3; do
+            git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push rejected, rebasing (attempt $attempt)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || exit 1
+          done
+          echo "::error::could not push after 3 attempts"
+          exit 1
