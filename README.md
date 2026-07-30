@@ -17,10 +17,19 @@ APK and sideload it.
 
 ## Install it
 
+**Direct download — this link never changes:**
+
+```
+https://github.com/UAEHN/IPTV/releases/download/latest/shasha.apk
+```
+
+The `latest` release is replaced on every green build, and always carries the
+APK under that fixed name alongside a version-stamped copy.
+
 ### Phone (Android)
 
-1. Download the APK from the [Releases](../../releases) page, or from the
-   **Build APK** workflow's artifacts under [Actions](../../actions).
+1. Open the [latest release](https://github.com/UAEHN/IPTV/releases/tag/latest)
+   and download the `.apk`.
 2. Open it. Android will ask you to allow installing from this source — allow it
    for your browser or file manager.
 3. That's it. Updates install straight over the top, because every build is
@@ -41,7 +50,7 @@ Wi-Fi:
 
 ```bash
 adb connect <tv-ip>:5555
-adb install -r shasha-1.0.0-abc1234.apk
+adb install -r shasha-1.0.0-*.apk
 ```
 
 **With a sideloading app** — *Downloader* (Fire TV) or *Send Files to TV* both
@@ -55,7 +64,7 @@ a touchscreen.
 
 | Key | Does |
 | --- | --- |
-| D-pad | Move between tiles; the nav rail on the left expands when you enter it |
+| D-pad | Move between tiles; the nav rail expands when you enter it (it sits on the right in Arabic, the left in English) |
 | OK | Play the focused channel |
 | Long press OK | Pin or unpin a favourite |
 | Up / Down *(while watching)* | Previous / next channel in the list you came from |
@@ -89,17 +98,20 @@ whole networks, some go down for an hour. Shasha is built around that:
 a channel, rename one, or reorder the categories by editing it.
 
 Every URL in it was **verified live from a GitHub Actions runner** before being
-committed. That is deliberate: the first hand-written version of this catalog
-had 50 of 61 channels dead on arrival, because `mangomolo.com`, `mgmlcdn.com`
-and `octivid.com` hostnames had been retired and every `itworkscdn.net` path had
-become a parked page. So the order of work is inverted — probe a wide pool
-first, then curate the lineup from what actually answers.
+committed. Last check: **73 of 74 reachable, 0 dead** —
+see [`channels/health.json`](channels/health.json).
+
+Verifying first is deliberate. The first hand-written version of this catalog had
+50 of its 61 channels dead on arrival: `mangomolo.com`, `mgmlcdn.com` and
+`octivid.com` hostnames had been retired, and every `itworkscdn.net` path had
+become a parked page. So the order of work is inverted — probe a wide pool of
+candidates from a runner, then curate the lineup from whatever actually answers.
 
 | Workflow | What it does |
 | --- | --- |
 | `.github/workflows/health.yml` | Probes every URL in the catalog daily, writes `channels/health.json` |
 | `.github/workflows/candidates.yml` | Probes a wide candidate pool, for rebuilding the lineup |
-| `.github/workflows/build.yml` | Builds the APK, optionally publishes a Release |
+| `.github/workflows/build.yml` | Runs the unit tests, builds the APK, replaces the `latest` release |
 
 The health report distinguishes **`dead`** (the endpoint is gone) from
 **`blocked`** (the CDN refused the runner's datacentre address). That matters:
