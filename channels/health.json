@@ -1,5 +1,5 @@
 {
- "checked": "2026-08-03T06:55:21Z",
+ "checked": "2026-08-04T06:23:18Z",
  "note": "Probed from a GitHub runner. `blocked` means the CDN refused this datacentre, not that the channel is dead.",
  "channels": {
   "alarabiya": {
@@ -16,7 +16,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
-     "ms": 485
+     "ms": 797
     },
     {
      "ok": true,
@@ -29,7 +29,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/alarabiapublish/alarabiya_1080p/chunks.m3u8",
-     "ms": 428
+     "ms": 448
     }
    ]
   },
@@ -47,7 +47,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8",
-     "ms": 590
+     "ms": 644
     }
    ]
   },
@@ -65,7 +65,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5616",
-     "ms": 699
+     "ms": 858
     },
     {
      "ok": true,
@@ -78,7 +78,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8",
-     "ms": 598
+     "ms": 862
     }
    ]
   },
@@ -96,7 +96,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
-     "ms": 1191
+     "ms": 1282
     }
    ]
   },
@@ -109,12 +109,12 @@
      "kind": "master",
      "variants": 4,
      "class": "",
-     "finalUrl": "https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8?sid=OwqXM7HkvUylm4enl9Zn7Q",
+     "finalUrl": "https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8?sid=10Hq8k5dQ0qyWBJYv1ou-A",
      "contentType": "application/vnd.apple.mpegurl",
      "snippet": "",
      "referer": false,
      "url": "https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8",
-     "ms": 1516
+     "ms": 1893
     }
    ]
   },
@@ -132,7 +132,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
-     "ms": 611
+     "ms": 774
     },
     {
      "ok": true,
@@ -163,7 +163,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8",
-     "ms": 936
+     "ms": 970
     }
    ]
   },
@@ -181,7 +181,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://imn-live.esite-lab.com/hls/iraqia-news.m3u8",
-     "ms": 908
+     "ms": 1442
     }
    ]
   },
@@ -199,7 +199,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
-     "ms": 790
+     "ms": 400
     },
     {
      "ok": true,
@@ -212,7 +212,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live-hls-apps-aja-v3-fa.getaj.net/AJA/index.m3u8",
-     "ms": 652
+     "ms": 621
     }
    ]
   },
@@ -230,7 +230,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
-     "ms": 2020
+     "ms": 693
     },
     {
      "ok": true,
@@ -243,7 +243,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live-hls-apps-ajm-v3-fa.getaj.net/AJM/index.m3u8",
-     "ms": 1879
+     "ms": 608
     }
    ]
   },
@@ -261,7 +261,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8",
-     "ms": 1008
+     "ms": 691
     }
    ]
   },
@@ -279,7 +279,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8",
-     "ms": 1272
+     "ms": 1414
     }
    ]
   },
@@ -297,7 +297,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://jmc-live.ercdn.net/altaghier/altaghier.m3u8",
-     "ms": 1833
+     "ms": 1597
     }
    ]
   },
@@ -315,7 +315,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8",
-     "ms": 586
+     "ms": 864
     }
    ]
   },
@@ -330,10 +330,10 @@
      "class": "http",
      "finalUrl": "",
      "contentType": "text/html",
-     "snippet": "<HTML><HEAD> <TITLE>Invalid URL</TITLE> </HEAD><BODY> <H1>Invalid URL</H1> The requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p> Reference&#32;&#35;9&#46;507",
+     "snippet": "<HTML><HEAD> <TITLE>Invalid URL</TITLE> </HEAD><BODY> <H1>Invalid URL</H1> The requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p> Reference&#32;&#35;9&#46;e7b",
      "referer": false,
      "url": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/merge.m3u8",
-     "ms": 175
+     "ms": 129
     },
     {
      "ok": false,
@@ -343,10 +343,10 @@
      "class": "http",
      "finalUrl": "",
      "contentType": "text/html",
-     "snippet": "<HTML><HEAD> <TITLE>Invalid URL</TITLE> </HEAD><BODY> <H1>Invalid URL</H1> The requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p> Reference&#32;&#35;9&#46;507",
+     "snippet": "<HTML><HEAD> <TITLE>Invalid URL</TITLE> </HEAD><BODY> <H1>Invalid URL</H1> The requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p> Reference&#32;&#35;9&#46;e7b",
      "referer": false,
      "url": "https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038900/MBN_Alhurra_Worldsafe_HLS/master.m3u8",
-     "ms": 171
+     "ms": 71
     }
    ]
   },
@@ -364,7 +364,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live-news.asharq.com/asharq.m3u8",
-     "ms": 522
+     "ms": 433
     }
    ]
   },
@@ -382,7 +382,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://vs-hls-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8",
-     "ms": 448
+     "ms": 742
     }
    ]
   },
@@ -400,7 +400,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8",
-     "ms": 558
+     "ms": 544
     },
     {
      "ok": true,
@@ -413,7 +413,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8",
-     "ms": 684
+     "ms": 819
     }
    ]
   },
@@ -431,7 +431,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cnbc-live.akamaized.net/cnbc/master.m3u8",
-     "ms": 912
+     "ms": 987
     }
    ]
   },
@@ -449,7 +449,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
-     "ms": 338
+     "ms": 356
     }
    ]
   },
@@ -467,7 +467,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8",
-     "ms": 608
+     "ms": 554
     },
     {
      "ok": true,
@@ -480,7 +480,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8",
-     "ms": 776
+     "ms": 191
     }
    ]
   },
@@ -498,7 +498,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://kwtktvata.cdn.mangomolo.com/ktva/smil:ktva.stream.smil/chunklist.m3u8",
-     "ms": 1276
+     "ms": 1188
     },
     {
      "ok": true,
@@ -511,7 +511,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn-globecast.akamaized.net/live/eds/ktv_al_akhbar/hls_roku/ktv_al_akhbar.m3u8",
-     "ms": 974
+     "ms": 963
     }
    ]
   },
@@ -529,7 +529,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8",
-     "ms": 652
+     "ms": 993
     },
     {
      "ok": true,
@@ -542,7 +542,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8",
-     "ms": 643
+     "ms": 941
     }
    ]
   },
@@ -560,7 +560,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8",
-     "ms": 472
+     "ms": 423
     }
    ]
   },
@@ -578,7 +578,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live.kwikmotion.com/qbusinesslive/qbusiness.smil/playlist.m3u8",
-     "ms": 1027
+     "ms": 1160
     },
     {
      "ok": true,
@@ -591,7 +591,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8",
-     "ms": 3464
+     "ms": 2495
     }
    ]
   },
@@ -609,38 +609,38 @@
      "snippet": "",
      "referer": false,
      "url": "https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8",
-     "ms": 708
+     "ms": 478
     }
    ]
   },
   "syriatv": {
-   "state": "ok",
+   "state": "dead",
    "sources": [
     {
-     "ok": true,
-     "reason": "",
-     "kind": "master",
-     "variants": 5,
-     "class": "",
+     "ok": false,
+     "reason": "IncompleteRead: IncompleteRead(853 bytes read)",
+     "kind": "",
+     "variants": 0,
+     "class": "error",
      "finalUrl": "",
-     "contentType": "application/x-mpegURL",
+     "contentType": "",
      "snippet": "",
-     "referer": true,
+     "referer": false,
      "url": "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
-     "ms": 957
+     "ms": 635
     },
     {
-     "ok": true,
-     "reason": "",
-     "kind": "master",
-     "variants": 5,
-     "class": "",
+     "ok": false,
+     "reason": "IncompleteRead: IncompleteRead(853 bytes read)",
+     "kind": "",
+     "variants": 0,
+     "class": "error",
      "finalUrl": "",
-     "contentType": "application/x-mpegURL",
+     "contentType": "",
      "snippet": "",
-     "referer": true,
+     "referer": false,
      "url": "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8",
-     "ms": 843
+     "ms": 214
     }
    ]
   },
@@ -658,7 +658,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://tv-trtarabi.medya.trt.com.tr/master.m3u8",
-     "ms": 605
+     "ms": 925
     }
    ]
   },
@@ -676,7 +676,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8",
-     "ms": 923
+     "ms": 3749
     },
     {
      "ok": true,
@@ -689,7 +689,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://stream-lb.livemediama.com/2m/hls/master.m3u8",
-     "ms": 900
+     "ms": 1715
     }
    ]
   },
@@ -707,7 +707,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8",
-     "ms": 4090
+     "ms": 3012
     }
    ]
   },
@@ -725,7 +725,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://stream-lb.livemediama.com/alaoula/hls/master.m3u8",
-     "ms": 915
+     "ms": 20500
     },
     {
      "ok": true,
@@ -736,9 +736,9 @@
      "finalUrl": "",
      "contentType": "application/vnd.apple.mpegurl",
      "snippet": "",
-     "referer": true,
+     "referer": false,
      "url": "https://stream-lb.livemediama.com/alaoula-tnt/hls/master.m3u8",
-     "ms": 25909
+     "ms": 954
     }
    ]
   },
@@ -756,7 +756,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://origin-cae-t482536.cdn.nextologies.com/63d8c759c5db83b4/25c4f89d27a79014ALA2306/playlist.m3u8",
-     "ms": 497
+     "ms": 784
     },
     {
      "ok": true,
@@ -769,7 +769,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5617",
-     "ms": 843
+     "ms": 783
     }
    ]
   },
@@ -787,7 +787,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://imn-live.esite-lab.com/hls/iraqia-general.m3u8",
-     "ms": 807
+     "ms": 809
     }
    ]
   },
@@ -805,7 +805,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://mn-nl.mncdn.com/khalij/khalij/playlist.m3u8",
-     "ms": 743
+     "ms": 888
     }
    ]
   },
@@ -823,7 +823,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8",
-     "ms": 779
+     "ms": 1097
     }
    ]
   },
@@ -841,7 +841,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8",
-     "ms": 876
+     "ms": 808
     }
    ]
   },
@@ -859,7 +859,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
-     "ms": 743
+     "ms": 812
     },
     {
      "ok": true,
@@ -872,7 +872,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_tv/hls_roku/index.m3u8",
-     "ms": 1011
+     "ms": 1034
     }
    ]
   },
@@ -890,25 +890,25 @@
      "snippet": "",
      "referer": false,
      "url": "https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8",
-     "ms": 1275
+     "ms": 1431
     }
    ]
   },
   "kalba": {
-   "state": "dead",
+   "state": "ok",
    "sources": [
     {
-     "ok": false,
-     "reason": "IncompleteRead: IncompleteRead(504 bytes read)",
-     "kind": "",
-     "variants": 0,
-     "class": "error",
+     "ok": true,
+     "reason": "",
+     "kind": "master",
+     "variants": 3,
+     "class": "",
      "finalUrl": "",
-     "contentType": "",
+     "contentType": "application/x-mpegURL",
      "snippet": "",
      "referer": false,
      "url": "https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8",
-     "ms": 504
+     "ms": 531
     }
    ]
   },
@@ -926,7 +926,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8",
-     "ms": 509
+     "ms": 1044
     }
    ]
   },
@@ -942,9 +942,9 @@
      "finalUrl": "",
      "contentType": "application/x-mpegURL",
      "snippet": "",
-     "referer": true,
+     "referer": false,
      "url": "https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8",
-     "ms": 1101
+     "ms": 1190
     }
    ]
   },
@@ -962,7 +962,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8",
-     "ms": 2276
+     "ms": 1644
     },
     {
      "ok": true,
@@ -970,12 +970,12 @@
      "kind": "master",
      "variants": 3,
      "class": "",
-     "finalUrl": "https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8?sid=AxHX9NVTQUiTIeXzNUDuLA",
+     "finalUrl": "https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8?sid=nk8QQPPgQUaJBRH8mpn4pA",
      "contentType": "application/vnd.apple.mpegurl",
      "snippet": "",
      "referer": false,
      "url": "https://htvnksdtmy.erbvr.com/ammantvhd/ammantvhd.m3u8",
-     "ms": 1726
+     "ms": 2006
     }
    ]
   },
@@ -993,7 +993,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist.m3u8",
-     "ms": 1875
+     "ms": 1785
     }
    ]
   },
@@ -1011,7 +1011,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahraintvmain_all/playlist.m3u8",
-     "ms": 1626
+     "ms": 1768
     }
    ]
   },
@@ -1029,7 +1029,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8",
-     "ms": 1589
+     "ms": 1848
     }
    ]
   },
@@ -1047,7 +1047,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8",
-     "ms": 1598
+     "ms": 1631
     }
    ]
   },
@@ -1065,7 +1065,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn-globecast.akamaized.net/live/eds/kuwait_tv1/hls_roku/index.m3u8",
-     "ms": 1000
+     "ms": 1329
     },
     {
      "ok": true,
@@ -1078,7 +1078,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://kwtktv1ta.cdn.mangomolo.com/ktv1/smil:ktv1.stream.smil/chunklist.m3u8",
-     "ms": 1076
+     "ms": 1335
     }
    ]
   },
@@ -1096,7 +1096,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://kwtktv2ta.cdn.mangomolo.com/ktv2/smil:ktv2.stream.smil/chunklist.m3u8",
-     "ms": 806
+     "ms": 1445
     }
    ]
   },
@@ -1114,7 +1114,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn-globecast.akamaized.net/live/eds/libya_al_watanya/hls_roku/index.m3u8",
-     "ms": 1086
+     "ms": 1075
     }
    ]
   },
@@ -1132,7 +1132,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8",
-     "ms": 206
+     "ms": 508
     }
    ]
   },
@@ -1150,7 +1150,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8",
-     "ms": 660
+     "ms": 702
     }
    ]
   },
@@ -1168,7 +1168,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8",
-     "ms": 377
+     "ms": 536
     }
    ]
   },
@@ -1186,7 +1186,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
-     "ms": 690
+     "ms": 753
     }
    ]
   },
@@ -1204,7 +1204,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mtv-lebanon/b8ebb2a5affb812f1541712adde10e26/index.m3u8",
-     "ms": 874
+     "ms": 825
     }
    ]
   },
@@ -1222,7 +1222,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8",
-     "ms": 730
+     "ms": 831
     }
    ]
   },
@@ -1240,7 +1240,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn-globecast.akamaized.net/live/eds/oman_tv/hls_roku/index.m3u8",
-     "ms": 956
+     "ms": 797
     },
     {
      "ok": true,
@@ -1253,7 +1253,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://partneta.cdn.mgmlcdn.com/omantv/smil:omantv.stream.smil/chunklist.m3u8",
-     "ms": 443
+     "ms": 501
     }
    ]
   },
@@ -1271,7 +1271,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn-globecast.akamaized.net/live/eds/palestinian_satellite_channel/hls_roku/palestinian_satellite_channel.m3u8",
-     "ms": 960
+     "ms": 1105
     }
    ]
   },
@@ -1289,7 +1289,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8",
-     "ms": 1387
+     "ms": 1072
     },
     {
      "ok": true,
@@ -1300,9 +1300,9 @@
      "finalUrl": "",
      "contentType": "application/x-mpegURL",
      "snippet": "",
-     "referer": true,
+     "referer": false,
      "url": "https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8",
-     "ms": 1080
+     "ms": 884
     }
    ]
   },
@@ -1320,7 +1320,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8",
-     "ms": 830
+     "ms": 1284
     },
     {
      "ok": true,
@@ -1331,9 +1331,9 @@
      "finalUrl": "",
      "contentType": "application/x-mpegURL",
      "snippet": "",
-     "referer": true,
+     "referer": false,
      "url": "https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8",
-     "ms": 1089
+     "ms": 461
     }
    ]
   },
@@ -1351,7 +1351,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8",
-     "ms": 809
+     "ms": 411
     }
    ]
   },
@@ -1369,7 +1369,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8",
-     "ms": 886
+     "ms": 959
     }
    ]
   },
@@ -1387,7 +1387,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8",
-     "ms": 637
+     "ms": 1118
     }
    ]
   },
@@ -1405,7 +1405,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/8cfa8fe0c96275735745b89c683b27e3/index.m3u8",
-     "ms": 1148
+     "ms": 968
     }
    ]
   },
@@ -1423,7 +1423,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8",
-     "ms": 1415
+     "ms": 1067
     }
    ]
   },
@@ -1441,7 +1441,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8",
-     "ms": 884
+     "ms": 733
     }
    ]
   },
@@ -1459,7 +1459,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8",
-     "ms": 905
+     "ms": 950
     }
    ]
   },
@@ -1477,7 +1477,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8",
-     "ms": 548
+     "ms": 940
     }
    ]
   },
@@ -1495,7 +1495,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8",
-     "ms": 583
+     "ms": 1065
     }
    ]
   },
@@ -1513,7 +1513,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8",
-     "ms": 945
+     "ms": 967
     }
    ]
   },
@@ -1531,7 +1531,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8",
-     "ms": 1240
+     "ms": 495
     }
    ]
   },
@@ -1549,7 +1549,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
-     "ms": 1668
+     "ms": 1789
     }
    ]
   },
@@ -1567,7 +1567,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8",
-     "ms": 1606
+     "ms": 1755
     }
    ]
   },
@@ -1580,12 +1580,12 @@
      "kind": "master",
      "variants": 3,
      "class": "",
-     "finalUrl": "https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1785740114~acl=/ksasports1live/ksasports1.smil/*~hmac=01d729123062ddeb631609c319d049a0524e0143b1d2a166ae88c213273c48f0",
+     "finalUrl": "https://live.kwikmotion.com/ksasports1live/ksasports1.smil/playlist_dvr.m3u8?hdnts=exp=1785824598~acl=/ksasports1live/ksasports1.smil/*~hmac=2f1b77206103d40d19302fbfcc121eb5d7d6aff622c78e12d2683885ff685401",
      "contentType": "application/x-mpegURL",
      "snippet": "",
      "referer": false,
      "url": "https://aloula-redirect.vercel.app/9/playlist.m3u8",
-     "ms": 1510
+     "ms": 1508
     }
    ]
   },
@@ -1598,12 +1598,12 @@
      "kind": "master",
      "variants": 3,
      "class": "",
-     "finalUrl": "https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1785740115~acl=/ksasports2live/ksasports2.smil/*~hmac=c2bc72e8ffeea703672e92200c19819e2a8f6044e4f780d4bacbfb658e31afa5",
+     "finalUrl": "https://live.kwikmotion.com/ksasports2live/ksasports2.smil/playlist_dvr.m3u8?hdnts=exp=1785824598~acl=/ksasports2live/ksasports2.smil/*~hmac=8293e9fbd3a49e665a1291b156f8847ab6597305fc8e461b261566bc4a1800d8",
      "contentType": "application/x-mpegURL",
      "snippet": "",
      "referer": false,
      "url": "https://aloula-redirect.vercel.app/10/playlist.m3u8",
-     "ms": 2592
+     "ms": 1415
     }
    ]
   },
@@ -1616,12 +1616,12 @@
      "kind": "master",
      "variants": 3,
      "class": "",
-     "finalUrl": "https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1785740115~acl=/ksasports3live/ksasports3.smil/*~hmac=c970508e5aa661c8b0be9231e0c28a1e5488a1453b98381eb0a0b9004e9d81b5",
+     "finalUrl": "https://live.kwikmotion.com/ksasports3live/ksasports3.smil/playlist_dvr.m3u8?hdnts=exp=1785824598~acl=/ksasports3live/ksasports3.smil/*~hmac=0bdf512313ff471f552e2fd9ecb2be9fc95bbde8b7e3693241e1e0eac5939e60",
      "contentType": "application/x-mpegURL",
      "snippet": "",
      "referer": false,
      "url": "https://aloula-redirect.vercel.app/16/playlist.m3u8",
-     "ms": 1628
+     "ms": 1328
     }
    ]
   },
@@ -1639,25 +1639,25 @@
      "snippet": "",
      "referer": false,
      "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
-     "ms": 1061
+     "ms": 721
     }
    ]
   },
   "ktv-sport-plus": {
-   "state": "ok",
+   "state": "dead",
    "sources": [
     {
-     "ok": true,
-     "reason": "",
-     "kind": "master",
-     "variants": 4,
-     "class": "",
+     "ok": false,
+     "reason": "not a playlist",
+     "kind": "",
+     "variants": 0,
+     "class": "notplaylist",
      "finalUrl": "",
      "contentType": "application/vnd.apple.mpegurl",
-     "snippet": "",
+     "snippet": "�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000��] �0\u0014\u0006��~F�j�m�\u0019�b�B�-�Uv%�M�\u0004) }K � <7\u0007^xy�\u0019�DK�� �v\u0013w#�8\\� �\u0006��\u0004�n��)W�m8�\u0001C#`�Q\\ և\u0018<�N$��b�m�aH� {�c~�\\O�,�W�4#X�W�\u0003glxC9����� �B\b\u0006ƆM�*�H��T�}�1l",
      "referer": false,
      "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
-     "ms": 565
+     "ms": 629
     }
    ]
   },
@@ -1666,7 +1666,7 @@
    "sources": [
     {
      "ok": true,
-     "reason": "",
+     "reason": "variantUnverified (no segments)",
      "kind": "master",
      "variants": 4,
      "class": "",
@@ -1675,7 +1675,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
-     "ms": 283
+     "ms": 363
     }
    ]
   },
@@ -1693,7 +1693,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8",
-     "ms": 458
+     "ms": 371
     }
    ]
   },
@@ -1711,7 +1711,7 @@
      "snippet": "Google-Edge-Cache: forbidden Error: 7",
      "referer": false,
      "url": "https://live-hls-apps-ajd-fa.getaj.net/AJD/index.m3u8",
-     "ms": 325
+     "ms": 89
     },
     {
      "ok": false,
@@ -1724,7 +1724,7 @@
      "snippet": "Google-Edge-Cache: forbidden Error: 7",
      "referer": false,
      "url": "https://live-hls-web-ajd.getaj.net/AJD/index.m3u8",
-     "ms": 210
+     "ms": 78
     }
    ]
   },
@@ -1740,9 +1740,9 @@
      "finalUrl": "",
      "contentType": "application/x-mpegURL",
      "snippet": "",
-     "referer": false,
+     "referer": true,
      "url": "https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8",
-     "ms": 417
+     "ms": 1395
     }
    ]
   },
@@ -1758,9 +1758,9 @@
      "finalUrl": "",
      "contentType": "application/x-mpegURL",
      "snippet": "",
-     "referer": true,
+     "referer": false,
      "url": "https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8",
-     "ms": 905
+     "ms": 1423
     }
    ]
   },
@@ -1778,7 +1778,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://kwtktvata.cdn.mangomolo.com/ktva/smil:tktva.stream.smil/chunklist.m3u8",
-     "ms": 542
+     "ms": 365
     }
    ]
   },
@@ -1796,7 +1796,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8",
-     "ms": 700
+     "ms": 350
     }
    ]
   },
@@ -1814,7 +1814,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8",
-     "ms": 847
+     "ms": 937
     }
    ]
   },
@@ -1832,7 +1832,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://136044159.r.cdnsun.net/storychannel.m3u8",
-     "ms": 723
+     "ms": 590
     }
    ]
   },
@@ -1850,7 +1850,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
-     "ms": 1507
+     "ms": 1430
     }
    ]
   },
@@ -1868,7 +1868,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://bucharest.zeuscdn724.com/lb0/CH-AL-MA/index.m3u8",
-     "ms": 952
+     "ms": 1391
     }
    ]
   },
@@ -1886,7 +1886,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8",
-     "ms": 1556
+     "ms": 1716
     }
    ]
   },
@@ -1904,7 +1904,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8",
-     "ms": 1075
+     "ms": 1055
     }
    ]
   },
@@ -1922,7 +1922,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8",
-     "ms": 978
+     "ms": 1146
     }
    ]
   },
@@ -1940,7 +1940,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://kwtktvaqta.cdn.mangomolo.com/ktvaq/smil:tktvaq.stream.smil/chunklist.m3u8",
-     "ms": 740
+     "ms": 599
     }
    ]
   },
@@ -1958,7 +1958,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://kwtethta.cdn.mangomolo.com/eth/smil:eth.stream.smil/chunklist.m3u8",
-     "ms": 1155
+     "ms": 1062
     }
    ]
   },
@@ -1976,7 +1976,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8",
-     "ms": 1006
+     "ms": 1024
     }
    ]
   },
@@ -1985,7 +1985,7 @@
    "sources": [
     {
      "ok": true,
-     "reason": "variantUnverified (IncompleteRead: IncompleteRead(347 bytes read))",
+     "reason": "variantUnverified (IncompleteRead: IncompleteRead(340 bytes read))",
      "kind": "master",
      "variants": 1,
      "class": "",
@@ -1994,7 +1994,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8",
-     "ms": 2207
+     "ms": 973
     }
    ]
   },
@@ -2012,7 +2012,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
-     "ms": 1016
+     "ms": 725
     }
    ]
   },
@@ -2030,7 +2030,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8",
-     "ms": 595
+     "ms": 655
     }
    ]
   },
@@ -2048,7 +2048,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://5d658d7e9f562.streamlock.net/atfal1.com/atfal2/playlist.m3u8",
-     "ms": 472
+     "ms": 476
     },
     {
      "ok": true,
@@ -2061,7 +2061,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8",
-     "ms": 1185
+     "ms": 1189
     }
    ]
   },
@@ -2079,7 +2079,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8",
-     "ms": 446
+     "ms": 514
     }
    ]
   },
@@ -2097,7 +2097,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8",
-     "ms": 423
+     "ms": 309
     }
    ]
   },
@@ -2115,7 +2115,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids/playlist.m3u8",
-     "ms": 995
+     "ms": 986
     }
    ]
   },
@@ -2133,7 +2133,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids-originals/playlist.m3u8",
-     "ms": 888
+     "ms": 833
     }
    ]
   },
@@ -2151,7 +2151,7 @@
      "snippet": "",
      "referer": false,
      "url": "https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8",
-     "ms": 1735
+     "ms": 1568
     }
    ]
   },
@@ -2169,15 +2169,15 @@
      "snippet": "",
      "referer": false,
      "url": "https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8",
-     "ms": 988
+     "ms": 1129
     }
    ]
   }
  },
  "summary": {
   "total": 104,
-  "ok": 101,
+  "ok": 100,
   "blocked": 1,
-  "dead": 2
+  "dead": 3
  }
 }
